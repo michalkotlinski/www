@@ -6,6 +6,7 @@
    $requested = rawurldecode( $_SERVER['REQUEST_URI'] );
    $lang="";
    if (strpos($requested, "_de.md") !==false) $lang="_de";
+   if (strpos($requested, "_ru.md") !==false) $lang="_ru";
    if (strpos($requested, "_zh.md") !==false) $lang="_zh";
    
    $index     = file_get_contents("../index$lang.html");

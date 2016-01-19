@@ -1,4 +1,4 @@
-> Version 1.2
+> Version 1.3
 
 # Slock.it, in-depth
 

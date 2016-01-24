@@ -540,13 +540,13 @@ nav hr {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .overlay-bar .menu li a {
-  color: #fff;
+  color: #777777; /* was fff */
 }
 .overlay-bar .menu li a:hover {
-  color: #fff;
+  color: #777777;
 }
 .overlay-bar .social-icons li a {
-  color: #fff;
+  color: #777777;
 }
 .overlay-bar .subnav li a {
   color: #777777;
@@ -564,7 +564,7 @@ nav hr {
   color: #fff;
 }
 .overlay-bar .utility-menu .utility-inner {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 .overlay-bar .login-button {
   border-color: #fff;
@@ -4215,7 +4215,7 @@ footer.short-2 .contact-action:hover {
   }
 }
 .fullwidth-video iframe {
-  height: 550px;
+  height: 658px;
 }
 @media all and (max-width: 1200px) {
   .fullwidth-video iframe {

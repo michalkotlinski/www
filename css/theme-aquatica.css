@@ -812,7 +812,7 @@ header .btn:last-child {
   content: '';
   opacity: 0.3;
   z-index: 2;
-  background-color: #333333;
+  /*background-color: #333333;*/
 }
 .page-header .background-image-holder {
   height: 150%;
@@ -1313,7 +1313,7 @@ img.phone-portrait {
   text-align: center;
   line-height: 0;
 }
-.client-row .col-sm-3 {
+.client-row .col-sm-4 {
   display: inline-block;
   min-height: 80px;
   line-height: 80px;
@@ -1323,7 +1323,7 @@ img.phone-portrait {
 .client-row img {
   max-height: 60px;
   max-width: 140px;
-  opacity: 0.3;
+  opacity: 0.7; /* was 0.3 */ 
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
   transition: all .3s ease;
@@ -1340,10 +1340,10 @@ img.phone-portrait {
 .client-row:last-child .row-wrapper {
   border-bottom: none;
 }
-.row-wrapper .col-sm-3 {
+.row-wrapper .col-sm-4 {
   border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
-.row-wrapper .col-sm-3:last-child {
+.row-wrapper .col-sm-4:last-child {
   border-right: none;
 }
 .clients-2 {

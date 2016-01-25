@@ -113,16 +113,16 @@
 			<!-- ****************************************** -->
 
 			<header class="page-header">
-				<div class="background-image-holder parallax-background">
+      <!-- 				<div class="background-image-holder parallax-background">
 					<img class="background-image" alt="Background Image" src="img/hero4.jpg">
-				</div>
+				</div> -->
 				
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
-							<span class="text-white alt-font"><?php echo $pre; ?></span>
-							<h1 class="text-white"><?php echo $title; ?></h1>
-							<p class="text-white lead">
+							<span class="alt-font"><?php echo $pre; ?></span>
+							<h1><?php echo $title; ?></h1>
+							<p class="lead">
 								<?php echo $post; ?><br><br>
 								<ul style="font-size:20px; line-height: 200%;">									
 									<?php echo $header; ?> 

@@ -47,13 +47,13 @@
 				margin-bottom: 20px;
 			}
          
-         .article-body p:first-child.lead {
-				margin-top: 0px;
-			}
-         
-         .article-body ul {
-           list-style-type: disc;
-         }
+      .article-body p:first-child.lead {
+        margin-top: 0px;
+      }
+
+      .article-body ul {
+        list-style-type: disc;
+      }
 
 		</style>
    <?php
@@ -112,7 +112,7 @@
 			<!-- *******          HEADER           ******** -->
 			<!-- ****************************************** -->
 
-			<header class="page-header">
+			<header class="page-header" style="padding-top:250px;">
       <!-- 				<div class="background-image-holder parallax-background">
 					<img class="background-image" alt="Background Image" src="img/hero4.jpg">
 				</div> -->

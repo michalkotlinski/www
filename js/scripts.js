@@ -563,15 +563,35 @@ function onYouTubeIframeAPIReady() {
 // add rss-feeds
 $(document).ready(function(){
     var max =5;
-    $.ajax({ type: "GET",  url: "http://mail.slock.it/rss.xml",  dataType: "xml",  success: function(xml) {
-         var content = "";
-         $(xml).find("item").each(function() {
-            var d = $(this).find("pubDate").text();
-            if (max-->0) 
-              content +=  "<li><div class='icon'><i class='icon icon-newspaper'></i></div><div class='title'><a style='font-size: 16px;' href='"
-                      +   $(this).find("link").text()+"' target='_blank'>"+$(this).find("title").text()+"</a><span  class='sub alt-font'>Published on "
-                      +    d.substring(0,d.length-12)+"</span></div></li>";
-         });
-         $("#rss_blog").html(content);
-      }});
+    var blogs = $("#rss_blog");
+    if (blogs.length>0) 
+      $.ajax({ type: "GET",  url: "http://mail.slock.it/rss.xml",  dataType: "xml",  success: function(xml) {
+            var content = "";
+            $(xml).find("item").each(function() {
+               var d = $(this).find("pubDate").text();
+               if (max-->0) 
+               content +=  "<li><div class='icon'><i class='icon icon-newspaper'></i></div><div class='title'><a style='font-size: 16px;' href='"
+                        +   $(this).find("link").text()+"' target='_blank'>"+$(this).find("title").text()+"</a><span  class='sub alt-font'>Published on "
+                        +    d.substring(0,d.length-12)+"</span></div></li>";
+            });
+            blogs.html(content);
+         }});
+         
+    // include the languages
+    var html="";
+    var fname = window.location.pathname;
+    if (fname.indexOf("/")>0) fname = fname.substring(fname.lastIndexOf("/")+1);
+
+    function getLang(name) {
+       return name.indexOf('_')>0 ? name.substring(name.indexOf('_')) : "_en_";
+    }
+    
+    [
+      ['index.html','img/icon_en.png','english'], 
+      ['index_zh.html','img/icon_zh.png','chinese'] 
+    ].forEach(function(l){
+       if (getLang(l[0]) != getLang(fname || "index.html")) 
+          html+='<a href="'+l[0]+'"><img src="'+l[1]+'" width="18" align="top"  title="'+l[2]+'"></a>&nbsp;';
+    });
+    $(".slock-lang").html(html);
 });

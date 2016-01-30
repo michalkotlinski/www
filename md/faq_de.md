@@ -1,247 +1,255 @@
-> INTENSIVE V.1.0
+> Version 1.3
 
-# Häufig gestellte Fragen
+# Häufige Fragen
+  
+> Dieses Dokument ist in Entwicklung und kann und wird sich ändern. Wir freuen uns auf Ihre Anmerkungen. <br>
+> Um mitzudiskutieren, Fragen zu stellen oder Hilfe zu erhalten, registrieren Sie sich in unserem [Slack Chatraum](http://Slock.it:3000/).
 
-> Dieses Dokument ist bei der Entwicklung und wir würden uns mit Ihrem Feedback lieben.
-> Um Teil des Gesprächs werden, stellen Sie Fragen haben oder Hilfe zu erhalten, sich in unsere [Slack Chat-Raum](http://Slock.it:3000/).
+
+
 
 ## Projekt
 
-### Welches Problem Sie versuchen zu lösen?
+### Was wollen Sie erreichen?
 
-Unsere Mission ist es, die Zukunft der Infrastruktur der Sharing Economy indem jemand zu mieten, verkaufen oder teilen alles bauen - ohne Zwischenhändler.
+Unsere Mission ist es, die zukünftige Infrastruktur der Sharing Economy aufzubauen, indem wir allen ermöglichen, etwas zu vermieten oder zu verkaufen  - ohne Zwischenhändler.
 
-Slock.it:
+Slock.it verbessert dieses Erlebnis des Teiles durch:
 
-- Ermöglicht es, die andere Partei ohne Vermittler vertrauen
-- Griffe sichere Direktzahlungen
-- Einen Mechanismus von Ablagerungen, und später, ausgewachsenen Versicherung
-- Löst das Problem des Müssens physisch anwesend sein, um Schlüssel zu übergeben
-- Hilft beiden Eigentümer und Mieter, einander zu finden
-- Ist universell unterstützt vielfältige Objekte wie Autos, Schließfächer, Wohnungen, Hallen, Büros usw.
+- Minimierung der Notwendigkeit dem Mieter oder Vermieter blind zu Vertrauen
+- Sichere und direkte "Peer-to-Peer" Zahlungen
+- Einen Mechanismus anzubieten, der Kautionen und letztlich auch komplette Versicherungen ermöglicht
+- Wegfall der manuellen Schlüsselübergabe
+- die Möglichkeit eien Verbindung zwischen Mieter und Vermieter zu erstellen
+- Unterstützung für fas alle Objekte inklöusive Autos, Schließfächer, Wohnungen, Hallen, Büros ...
 
-Wenn er gesperrt werden können, kann es Slocked werden!
+Wenn es verschlossen werden kann, kann es auch vermietet werden.
 
-Für einen ersten Einblick in unsere Vision, siehe Christoph Jentzsch [einleitenden Blog post](https://blog.Slock.it/Slock-it-blog/Slock-it-decentralizing-the-emerging-sharing-economy-cf19ce09b957#.4j2mtca7t).
+Für einen ersten Überblick, bitte Christoph Jentzsch's [ersten Blogpost](https://blog.slock.it/slock-it-decentralizing-the-emerging-sharing-economy-cf19ce09b957#.jsk2bdps5) lesen.
 
-### Was ist Slock.it potenziellen Markt?
 
-Überall, wo es wenig genutzt Vermögenswerte wie parkende Autos, Stellplätze oder vorübergehend leerstehenden Wohnungen.
-Unsere Lösung ermöglicht sowohl die Verbraucher und Unternehmen, um Vermögenswerte in Erträge verwandeln.
-Fast alles kann mit einem Slock nachgerüstet werden: Häuser, Büros, Elektrowerkzeuge, Fahrräder, Haushaltselektronik, Autos, Motorräder und natürlich Schließfächer.
+### Was ist Slock.its potentieller Markt?
 
-Der Austausch von Wirtschaft geschaffen hat [17](http://venturebeat.com/2015/06/04/the-sharing-economy-has-created-17-billion-dollar-companies-and-10-unicorns/) Milliarden-Dollar-Unternehmen mit 60.000 Mitarbeitern.
-Der Sektor hat nördlich von $ 15 Milliarden in so weit und seine weltweite Jahresumsatz wird voraussichtlich die Finanzierung erhalten
-um bis zum Jahr 2025 (Quelle 335 Mrd. $ zu erreichen: [PWC](https://www.pwc.com/us/en/technology/publications/assets/pwc-consumer-intelligence-series-the-sharing-economy.pdf)).
+Überall dort, wo es  wenig genutzt Vermögenswerte wie parkende Autos, Stellplätze oder vorübergehend leerstehende Wohnungen gibt, ergibt es eine Möglichkeit, mit Slock.it einen Gewinn daraus zu machen. Unsere Lösung ermöglicht sowohl die Verbraucher als auch Unternehmen ihre Vermögenswerte in Erträge umzuwandeln. Wohnungen, Büros, Elektrowerkzeuge, Fahrräder, Haushaltselektronik, Wi-Fi-Router, Autos, Motorräder und natürlich Schließfächer: Fast alles kann mit einem Slock nachgerüstet werden.
 
-Wir glauben, dass sehr bald, Autos werden in der Straße zu vermieten sein, Airbnbs wird vollständig automatisiert werden und Unternehmer
-lieber privaten Arbeitsräume auf Anfrage zu mieten anstatt zu begehen, um komplexe Mietverträge.
-Eigentümer in einem Anteil Wirtschaft werden sowohl Verbraucher und Erzeuger, die Nutzung Slocks, ein Einkommen, ohne Einnahmen an Dritte zu verdienen.
+Die Sharing Economy hat [17](http://venturebeat.com/2015/06/04/the-sharing-economy-has-created-17-billion-dollar-companies-and-10-unicorns/) verschiedene Milliarden-Dollar-Unternehmen mit 60.000 Mitarbeitern hervorgebracht. Der Sektor erhielt knapp 15 Mrd. $ Finanzierung so weit und seine globalen Jahresumsatz wird voraussichtlich 335.000.000.000 $ im Jahr 2025 erreichen (Quelle : [PWC](https://www.pwc.com/us/en/technology/publications/assets/pwc-consumer-intelligence-series-the-sharing-economy.pdf)).
 
-Wir sind langsam aber sicher an einen Punkt, wo die Millennials "Philosophie wird immer" Wenn Sie es mieten, warum besitzen sie ".
-66% der Welt ist bereit zu teilen oder vermieten ihrem persönlichen Vermögen für finanziellen Gewinn, und diese Zahl ist so hoch wie
-[94%](http://www.nielsen.com/content/dam/nielsenglobal/apac/docs/reports/2014/Nielsen-Global-Share-Community-Report.pdf) in China.
-Wir glauben, Slock.it ist hervorragend positioniert, um diese Bedürfnisse anzugehen, heute.
+Wir glauben, dass sehr bald, mietbare Autos in jeder großen Stadt zur Verfügung stehen und AirBnB-Wohnungen vollständig automatisiert werden und kleine Unternehmen es vorziehen werden, privaten Arbeitsräume bei Bedarf zu mieten anstatt zu komplizierte lange Leasingverträge einzugehen. Besitzer in der Sharing Economy werden sowohl Verbraucher als auch Produzenten sein und Slocks nutzen, ein Einkommen zu verdienen, ohne Einnahmen an eine dritte Partei zu verlieren.
 
-### Wer sind Slock.it potentielle Partner?
+Die Millennials 'Philosophie wird mehr und mehr: "Wenn Sie es mieten kann, warum dann besitzen?". 66% der Weltbevölkerung ist bereit, ihr persönliches Eigentum für finanziellen Gewinn zu teilen oder zu vermieten, und diese Zahl beträgt sogar [94%](http://www.nielsen.com/content/dam/nielsenglobal/apac/docs/reports/2014/Nielsen-Global-Share-Community-Report.pdf) in China. Wir glauben, Slock.it ist einzigartig und trifft genau auf dieses Bedürfnis weltweit.
 
-Wir sind derzeit Annäherung an einer Reihe von Partnern, insbesondere:
 
-- Gemeinsame Nutzung Wirtschaft Versicherungen
-- Hersteller von Smart Schleusen für zu Hause und Büros
+### Wer sind Slock.its potenzielle Partner?
+
+Wir sind derzeit dabei verschiedene Partnerschaften einzugehen, insbesondere:
+
+- Sharing Economy Versicherungen
+- Hersteller von SmartLocks für zu Hause und Büros
 - Hersteller von elektronischen Fahrradschlösser
-- Immobilienunternehmen investieren in Smart Homes
+- Immobilienunternehmen in Smart Homes investieren
 - Hotels und BnBs
+- Netzwerk- und Betriebssystementwickler
+- Mehr Astraleum und Kryptowährung Geschäfte
+
 
 ### Ist Slock.it Open Source?
 
-Sollte Slock.it GmbH als DAO-Dienstleister ausgewählt werden, ist unsere Vision für den gesamten Code, die Smart-Verträge, Benutzerschnittstellen, mobile Anwendungen,
-die DAO selbst, das heißt, alles, was Bildung der Slock.it DAO, um freier und Open Source, für jedermann zu benutzen und wiederverwenden können,
-was bedeutet, wir machen nicht nur diese Dinge öffentlich werden wir auch alles in unserer Macht Stehende tun, um andere Unternehmen zu sehen, als uns bei der Entwicklung Slock.it Rahmen kompatiblen Produkten.
+Als Dienstleister für die DAO wird Slock.it GmbH machen den Code, die intelligente Verträge, Benutzerschnittstellen, mobile Anwendungen, und alles, was die Slock.it DAO freie und Open-Source-bildenden, für jedermann zu benutzen und Zweck wieder. Wir werden nicht nur diese Dinge öffentlich machen, werden wir auch alles in unserer Macht stehende tun Unternehmen, um zu sehen außer uns Slock.it kompatible Produkte entwickeln, wie wir daran interessiert, das Ökosystem zu sehen wachsen jenseits dessen, was wir begonnen haben.
+
 
 ### Was ist drin für Slock.it GmbH dann?
 
-Slock.it GmbH legte einen Vorschlag, der DAO-Dienstleister am Ende des Tokens Vorverkauf zu werden.
-Slock.it GmbH ist eine gemeinnützige Gesellschaft, und die DAO ist einer seiner Kunden. Parallel zu seiner Open-Source-Eingriff mit der DAO, Slock.it GmbH wird auch die Beratung und Entwicklung von unabhängigen, Closed-Source-Produkte für seine anderen Privatkunden.
+Am Ende des Token-Vorverkauf wird Slock.it GmbH die Standarddienstanbieters DAO werden. Slock.it GmbH ist eine gemeinnützige Gesellschaft, und die DAO wird eine ihrer Kunden sein. Es ist wichtig für uns Anreize zwischen der DAO und unseres Unternehmens in Einklang zu bringen, so dass man eine symbiotische Beziehung erwarten, was wir privat arbeiten wird auch die Slock.it Ökosystem als Ganzes profitieren. Zum Beispiel Slock.it GmbH in Zusammenarbeit mit Schlosshersteller konsultieren für Immobilienunternehmen baut Smart Homes eingreifen könnte, die Slock.it API an Teil der populären Smart Objects integrieren, mit Banken Slocks arbeiten FIAT, Zahlungen entgegenzunehmen, usw.
 
-### Kann ich Ihnen helfen mit allem, was?
 
-Ja, es ist ein Open Source Projekt und jeder ist aufgefordert, in irgendeiner Weise zu beteiligen. Wir sind momentan
-Erprobung eines Freiwilligenprogramm für Community-Organisatoren.
+### Kann ich mit irgendetwas helfen?
 
-Dinge, die wir mit Hilfe nutzen könnten gehören:
+Ja, es ist ein Open Source Projekt und jeder ermutigt wird sie in irgendeiner Weise zu beteiligen. Wir sehen gerade eine Freiwilligen-Programm in den #communityorganizers unserer Slack Erprobung.
 
-- Überprüfung und einen Beitrag Sicherheitscode [github](https://github.com/Slockit/) (es ist ein Open Source Projekt, nachdem alle!)
-- Analyse der Markt in verschiedenen Teilen der Welt
-- Die Übersetzung der Website, das Whitepaper, die Videos und die Apps
+Dinge, die wir Hilfe bei umfassen verwenden:
+
+- Überprüfung und trägt Code auf [github](https://github.com/Slockit/) (es ist ein Open-Source-Projekt, nachdem alle!)
+- Analyse des Marktes in verschiedenen Teilen der Welt
+- Die Übersetzung der Website, das Whitepaper, Videos und die Anwendungen in Ihrer Muttersprache
 - Betriebs lokalen Foren (vor allem in nicht-lateinischen Zeichensätze)
-- Später testen Prototypen-Hardware
+- Prüfung Prototyp-Hardware
 
-Um teilzunehmen, einfach eine Verbindung mit einer von uns in unserer [Chat-Raum](http://Slock.it:3000/).
+Um teilzunehmen, einfach Zugriff auf unsere [Chatraum] anfordern (http://Slock.it:3000/).
+
+
+
 
 
 ## Wie funktioniert es
 
-### Wie Slocks zu arbeiten?
+### Was sind "Slocks '?
 
-Slocks wird in vielen Formen und Größen. Der Besitzer eines Slock setzt ein Einzahlungsbetrag und einen Preis für die Verwendung von ein oder mehr Einzelteile.
- Ein Benutzer kann dann eine Zahlung auf der Astraleums blockchain, wodurch eine Erlaubnis zum Öffnen oder Schließen, dass Slock durch eine mobile Anwendung.
-
-Die Kaution wird als Sicherheit in einem Smart Vertrag gehalten, bis der Benutzer das Element zurückgibt.
-Smart-Verträge werden automatisch durchgesetzt, mit der Anzahlung an den Benutzer abzüglich der Kosten für die Miete zurückkehrte,
-die wiederum automatisch auf die Eigentümer der Slock ausgezahlt werden.
-
-All dies geschieht ohne jede Hilfe von einem Drittanbieter.
+'Slock' ist ein porte-Manteau von "Smart, Safe and Secure Lock '. Jedes Objekt unterstützen ZigBee, Z-Wave, Bluetooth LE oder WLAN kann bereits als Slock dank unseres ersten Produkts verwendet werden, die Astraleum Arbeitsplatz. Wenn es darum geht, eine "dumm" Objekt einschalten, wird es eine Falle der Nachrüstung sei es klug Steckern. Slocks kommen auch in vielen Formen und Größen: Fahrrad Slocks, Auto Slocks und Tür Slocks sind bereits durch Partnerschaften mit IoT Hersteller geprüft.
 
 
-### Müssen die Benutzer jedes Mal zahlen sie einen Slock benutzen?
+### Wie funktionieren Slocks?
 
-Anders als in Philip K Dick "[Ubik](https://twitter.com/aprilaser/status/564811861024329729)",
-sie müssen nicht. Nur mieten Zugang zum Schloss kostet Geld.
-Alle aktuellen Benutzer (die auch die Eigentümer gehören könnte) sendet [Whisper](https://github.com/ethereum/wiki/wiki/Whisper-Overview) signierte Nachrichten
-zum Öffnen oder Schließen der Tür (was nichts kostet weiß).
+Der Besitzer eines Slock setzt einen Einzahlungsbetrag (falls nötig) und einen Preis für das Produkt verwendet wird. Ein Benutzer kann die Slock mit der mobilen App finden und dann eine Zahlung im Astraleum blockchain machen, damit Erlaubnis oder nah, dass Slock mit ihrem Smartphone zu öffnen, zu gewinnen.
 
-### Wer verdient die aus der Nutzung des Slocks?
+Wenn aktiviert, wird eine Kaution als Sicherheit in einem Smart Vertrag gehalten, bis der Benutzer das Element zurückgibt. Die Smart-Vertrag wird automatisch durchgesetzt, mit der Niederschlag an den Benutzer abzüglich der Kosten für die Miete zurück, die wiederum automatisch an den Besitzer des Slock ausgezahlt werden.
 
-Die DAO Token-Besitzer aus den Slock Gebühren profitieren. Die Slock Nutzungsgebühren entsprechen den Kosten der Dezentralisierung
-und wird von der DAO selbst bestimmt werden, wenn es mit dem Dienstanbieter eingreift.
+Wir danken unserem Partner [SafeShare](http://www.safeshareinsurance.com/), Ad-hoc-Versicherung auch zur Verfügung gestellt werden können, wo eine Anzahlung nicht angemessen wäre.
 
-### Was ist, wenn Mitglieder möchten eine Slock geradezu besitzen?
+All dies geschieht ohne Hilfe von einem Drittanbieter.
 
-Es ist möglich, durch Zahlung einer einmaligen Bereitstellungsgebühr an die DAO. Dies wird die per-use Gebühr zu entfernen.
-Beachten Sie, dass dieser Betrag wird von der DAO selbst bestimmt werden, wenn es mit dem Dienstanbieter eingreift.
 
-### Werden die Benutzer in der Lage, eine Debit- oder Kreditkarte verwenden, um eine Slock öffnen?
+### Müssen die Benutzer jedes Mal, wenn sie einen Slock nutzen zu zahlen?
 
-Wir würden sehr gerne, dass. Bist gerade nähern wir verschiedene Finanzinstitute zu versuchen, dies zu einer Realität.
+Sie müssen nicht, da nur Zugriff auf die Sperr Anmietung kostet Geld. Alle aktuellen Benutzer (die auch die Besitzer enthalten könnte) sendet [Flüstern](https://github.com/ethereum/wiki/wiki/Whisper-Overview) unterzeichnet Shannon Nachrichten (was nichts kostet) zum Öffnen oder Schließen der Slock .
+
+
+### Können Benutzer eine Debit- oder Kreditkarte zu verwenden, um eine Slock zu öffnen?
+
+Wir haben zur Zeit unseren Partnern und verschiedenen Finanzinstituten Annäherung zu versuchen, diese zu verwirklichen.
+
 
 ### Sind nicht die Slocks werde zerstört werden?
 
-Natürlich einige werden als Slocks sind kein Allheilmittel für Diebstahl oder Beschädigung. Was Slocks tun können, dass die traditionellen Sperren kann nicht,
-ist bieten eine Versicherung Option 'gebacken' in den Nutzungsvertrag. Ein rohes Beispiel wäre die Einstellung einer Anzahlung,
-die im Falle der Elemente, die zu sperrig sind, um den Transport - oder von einem ausreichend niedrigen Wert - vielleicht ganz gut zu funktionieren.
-Eine komplexere Implementierung könnte eine Verknüpfung zu einer Sharing Economy Versicherungsvertrag gehören, etwas, das wir gerade arbeiten mit Partnern.
+Natürlich einige werden, wie Slocks sind kein Allheilmittel für Diebstahl oder Beschädigung. Was Slocks traditionellen Sperren kann das tun kann nicht, ist eine Versicherung Option zur Verfügung stellen "gebacken" in den Nutzungsvertrag.
 
-### Was passiert, wenn es keine Macht oder Internet?
+Wenn keine Versicherung im Falle von niedrigeren Wert oder umständliche Einzelteile erforderlich ist, wird eine Grund Anzahlung Implementierung standardmäßig zur Verfügung gestellt und wird ausreichen.
 
-Dasselbe, was passieren würde, wenn alle anderen Smart-Lock verwendet wurde: einige werden "fail secure", während andere "fail safe".
-Welche Betriebsmodus wird verwendet, wird nicht von der Slock DAO bestimmt, sondern durch den Anwendungsfall und örtlichen Vorschriften. Beispielsweise,
-Feuerschutz und Hotelzimmertüren werden wahrscheinlich Fail safe, während ein Schließfach wird sicherlich 'fail secure ").
+Für höherwertige Produkte und dank unserem Partner [SafeShare](http://www.safeshareinsurance.com/) wird Slock.it Smart Verträge der Lage sein, eine revolutionäre anzubieten, universal, auf die Vor-Ort-Versicherung, wo Nutzer zahlen nur für die Art der Versicherung, die sie benötigen, wenn sie es brauchen. Die Versicherung wird von der Astraleum blockchain lesen, wenn die Objekte vermietet werden, und Besitzer werden nur für die Zeit bezahlen Eigentum gemietet wurde.
+
+
+### Was passiert, wenn es keinen Strom oder Internet ist?
+
+Dasselbe, was, wenn eine andere intelligente Sperre passieren würde beschäftigt war: einige werden "sicher nicht", während andere "fail safe". Welche Betriebsmodus verwendet wird, durch die Slock DAO nicht bestimmt, sondern durch den Anwendungsfall und lokalen Vorschriften. Zum Beispiel Feuer bewertet und Hotelzimmertüren werden wahrscheinlich 'fail safe ", während ein Schließfach sicher,' fail secure").
+
+
 
 
 
 ## Das Produkt
 
-### Was genau ist die "Astraleums Computer"?
+### Was genau ist die "Astraleum Computer"?
 
-Eine winzige, vorinstalliert, vorkonfiguriert Home-Server läuft sowohl eine optimierte Astraleums Knoten und eine Reihe von dezentralen Anwendung:
-a web3 Identitätsdepot ein Slock Gateway zu Ihrem Internet der Dinge, und sogar einige experimentelle Software einschließlich eines IPFS Server, den Sie ein paar Ether verdienen.
+Es ist der einfachste Einstieg in die Welt der Slock.it und Astraleum, ohne einen Client mit der Einrichtung zu kämpfen hat, Äther von einer Börse kaufen oder sich Gedanken über Sicherheits-Updates.
 
-Kurz gesagt, es ist kleine Box, die Ihre Rechte und Identität schafft, mit starker Verschlüsselung und Berechtigungskontrolle.
-Es ist eine sichere Gatekeeper zwischen der Bahn und web3 zu Ihnen nach Hause IoT, die Kommunikation mit Ihrem Smart-Objekte über ZigBee oder Zwave.
-Es ist auch eine brillante Entwicklungsplattform, die Verpackung die gesamte Software, die als Teil eines optimierten Bild gebraucht wird.
+Die Astraleum Computer ist ein winziges, vorinstallierte, vorkonfigurierte Home-Server sowohl eine optimierte Astraleum Knoten und aufregende neue [dezentrale Anwendungen](http://dapps.ethercasts.com/), einschließlich Mist läuft. Die Astraleum Computers setzt Identität, Fonds und persönliche Informationen wieder unter der Kontrolle der Nutzer, und wir denken, es wird sich ändern _alles_.
 
-### Was sind einige gute Anwendungsfälle für die Astraleums Informatik?
+Denken Sie an eine kleine Box, die Ihre Rechte und Identität, mit starker Verschlüsselung und Berechtigungskontrolle verwaltet. Im Inneren finden Sie eine web3 Identitätsdepot, ein Slock Gateway zu Ihrem Internet der Dinge, und auch experimentelle Software wie ein IPFS Server finden Ihre ungenutzten Festplattenspeicher zu mieten - automatisch.
 
-- Noch nie in 3rd-Party-Servern mit Ihren Schlüsseln oder Chipvertragsabwicklung vertrauen: Webserver sollte nur dazu dienen statische Dapp Vermögenswerte, nicht als Zwischenhändler die Weiterleitung Anfragen an die blockchain handeln
-- Aktivieren Sie Ihr ganzes Haus mit dem blockchain kommunizieren: Miete Ihrer Wohnung oder den Austausch aller Slock.it fähigen Smart-Objekt direkt und sicher.
-- Führen Sie ein Knoten IFPS und vielleicht sogar für das Anbieten von Speicherplatz an das Netzwerk belohnt
-- Entwicklung von Anwendungen mit Astraleums und sich niemals über die Installationsschwierigkeiten, Updates oder Kompatibilitätsprobleme zwischen den verschiedenen Modulen des Astraleums "Rahmen" (Flüstern, EVM, Web3.js, Schwarm, etc.) zu sorgen. Wir werden Updates nur drücken, wenn wir den aktuellen Stack von oben nach unten geprüft
-- Zur Sicherung des Netzwerks und dafür belohnt (einmal Astraleums hat PoS schaltet), ohne dass größere, teurere und weniger sichere Anlagen, um diese Aufgabe zu widmen
+- Es ist der einfachere Weg Dapps zu suchen.
+- Es ist eine sichere Gatekeeper zwischen der Bahn und web3 zu Ihnen nach Hause oder in kleinen Büros IoT, drahtlos mit Ihrem Smart Objects in Verbindung steht.
+- Und es ist auch ein brillanter Entwicklungsplattform, die Verpackung die gesamte Software benötigt Astraleum Dapps im Rahmen eines einfachen, optimierten Bild zu bauen.
 
-### Wird es hackable / geöffnet sein?
 
-Absolut. Wir werden die DevKit Bilder öffentlich zugänglich zu machen, sondern auch die gesamte detaillierte Code, der in den Bau der "Stapel" ging
-so können Sie Veränderungen / Verbesserungen an der Anlage selbst. Eine Sache, die wir mit dem Ziel zu tun, ist mit einem Bord / SoC-Kombination, die öffentlich ist
-zur Verfügung, so dass ein komplett neu erstellen könnte die Astraleums Informatik von Grund auf neu, wenn sie wollten. Mit einigen GPIO verfügbar
-würde auch niemandem gestatten, drahtgebundene Objekte in die Astraleums Netzwerk zu verbinden: Wir möchten, dass Sie in der Lage, zu experimentieren!
+### Was könnte ich tun mit dem Astraleum Computer?
 
-### Wann wird die Astraleums Informatik werden zum Verkauf angeboten?
+Aktivieren Sie Ihr ganzes Haus mit dem blockchain zu kommunizieren -: Mieten Sie Ihre Wohnung, Ihr Büro, Zugang zu Ihrem WLAN-Hotspot, oder den Austausch aller Slock.it Smart-Objekt in Reichweite direkt aktiviert und sicher
+- Probieren Sie neue, spannende Anwendungen: Die Astraleum Computer einen ausgewachsenen Umsetzung des Astraleums Stapel ist, und daher jede Dapp über HDMI an Ihr Heimkino dienen kann.
+- Blättern web3 sicher: Sie können Ihren Browser, Handy oder Tablet mit dem Astraleum Computer, und die 3rd-Party-Web-Server verweisen wird nur verwendet werden, um statische HTML-Vermögen zu dienen, während Sie Ihre kostbare Krypto-Schlüssel sicher innerhalb der Grenzen von zu Hause bleiben .
+Gewinnen Sie ein passives Einkommen -: die Astraleum-Computer verwendet werden, um eine IPFS Knoten laufen, vielleicht sogar Belohnungen für die Anmietung Ihre ungenutzten Festplattenspeicher zu empfangen. Wir suchen auch in der Möglichkeit, dass Sie Ihre Astraleum Computer als Oracle verwenden, verdienen Tokens durch physikalische Datenbereit Smart Verträge blockchain.
+- Entwickeln von Anwendungen mit Astraleum und sich niemals über die Installation Schwierigkeiten sorgen. Wir werden Updates aussortieren und Kompatibilitätsprobleme zwischen den verschiedenen Komponenten des Astraleums 'Stack' (Flüstern, EVM, Web3.js, Schwarm, etc), und wird Push-Updates nur, wenn wir den Rahmen von oben nach unten getestet haben.
+- Helfen Sie dem Astraleum Netzwerk sichern und dafür belohnt (einmal Astraleum zu PoS geschaltet hat), ohne größer zu widmen haben, teurer und weniger sichere Anlagen zu dieser Aufgabe.
 
-Spät 2017, obwohl wir erwarten devkits viel früher als Teil eines iterativen Entwicklungsprozess.
 
-### Ist es nützlich für den Bergbau zu sein?
+### Wird es hackable / offen sein?
 
-Die Astraleums Computer ist ein Voll Astraleums Client und daher durchaus in der Lage zu haben, seine Bergbau Funktion aktiviert.
-Das heißt, es wäre keine gute Plattform zur Mine auf, während des Astraleums ist immer noch mit Nachweis der Arbeit, wie der Formfaktor verhindert
-aus, die die Rechenkraft GPUs haben. Die Astraleums-Computer wird eine perfekt geeignete Plattform zur Sicherung des Netzwerk einmal Astraleums schaltet den Nachweis der dem Spiel.
+Absolut. Wir werden nicht nur die devkit Bilder öffentlich zugänglich zu machen, sondern auch all die detaillierten Code, der in den Bau der "Stapel" ging so geändert werden können / Verbesserung der Anlage notwendig. (Wir schon [Autor](https://blog.slock.it/let-s-play-with-snappy-ethereum-816588198528)) Eine Sache, wir sind mit dem Ziel zu tun ist eine Hardware (Board + SoC) Kombination das ist im Handel erhältlich, so dass ein vollständig Astraleum-Computer von Grund auf neu erstellen könnten, wenn sie wollten. einige GPIO zur Verfügung zu haben ermöglicht auch jemand drahtgebundenen Objekte zum Astraleum Netzwerk zu verbinden. Wir wollen Sie in der Lage zu sein, zu experimentieren!
+
+
+### Wann wird die Astraleum-Computer zur Verfügung stehen zu kaufen?
+
+Irgendwann im Jahr 2017, obwohl wir devkits viel früher als Teil eines iterativen Entwicklungsprozess zu antizipieren. Sie können Ihr Interesse für eine devkit von <a href=""> registrieren uns </a> kontaktieren.
+
+
+### Wird es für den Bergbau nützlich sein?
+
+Die Astraleum Computer ist ein voll Astraleum Client und somit durchaus in der Lage seine Bergbau-Funktion aktiviert haben. Das heißt, wäre es nicht eine gute Plattform, um mein sein, während Astraleum noch Proof of Work verwendet, ist, wie der Formfaktor sie daran hindert, mit der Hash-Leistung GPUs haben. Die Astraleum Computer lässt sich jedoch eine perfekt geeignete Plattform sein, um das Netzwerk zu helfen sichern, sobald Astraleum zu Nachweis Stake schaltet, als Teil Ihre Schlüssel sicher zu halten von einem gehärteten Stapel.
+
+
+**Wie viel wird es kosten**
+
+Wir definieren noch die Kosten, da sie von vielen Faktoren abhängt, einschließlich Produkt-Design (wir Astraleum-Computer wollen für Ihren Schreibtisch ein würdiger Gesprächsstoff zu werden). Es ist unsere Absicht, ihn zu behalten sehr zugänglich.
+
+
+
 
 
 ## Der Vorverkauf
 
-### Warum wollen eine Slock Token Vorverkauf?
-
-Wir könnten eine Kickstarter, um die Slock.it Projekt von Null getan haben, aber so wie wir glauben nicht, dass Airbnb nehmen 15% aller Transaktionen
-ist ein Messemodell, wir haben nicht das Gefühl, es würde keinen Sinn machen, um zu der Kickstarter Corporation Hand aus 5%, wenn Astraleums es uns ermöglichen, diesen Prozess zu dezentralisieren.
-
-Anstatt also, wir sind mit der blockchain einen Vorverkauf, wo die Menschen verpflichten, unterstützen den Aufbau der Slock.it Gemeinschaft zu organisieren,
-und im Gegenzug erhalten eine Belohnung in Form von Slock Token, die mit jedem Slocks verwendet werden kann.
-
-Sobald das Projekt ins Leben gerufen, werden Personen, die nicht besitzen diese Token müssen eine Gebühr an die Slocks, um sie verwenden zu bezahlen.
-Ein Teil der Gebühren werden zu allen Slock Token Inhaber zurückgehen, weiter zu wachsen seine Gemeinschaft und die Schaffung eines gesunden positiven Kreislauf.
-
-Um diesen Prozess fair und dezentrale auch nach der Vorverkauf zu halten, wird ein DAO erstellt werden, so dass die Mittel
-durch die Gemeinschaft gehalten werden nie centraly verwaltet werden. Slock Token Halter in der Lage, über wichtige abstimmen
-Entscheidungen in Bezug auf die Verwaltung des DAO.
-
-### Was sind Slock Token?
-
-Slock Token ermöglicht die Inhaber über wichtige Fragen im Slock DAO proportional zu, wie viele Tokens halten sie stimmen,
-und ihnen Zugang zu einem Teil der von Slocks Umsatz.
 
 ### Wann ist die Slock Token Vorverkauf?
 
-Es wird zu Beginn des Jahres 2016 statt.
+Es wird zu Beginn 2016 statt und wird etwa einen Monat dauern. Weitere Details werden so bald freigegeben werden, wie wir sie haben. Wenn Sie benachrichtigt werden möchten, sobald sich die Dinge fertig sind, melden Sie sich bitte an unsere [Mailingliste](/ presale.html).
 
-### Wie lange wird es dauern?
 
-Etwa zwei Monate.
+### Warum ein Slock Token Vorverkauf?
 
-### Kann ich meinen Slock Token?
+Wir verwenden Smart-Verträge auf dem Astraleum blockchain zu bauen, damit die Menschen auf der ganzen Welt die Befugnis erhalten, kann eine neue Zukunft für den Austausch von Wirtschaft zu bauen, und im Austausch für ihre frühe Hilfe, werden sie eine Belohnung in Form von Slock Token erhalten die halten viele Vorteile.
 
-Nr Slock Token werden lediglich verwendet, um den Anteil der Stimmen vertreten und belohnt einen Slock Tokenhalter wird als Teil der DAO mit dem Titel.
-Wenn Sie möchten, etwas zu mir, zu versuchen [Ether](https://github.com/ethereum/go-ethereum/wiki/Mining).
+Um Governance fair zu halten und dezentral, wird ein DAO erstellt werden, so dass die von der Gemeinschaft gehalten Mittel werden nie zentral verwaltet werden. Eine kleine Gebühr wird von den Gewinnen der einzelnen Slock Transaktion in Slock nicht bezahlt Token genommen werden. Dies wird zu einer DAO zurückgegeben werden, es die Möglichkeit gibt, die Gewinne zu reinvestieren, um sein Wachstum zu unterstützen.
 
-### Kann ich senden, empfangen und Wechsel Slock Token sein?
+Slock Token Inhaber der Lage sein, bei wichtigen Entscheidungen zu stimmen das Management der DAO beziehen, einschließlich der Befugnis, die Gewinne untereinander zu verteilen.
 
-Ja, es wird sein, Funktionen zu bauen in der Smart-Vertrag zu senden / empfangen Slock Token jedoch
-diese werden nicht aktiviert werden, bis das Projekt startet im Ernst im Jahr 2017.
+### Welche Slock Token?
 
-### Muss ich technischen um Token zu kaufen sein?
+Slock Token:
 
-Nein, der Kaufvorgang wird vollständig online über eine Webseite erfolgen. Wenn Sie bereits über eine Ether-Geldbörse,
- Sie werden in der Lage, das zu verwenden, oder die Website wird nur zu erzeugen, eine auf der Fliege für Sie.
+Geben Stimmrechte in wichtigen Fragen in der DAO -
+- Kann ohne zu öffnen oder zu schließen Slocks verwendet werden, eine Gebühr an die DAO zu zahlen
+- Kann Peer gehandelt werden ein Austausch-to-Peer oder auf
+- Wenn von der DAO stimmten, den Zugang zu einem Teil der Gewinne (durch die Slocks erzeugt), proportional zu, wie viele Zeichen gehalten werden
+
+
+### Was ist, wenn Benutzer geradezu eine Slock besitzen wollen?
+
+Es ist möglich, die per-Use-Gebühren zu zahlen zu vermeiden, indem sie sich, indem sie sich eine einmalige Bereitstellungsgebühr an die DAO zu zahlen. Beachten Sie, dass der betreffende Betrag von dem sich DAO bestimmt werden, wie es mit dem Service-Provider eingreift.
+
+
+### Kann ich abbauen Slock Token?
+
+Nr Slock Token werden rein zu stellen, den Anteil der Stimmen ein Slock Tokenhalter ist berechtigt, im Rahmen der DAO verwendet. Wenn Sie etwas abbauen möchte, versuchen [Äther](https://github.com/ethereum/go-ethereum/wiki/Mining).
+
+
+### Werde ich versenden, empfangen und Austausch Slock Token?
+
+Ja, es wird Funktionen in der Smart-Vertrag aufgebaut sein Slock Jetons und Handels Peer-to-Peer wird möglich zu senden / empfangen werden vom ersten Tag an.
+
+
+### Muss ich ein Programmierer sein Token zu kaufen?
+
+Nein, wir wollen jeden Schritt des Weges inklusive sein, damit so viele Menschen wie möglich in diesem neuen Sharing-Community teilnehmen können. Der Einkaufsvorgang wird über eine einfache Webseite komplett online durchgeführt werden. Wenn Sie bereits ein Äther Brieftasche haben, werden Sie in der Lage sein, das zu verwenden, oder die Website wird nur eine Brieftasche für Sie generieren.
  
-### Wird jemand halten 'premined' Token?
 
-Nein. Wir sind moralisch entgegengesetzt premines und halten sie unfair und ein Hindernis für echte Innovation.
-Es wird keine 'frühen Beitrag Pool "entweder, oder etwas dergleichen sein. Die einzigen Token im Umlauf
-werden diejenigen während des Slock Token Vorverkauf erworben werden, das ist es.
+### Wird jemand 'premined' Token halten?
 
-### Wird es eine weitere Gelegenheit, um Token zu erwerben?
+Nein. Niemand wird einen unfairen Vorteil erhalten: Die einzigen Token im Umlauf sind die, während der Slock Token Vorverkauf erworben werden.
 
-Es gibt nur einen Slock Token Vorverkauf sein. Einmal im Laufe des Jahres 2017 gestartet,
-die Slock DAO wird völlig autonom und dezentral sein. Wie es dann selbst verwaltet, einschließlich der Beschlüsse über seine Finanzen,
-ist völlig bis zu "es". Slock Token Inhaber Stimmrechte in der Lage sein, Vorschläge zu unterbreiten, und übergeben Bewegungen.
 
-### Wie wird die DAO Kontrolle der Mittel, die sie während der Vorverkauf erhält?
+### Gibt es eine andere Möglichkeit sein Token zu kaufen?
 
-Die Slock Token Inhaber werden den Service-Provider ihrer Wahl, und die Bedingungen für die Mittelverteilung zu wählen.
-Diese Entscheidungen werden ausschließlich von Smart-Verträge durch eine einfache Online-Schnittstelle geregelt, und zugänglich.
+Es wird nur ein Slock Token Vorverkauf sein. Nachdem im Laufe des 2016 ins Leben gerufen, wird der Slock DAO völlig autonom und dezentral sein. Wie es sich dann verwaltet, einschließlich der Entscheidung über ihre Finanzen, ist völlig bis zu "es". Slock Token Inhaber Stimmrechte halten, können Vorschläge zu unterbreiten, und Bewegungen übergeben.
+
+
+### Wie steuert die DAO, die Mittel es im Vorverkauf erhält?
+
+Die Slock Token Inhaber werden den Service-Provider ihrer Wahl zu wählen, und die Bedingungen, unter denen die Mittel verteilt werden. Diese Entscheidungen werden ausschließlich von Smart-Verträge geregelt, und die über eine einfache Online-Schnittstelle.
+
 
 ### Gibt es eine Mindestziel für den Vorverkauf?
 
-Ja. Ein Minimum von 700.000 Ether Gegenwert in einer Krypto-Token, um in der Lage, eine sinnvolle und DAO erste Produkt bauen gesucht.
-Wenn die Mindest nicht erreicht wird, werden die Teilnehmer im Vorverkauf in der Lage, ihre Mittel zurückfordern (in Ether denominiert).
+Ja. Ein Minimum von 500.000 USD (äquivalent) ist erforderlich, um eine sinnvolle DAO und erste Produkt zu bauen. Wenn die Mindest nicht erreicht wird, Teilnehmer der Vorverkauf wird in der Lage sein, ihre Gelder zu beantragen zurück (in Ether lauten).
 
-### Wird der Vorverkauf Bitcoin bezahlen, Doge, etc.?
 
-Ja, wir haben mit Shapeshift Partner, so dass die Slock Token Vorverkauf wird nicht nur Bitcoin akzeptieren, aber die meisten Krypto-Token in der Existenz,
-einschließlich Litecoin, Doge, Maidsafe, StorjcoinX, Bitshares, BitUSD, Nxt, Dash, Muscheln und viele, viele andere.
+### Wird der Vorverkauf Bitcoin bezahlen, Doge, usw.?
 
-### Wird die Slock Token Vorverkauf akzeptieren Fiat-Währungen?
+Ja, wir haben mit Shapeshift Partner, so dass die Slock Token Vorverkauf meisten cryptocurrencies in Existenz zu akzeptieren, einschließlich Ether, Bitcoin, Litecoin, Dogecoin, MaidsafeCoin, StorjcoinX, Bitshares, Ripple, BitUSD, NXT, DASH, Muscheln und viele, viele andere.
 
-Nicht direkt. Um teilzunehmen, müssen Sie eine Krypto Währung zu verwenden. Um FIAT für Crypto Währungen austauschen, sollten Sie einen Austausch wie [Kraken] (https://kraken.com) zu verwenden.
+Für größere Einkäufe in Krypto lauten, suchen wir auf direkt mit dem Austausch Partnerschaft.
+
+
+### Wird die Slock Token Vorverkauf FIAT Währungen akzeptieren?
+
+Nicht direkt. Um daran teilzunehmen, müssen Sie einen Kryptowährung verwenden. Zum Austausch von FIAT für cryptocurrencies könnte Ihnen einen Austausch verwenden, wie beispielsweise [Kraken](https://kraken.com). Wir arbeiten derzeit mit Austausch zu sehen, ob wir diesen Prozess rationalisieren konnten.
+
 
 
 
@@ -249,72 +257,106 @@ Nicht direkt. Um teilzunehmen, müssen Sie eine Krypto Währung zu verwenden. Um
 
 ### DA .. was?
 
-DAO oder dezentrale autonome Organisation, ist eine Form der Gesellschaft, die ganz auf die blockchain betreibt.
-Slock Token-Inhaber können Vorschläge zu überprüfen und ihre Stimmen, um einen Dienstleister, der repräsentiert wird wählen
-sie in der physischen Welt ,. Dieser Prozeß ist sehr ähnlich zu der Auswahl eines Software- oder Hardware-Lieferanten.
-Ein DAO ist in vielerlei Hinsicht jedoch überlegen Traditionsunternehmen in dem Sinne, dass alle Entscheidungen dauert es transparent sind,
-seine Finanzen kann von jedermann überprüft werden und die Korruption unmöglich gemacht.
+Eine dezentrale Selbstorganisation (DAO) ist eine Form der Gesellschaft, die ganz auf die blockchain arbeitet. In unserem Fall wird die DAO bestehend aus Slock Token Halter, die Vorschläge überprüfen und ihre Stimmen einen Dienstleister zu wählen und zu leiten, die sie in der physischen Welt vertreten. Dieser Prozess ist sehr ähnlich wie bei einem Verkäufer oder Anbieter zu wählen. Ein DAO ist jedoch in vieler Hinsicht überlegen zu einem traditionellen Unternehmen in dem Sinne, dass alle Entscheidungen, die sie sind transparent macht, kann seine Finanzen von jedermann werden geprüft und Korruption ist nicht möglich.
+
 
 ### Ist das nur für Geeks?
 
-Auf keinen Fall. Um Entscheidungen zu treffen, wird Token Halter in der Lage, stimmen mit einer einfachen Schnittstelle mit Nebel,
-die Astraleums Browser. Sie müssen in der Lage, Software auf Ihrem Rechner zu installieren und zu verwenden, was im wesentlichen sieht aus und fühlt sich wie ein Website.
-Das ist es.
-
-### Was kann die DAO genau?
-
-Die DAO kann einen Dienstleister zu implementieren eine Technologie oder ein Produkt zu entwickeln, entweder durch direktes Senden Fonds oder der Unterzeichnung eines Smart-Vertrag wählen.
-Die Smart-Vertrag legt die Bedingungen der Beziehung zwischen der DAO und seine Dienstanbieter.
-
-Sobald ein Anbieter ausgewählt wurde, kann die DAO-Funktionen vom Dienstanbieter Smart Vertrag nennen, Festlegen der Werte der Betriebsparameter, die umfassen könnte,
-zum Beispiel, wie viel von einer Nutzungsgebühr ist von jedem Slock genommen und kehrte zu den Slock Token Inhaber.
-
-Welche Parameter zur Verfügung, hängt von der Service-Provider und konnte von einem Ansatz mit der DAO halten vollständige operative Kontrolle reichen "Hände weg".
-
-### Wer kann Vorschläge zur Abstimmung?
-
-Alle Slock Tokenhalter.
-
-### Wie oft kann die DAO Abstimmung über Vorschläge?
-
-So oft, wie es will.
-
-### Wie kann die DAO Schutz seiner Gelder von Volatilität Ether ist?
-
-Die Slock DAO in eine Sicherungs Vertrag teil, um ihre Gelder von Volatilität Äther zu schützen. Dieser Auftrag könnte von einem Dritten zur Verfügung gestellt werden.
-Slock.it GmbH beabsichtigt, einen Vorschlag für Absicherungs auf die DAO am Ende der Vorverkauf einreichen.
-
-### Warum nicht Slock.it GmbH sammeln Geld über einen Vorverkauf statt?
-
-Weil wir glauben, DAOs sind die Zukunft, wie Geschäfts strukturiert sind. Ein DAO wird viel mehr Sicherheit und Transparenz als ein liefern
-traditionellen Vorverkauf, da die Anleger werden in der Steuerung der Mittel auch nach der Vorverkauf beendet bleiben. DAOs über Open Governance bringen auch
-indem jede Slock Tokenhalter, um auf allen wichtigen unternehmerischen Entscheidungen zu stimmen.
+Auf keinen Fall. Um Entscheidungen zu treffen, wird Token Inhaber der Lage sein, eine einfache Schnittstelle mit Mist zu stimmen mit der Astraleum Browser. Sie werden in der Lage, um Software auf Ihrem Rechner zu installieren und verwenden, was aussieht wesentlichen und fühle mich wie eine Website. Das ist es.
 
 
-<br>
+### Was kann genau die DAO tun?
 
-* Hinweis: Der folgende Abschnitt der FAQ ist technisch und deckt fortgeschrittene Themen, die von Vitalik Buterin die Blog-Post auf [die Subjektivität / Exploit Tradeoff] (https://blog.ethereum.org/2015/02/14/subjectivity) stammen. *
+Die DAO kann ein Service-Provider wählen, eine Technologie zu implementieren oder ein Produkt entwickeln, entweder durch Mittel direkt oder Unterzeichnung eines Smart-Vertrag zu senden. Die Smart-Vertrag legt die Bedingungen der Beziehung zwischen der DAO und seine Service-Provider.
 
-### Was ist eine 51% Angriff, und wie wollen Sie das verhindern?
+Sobald ein Anbieter ausgewählt wurde, kann die DAO-Funktionen aufrufen vom Dienstanbieter Smart Vertrag, die Werte der Betriebsparameter, die beispielsweise umfassen könnte, wie viel Prozent jedes Slock Transaktion wird verwendet, um die DAO finanzieren, oder welche Meilensteine ​​haben erreicht werden, bevor der Service-Provider bestimmte Zahlungen erhält.
 
-Wenn jemand war, 51% der Slock Marken zu erwerben, haben sie sich als Dienstleister wählen konnten, und senden Sie dann 100% der Mittel für eigene Rechnung.
-Um dies zu verhindern, ist die Slock DAO in der Lage, sich proportional zu den Abstimmungsergebnisse aufgeteilt, so dass der Angreifer mit seinem Geld und dem Rest der
-Teilnehmer mit ihren eigenen. Aufgrund dieses Mechanismus gibt es keinen Anreiz für einen solchen Angriff auszuführen, da es nicht nur nutzlos, aber der Angreifer
-würde auch mit wertlosen Slock Tokens aus seinem eigenen Gabel des DAO geklebt werden.
+Welche Parameter zur Verfügung stehen, hängt von der Service-Provider Smart Vertrag und kann von "Hände weg" -Ansatz im Bereich der DAO halten vollständige operative Kontrolle zu haben.
+
+
+### In der Praxis wird, was nach dem crowdsale passieren?
+
+Der Standard-Service-Provider Slock.it GmbH ein Angebot zur Entwicklung von Produkten und Dienstleistungen (einschließlich des Astraleums Computer) in Form einer Smart Vertrag vorzulegen. Die DAO kann dann stimmen zu diesem Angebot und, falls sie angenommen, interagieren mit dem Smart-Vertrag mit Nebel, die Astraleum Browser.
+
+
+### Ich bin kein Programmierer - was wird das erste Angebot für die DAO gehören?
+
+Im Vorfeld der Vorverkauf werden wir öffentlich auf unserem Blog stellen die Bedingungen des Smart Vertrag oder Smart-Verträge, die wir mit der DAO abzeichnen könnte. Dieses Angebot beinhaltet Tutorials, ein Whitepaper, eine FAQ, und "wie" Videos.
+
+
+### Wird es weitere Anbieter sein?
+
+Na sicher. Kein Unternehmen kann die Zukunft vorhersagen, auch nicht die DAO - so ist es vollkommen normal, dass die DAO seinem Eingriff mit dem Service-Provider in regelmäßigen Abständen zu überprüfen. Neue Angebote können vom Dienstanbieter jederzeit eingereicht werden - jeder von ihnen kann so einfach sein oder so komplex wie nötig, da die Bedingungen in einer Turing komplette intelligente Vertragssprache geschrieben werden.
+
+
+### Werden die Bedingungen des Angebots in verständlicher Sprache erklärt werden?
+
+Nicht nur werden sie in verständlicher Sprache erklärt werden, die Smart-Vertrag selbst Klartext gespeichert werden können - hält der Dienstleister für das Angebot verantwortlich.
+
+
+### Kann die DAO den Dienstleister Feuer?
+
+Na sicher. Angebote werden enthalten in der Regel eine Gesamtmenge (etwa USD 1 Mio. abzuschließen Projekt XYZ), eine erste Einzahlung (USD 300k Projekt XYZ Bootstrap) und eine monatliche Zahlung (zum Beispiel USD 50k / Monat für 24 Monate). Zu jeder Zeit kann das DAO die regelmäßigen Zahlungen stoppen, wenn er durch den Dienstanbieter unzufrieden ist, feuern sie effektiv.
+
+### Heißt das, Sie ein Modell erstellt, wo man sich abgefeuert werden können?
+
+Ja absolut. Wir glauben, dass eine Beziehung, wobei die DAO die Kontrolle über seine Fonds bleibt für beide Parteien als ein traditionelles Zeichen Verkauf tatsächlich günstiger ist, in dem der Dienstleister 100% der Vorverkauf Fonds behält.
+
+
+### Wie Abstimmung stattfinden?
+
+Version 1 des DAO wird am Ende der Vorverkauf aktiviert werden, um die Mittel zu halten und Grund Abstimmung ermöglichen. Die Abstimmung findet über die [offizielle Astraleum GUI Brieftasche](https://github.com/ethereum/mist/releases), durch eine automatisch generierte HTML-Oberfläche. Version 2 des DAO (bei der Vorstellung des Projekts veröffentlicht werden) wird die Verwendung eines vollständig angepasst Dapp erreichbar über [Mist](https://www.youtube.com/watch?v=IgNjs_WaFSc) machen, der offiziellen Astraleum Dapp Browser.
+
+
+### Wie kann die DAO ihre Mittel aus Ether Volatilität schützen?
+
+Die Slock DAO könnte in einer Sicherungs Vertrag teil, um ihre Mittel aus Ether Volatilität zu schützen. Dieser Vertrag würde die von der Behörde als Teil eines neuen Angebots zur Verfügung gestellt werden.
+
+
+### Warum nicht Slock.it GmbH statt Geld durch eine direkte crowdsale erhöhen?
+
+Weil wir glauben, DAOs sind die Zukunft, wie Unternehmen wird strukturiert werden. Ein DAO wird eine viel größere Sicherheit und Transparenz als eine herkömmliche Vorverkauf, da die Anleger die Kontrolle über die Mittel bleiben, selbst nachdem der Vorverkauf beendet ist. DAOs bringen auch über offene Regierungsführung, indem jede Slock Tokenhalter auf allen wichtigen Geschäftsentscheidungen zu stimmen.
+
+
+### Wie oft kann man die DAO Änderung Dienstleister?
+
+Zu jeder Zeit und so oft, wie es für richtig hält.
+
+
+### Wo werden Angebote und Smart Vertrag Wechselwirkungen diskutiert werden?
+Beide werden auf unseren Slack diskutiert werden, während Abstimmung wird ganz auf die blockchain durchgeführt werden.
+
+
+
+
+## Weiterführende Themen
+
+* Hinweis: Der folgende Abschnitt des Dokuments technische und fortgeschrittene Themen abdeckt, die von Vitalik Buterin Blogbeitrag auf [die Subjektivität / Ausnutzbarkeitsindex Tradeoff](https://blog.ethereum.org/2015/02/14/subjectivity) stammen. *
+
+### Was ist ein 51% Angriff, und wie man es nicht verhindern?
+
+Wenn jemand 51% der Slock Token zu erwerben war, konnte sie sich als Dienstleister stimmen, und dann 100% der Mittel auf eigene Rechnung schicken. Um dies zu verhindern, ist die Slock DAO kann sich im Verhältnis zu den Abstimmungsergebnisse zu spalten, die Angreifer mit ihren Mitteln und den Rest der Teilnehmer die Kontrolle über ihre eigenen zu verlassen. Aufgrund dieses Mechanismus gibt es keinen Anreiz, einen solchen Angriff auszuführen, da sie nicht nur unwirtschaftlich ist, sondern der Angreifer auch mit wertlosen Tokens aus dem eigenen Gabel des DAO geklebt werden.
+
 
 ### Warum gibt es nur eine einzige Service-Provider zu einem bestimmten Zeitpunkt?
 
-Aus Sicherheitsgründen. Um eine 51% Angriff zu verhindern, mussten wir die Regel, dass die DAO kann im Falle aufgeteilt präsentieren es keine gegenseitige
-Einigung über eine Auswahl eines Dienstanbieters, die wiederum entfernt alle Ansporn, noch versuchen, zu einem solchen Angriff zu bringen.
-Mit Platz für mehr als eine einzige Service-Provider würden dieses Failsafe negieren.
+Aus Sicherheitsgründen. Um eine 51% Angriff zu verhindern, mussten wir die Regel einzuführen, die die DAO bei aufteilen kann gibt es keine gegenseitigen Einvernehmen auf eine Auswahl eines Dienstleisters, der seinerseits einen Anreiz zu einem solchen Angriff auf einmal den Versuch, entfernt zu bringen . Mit Platz für mehr als einen einzigen Service-Provider würde negieren diese ausfallsicher.
 
-### Wie oft kann die DAO Änderung Dienstleister?
 
-Jederzeit.
+### Was ist der Prozess, eine neue Service-Provider für die Auswahl?
 
-### Was ist das Verfahren für die Auswahl eines neuen Service-Provider?
+Dies geschieht in zwei Schritten. Der erste Schritt ist eine einfache Abstimmung über die bestehenden Service-Provider behalten oder eine neue Wahl. Der zweite Schritt ist eine Bestätigung Abstimmung, wo die Minderheit, die vorherige Abstimmung verloren zu haben, aber komfortabel der Gewinner ist in der Tat nicht ein Angreifer kann neben der Mehrheit, um abstimmen zu vermeiden, dass die DAO aufzuteilen. Auf der anderen Seite, wenn die Minderheit tut vermutet eine 51% Angriff, es ist wichtig, damit es seine Fähigkeit zu halten mit ihrer Entscheidung zu haften die DAO zu spalten, effektiv jeden Angriff unrentabel machen.
 
-Dies erfolgt in zwei Schritten. Der erste Schritt ist eine einfache Stimmenmehrheit auf der Beibehaltung der bestehenden Dienstleister oder die Wahl eines neuen. Der zweite Schritt ist eine Bestätigung Abstimmung,
-wo die Minderheit, nachdem die vorherige Abstimmung verloren, aber komfortabel der Gewinner ist in der Tat nicht ein Angreifer,
-kann neben der Mehrheit, um abstimmen zu vermeiden Aufspaltung des DAO. Auf der anderen Seite, wenn die Minderheit hat den Verdacht hegt, eine 51% Angriff,
-es ist wichtig für sie, um seine Fähigkeit Stick mit ihrer Entscheidung, das DAO aufgeteilt zu halten, effektiv machen jeden Angriff unrentabel.
+
+### Ich dachte DAOs vollautomatische wurden, warum nennt man dies eine DAO?
+
+Slock.it GmbH befindet sich auf einem DAO Aufbau, das heißt, der erste Vorschlag zur DAO ein Angebot gehören zur kontinuierlichen Verbesserung der eigenen Codebasis des DAO beziehen.
+
+Version 1 des DAO (am Ende der Vorverkauf), die zwar nicht völlig autonom in dem Sinne, dass Halter Token wird zu 100% die Kontrolle zu behalten, stellt nach wie vor eine deutlich bessere Kapitalbeschaffung Prozess als eine herkömmliche "Krypto-Kickstarter". Auf längere Sicht eine Version 2 könnte der Anteil der Transaktionen sehen an den DAO geht zurück durch einen schmalen AI dynamische und orchestriert werden, eine Senkung der Gebühr als mehr Slocks eingesetzt werden, oder es, wenn in der Notwendigkeit, weitere Mittel zu erhöhen - eine wirksam würde automatisieren die dezentrale Organisation. Ein solcher Schalter würde durch die DAO-Token Halter jedoch zunächst eine Abstimmung erforderlich ist.
+
+
+### Warum haben Sie zu abstrahieren, die Betriebsparameter des DAO wählen?
+
+Sie fragen sich vielleicht, warum die Betriebsparameter des DAO haben als Teil einer Reihe von Smart-Vertrag zwischen der DAO und seine Dienstleister abstrahiert worden. Dies liegt daran, die DAO 100% der Mittel von Tag halten wird ein und hatte unveränderlich Code-weise durchgeführt werden, während zur gleichen Zeit zu halten, genug Flexibilität, um zur Einstellung und Entlassung Dienstleister.
+
+Mit diesem Modell können wir garantieren, dass der Kern DAO-Code selbst (der Teil, der die Mittel hält) werden nur selten, wenn überhaupt aktualisiert werden müssen. Damit schnell auf Marktveränderungen anzupassen, stimmen die DAO auf Angebote und könnte sogar Dienstleistern ändern. Das bedeutet, die DAO wird weiterhin möglich sein, nicht nur die Betriebsparameter von ihren Beziehungen zu Lieferanten beeinflussen, sondern auch völlig Geschäftsmodelle ändern, wenn nötig.

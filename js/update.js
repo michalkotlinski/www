@@ -1,31 +1,30 @@
 
 /// <reference path="../typings/node/node.d.ts" />
 
-var fs = require("fs");
-var path = require("path");
 var langs = [
   ['index.html'   ,'img/icon_en.png','english'], 
   ['index_de.html','img/icon_de.png','german'], 
   ['index_zh.html','img/icon_zh.png','chinese'] 
 ];
+
 var rootDir = process.argv[2] || ".";
+var fs      = require("fs");
+var path    = require("path");
 
 
-function getLang(name) {
-   return  name.match(/.*_[a-z]{2}\.html/) ? name.substring(name.lastIndexOf('_')) : "_en_";
-}
+function getLang(name) {   return name.match(/.*_[a-z]{2}\.html/) ? name.substring(name.lastIndexOf('_')) : "_en_";   }
 
 function getIndexFile(name) {
    for (var i=0;i<langs.length;i++) {
-      if (langs[i][0]==name) return name;
-      if (getLang(name)==getLang(langs[i][0])) return langs[i][0];
+      if (langs[i][0]   == name) return name;
+      if (getLang(name) == getLang(langs[i][0])) return langs[i][0];
    }
    return langs[0][0];
 }
+
 function getLangHtml(fname) {
-   // include the languages
    var html="";
-   if (fname.indexOf("/")>0) fname = fname.substring(fname.lastIndexOf("/")+1);
+   if (fname.indexOf("/")>0)   fname = fname.substring(fname.lastIndexOf("/")+1);
    langs.forEach(function(l){
       if (getLang(l[0]) != getLang(fname || "index.html")) 
          html+='<a href="'+l[0]+'"><img src="'+l[1]+'" width="18" align="top"  title="'+l[2]+'"></a>&nbsp;';
@@ -45,19 +44,21 @@ function replaceLanguages(content, file, div) {
    return start>0 ? content.substring(0,start)+div+ getLangHtml(file)+content.substring(end) : content;
 }
 
-function replaceIncludes(template, content, file) {
-   var startPattern=/<!\-\-include ([a-zA-Z_\-]+) \-\->/g;
-   var marks = [], srcContent = content;
+function findIncludeMarks(content) {
+   var startPattern = /<!\-\-include ([a-zA-Z_\-]+) \-\->/g;
+   var marks        = [];
    var found;
-   while ((found = startPattern.exec(content))!==null) 
-      marks.push(found[0]);
-   
-   marks.forEach(function(mark){
+   while ((found = startPattern.exec(content))!==null)   marks.push(found[0]);
+   return marks;
+}
+
+
+function replaceIncludes(template, content, file) {
+   var srcContent = content;
+   findIncludeMarks(content).forEach(function(mark){
       var src   = getContent(template,mark);
-      var start = content.indexOf(mark);
-      var end   = content.indexOf(mark.replace("include","/include"));
       if (src) 
-        content = content.substring(0,start)+src+content.substring(end);
+        content = content.substring(0,content.indexOf(mark))+src+content.substring(content.indexOf(mark.replace("include","/include")));
    });
    
    content = replaceLanguages(content, file, '<div class="lang-menu slock-lang">');
@@ -72,7 +73,6 @@ function replaceIncludes(template, content, file) {
 
 function updateFile(file) {
    if (file.indexOf(".html")<0) return;
-   console.log(file);
    fs.readFile(path.join(rootDir,file),"utf-8",function(err,data){
       var template = getIndexFile(file);
       if (template)
@@ -82,8 +82,5 @@ function updateFile(file) {
    });
 }
 
-fs.readdir(rootDir, function(err,files) {
-   files.forEach(updateFile);
-   // run again in case we changed index-files
-});
+fs.readdir(rootDir, function(err,files) {   files.forEach(updateFile);   });
 

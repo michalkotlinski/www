@@ -25,7 +25,7 @@ Slock.it strives to improve the experience of sharing items by:
 
 If it can be locked, it can be Slocked!
 
-For a good introduction to our vision, please see Christoph Jentzsch's [introductory blog post](https://blog.Slock.it/Slock-it-blog/Slock-it-decentralizing-the-emerging-sharing-economy-cf19ce09b957#.4j2mtca7t).
+For a good introduction to our vision, please see Christoph Jentzsch's [introductory blog post](https://blog.slock.it/slock-it-decentralizing-the-emerging-sharing-economy-cf19ce09b957#.jsk2bdps5).
 
 
 ### Who is Slock.it's potential market?

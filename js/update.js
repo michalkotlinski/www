@@ -5,6 +5,7 @@ var fs = require("fs");
 var path = require("path");
 var langs = [
   ['index.html'   ,'img/icon_en.png','english'], 
+  ['index_de.html','img/icon_de.png','german'], 
   ['index_zh.html','img/icon_zh.png','chinese'] 
 ];
 var rootDir = process.argv[2] || ".";

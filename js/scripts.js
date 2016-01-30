@@ -476,7 +476,7 @@ $(window).load(function(){
 			iFrame.contents().find('#mce-FNAME, #fieldName').val(userFullName);		
 			iFrame.contents().find('form').attr('target', '_blank').submit();
 		}
-		return false;
+		return true;
 	});
 	
 	// Blog Masonry
@@ -576,22 +576,5 @@ $(document).ready(function(){
             });
             blogs.html(content);
          }});
-         
-    // include the languages
-    var html="";
-    var fname = window.location.pathname;
-    if (fname.indexOf("/")>0) fname = fname.substring(fname.lastIndexOf("/")+1);
-
-    function getLang(name) {
-       return name.indexOf('_')>0 ? name.substring(name.indexOf('_')) : "_en_";
-    }
-    
-    [
-      ['index.html','img/icon_en.png','english'], 
-      ['index_zh.html','img/icon_zh.png','chinese'] 
-    ].forEach(function(l){
-       if (getLang(l[0]) != getLang(fname || "index.html")) 
-          html+='<a href="'+l[0]+'"><img src="'+l[1]+'" width="18" align="top"  title="'+l[2]+'"></a>&nbsp;';
-    });
-    $(".slock-lang").html(html);
+   
 });

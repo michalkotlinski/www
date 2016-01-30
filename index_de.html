@@ -1,4 +1,4 @@
-<!-- live v1.1.2 -->
+<!-- live v1.3 -->
 
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -7,12 +7,29 @@
 <!--[if gt IE 8]><!--> 
 <html class="no-js"> <!--<![endif]-->
     <head>
-        <meta charset="utf-8">
-        <title>Slock.it</title>
-        <meta http-equiv="content-language" content="de">
+        <title>Slock.it - Blockchain + IoT</title>
+
+        <!--include head -->
         <meta name="description" content="Rent, sell or share anything. Powered by IoT + Blockchain">
+        <meta charset="utf-8">
+        <meta http-equiv="content-language" content="de">
+        <meta http-equiv="language" content="DE">
+
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <meta property="og:site_name" content="http://slock.it"/>
+        <meta property="og:title" content="Slock.it" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="http://slock.it/img/logo.png"/>
+        <meta property="og:site_name" content="slock.it"/>
+        
+        <meta name="og:site_name" content="http://slock.it"/>
+        <meta name="og:title" content="Slock.it" />
+        <meta name="og:type" content="website" />
+        <meta name="og:image" content="http://slock.it/img/logo.png"/>
+        <meta name="og:site_name" content="slock.it"/>
+        
         <link href="css/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/line-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
@@ -20,7 +37,6 @@
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/theme-aquatica.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>
-
         <!--[if gte IE 9]>
         	<link rel="stylesheet" type="text/css" href="css/ie9.css" />
 		<![endif]-->
@@ -28,52 +44,28 @@
         <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
         <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic" rel="stylesheet" type="text/css">
         <link href="css/font-lato.css" rel="stylesheet" type="text/css">
+        <!--/include head -->
     </head>
 
     <body>
 
-		   
-<!-- 		<div class="loader">
-	    	<div class="spinner">
-			  <div class="double-bounce1"></div>
-			  <div class="double-bounce2"></div>
-			</div>
-	    </div>  -->
-	   
 
+    <!--include nav -->
 
-		<!-- ****************************************** -->
-		<!-- *******          HEADER NAV       ******** -->
-		<!-- ****************************************** -->		
 		<div class="nav-container">
-			<nav class="simple-bar top-bar">
+			<nav class="top-bar overlay-bar">
 				<div class="container">
 				
-					<div class="row nav-menu">
-						<div class="col-md-3 col-sm-3 columns">
-							<a href="index.html"><img class="logo logo-dark" alt="Slock.it Logo" src="img/slockit_text_logo.png"></a>
-						</div>
-					
-						<div class="col-md-9 col-sm-9 columns text-right">
-							<ul class="menu">
-								<li><a href="https://blog.slock.it" target="_new">Blog</a></li>
-								<li><a href="faq_de.md">FAQ</a></li>
-								<li><a href="index.html#product">Produkt</a></li>
-								<li><a href="index.html#presale">Presale</a></li>
-								<li><a href="index.html#team">Team</a></li>
-								<li><a href="index.html#roadmap">Roadmap</a></li>
-								<li><a href="index.html#contact">Kontakt</a></li>
-								<li class="has-dropdown">
-                           <a href="#"><img src="img/icon_de.png" width="18" align="top"  title="german"></a>
-                           <ul class="subnav">
-										<li><a href="index.html"><img src="img/icon_en.png" width="18" align="top"  title="english"></a></li>
-										<li><a href="index_fr.html"><img src="img/icon_fr.png" width="18" align="top"  title="french"></a></li>
-										<li><a href="index_zh.html"><img src="img/icon_zh.png" width="18" align="top"  title="chinese"></a></li>
-									</ul>
-                        </li>
-							</ul>
-		
+					<div class="row utility-menu">
+						<div class="col-sm-12">
+							<div class="utility-inner clearfix">
+
 							<ul class="social-icons text-right">
+
+								<li>
+									<script async defer src="http://slock.it:3000/slackin.js"></script>
+								</li>
+
 								<li>
 									<a href="https://github.com/slockit/" target="_new">
 										<img src="img/icon_github.png" width="18" align="bottom"></i>
@@ -93,13 +85,13 @@
 								</li>
 							
 								<li>
-									<a href="https://www.youtube.com/channel/UCPOrzp3CZmdb5HJWxSjv4Ig" target="_new">
+									<a href="https://www.youtube.com/+SlockItproject" target="_new">
 										<i class="icon social_youtube text-youtube"></i>
 									</a>
 								</li>
 
 								<li>
-									<a href="https://plus.google.com/u/0/118110149516167471388/posts" target="_new">
+									<a href="https://plus.google.com/+SlockItproject" target="_new">
 										<i class="icon social_googleplus text-googleplus"></i>
 									</a>
 								</li>
@@ -110,8 +102,33 @@
 									</a>
 								</li>
 
-
 							</ul>
+							
+								<div class="menu pull-right slock-lang"><a href="index_zh.html"><img src="img/icon_zh.png" width="18" align="top"  title="chinese"></a>&nbsp;</div>
+
+							</div>
+						</div>
+					</div>
+				
+				
+					<div class="row nav-menu">
+						<div class="col-md-2 col-sm-3 columns">
+							<a href="index.html"><img class="logo logo-dark" alt="Slock.it Logo" src="img/slockit_text_logo.png"></a>
+							<a href="index.html"><img class="logo logo-light" alt="Slock.it Logo" src="img/slockit_text_logo.png"></a>
+						</div>
+					
+						<div class="col-md-10 col-sm-9 columns">
+							<ul class="menu pull-right">
+								<li><a href="https://blog.slock.it" target="_new">Blog</a></li>
+								<li><a href="faq.md">FAQ</a></li>
+								<li><a href="ethereum_computer.html">Ethereum Computer</a></li>
+								<li><a href="dao.html">DAO</a></li>
+								<li><a href="presale.html">Presale</a></li>
+						 		<li><a href="team.html">Team</a></li>
+								<li><a href="roadmap.html">Roadmap</a></li>
+								<li><a href="index.html#contact">Kontakt</a></li>
+							</ul>
+                     <div class="lang-menu slock-lang"><a href="index_zh.html"><img src="img/icon_zh.png" width="18" align="top"  title="chinese"></a>&nbsp;</div>
 						</div>
 					</div>
 					
@@ -123,16 +140,15 @@
 			</nav>
 		
 		</div>
+    <!--/include nav -->
+
+
 
 
 
 
 		<div class="main-container">
-      <!-- content_start -->
-
-
-        
-
+      	<!-- content_start -->
 
 
 			<!-- ****************************************** -->
@@ -172,6 +188,7 @@
 			<section class="clients-2">
 				<div class="container">
 					<div class="row">
+
 						<span class="sub alt-font">as seen on</span><br>
 
 						<div class="col-md-2 col-sm-4">
@@ -199,11 +216,71 @@
 						</div>
 
 					</div>
+
+					<div class="row">
+
+						<div class="col-md-2 col-sm-4">
+							<a href="http://www.nesta.org.uk/2016-predictions/titans-sharing-economy-meet-match" target="_new"><img alt="" src="img/press_logos/nesta.png"></a>
+						</div>
+						
+						<div class="col-md-2 col-sm-4">
+							<a href="https://www.youtube.com/watch?v=FfIDvdhAizo" target="_new"><img alt="" src="img/press_logos/epicenter_bitcoin.png"></a>
+						</div>
+						
+						<div class="col-md-2 col-sm-4">
+							<a href="http://postscapes.com/iot-voices/interviews/smart-devices-ethereum-stephan-tual/" target="_new"><img alt="" src="img/press_logos/postscapes_logo.png"></a>
+						</div>
+						
+						<div class="col-md-2 col-sm-4">
+							<a href="http://www.lesechos.fr/tech-medias/hightech/021617233641-ces-start-up-qui-misent-sur-la-technologie-blockchain-1192251.php" target="_new"><img alt="" src="img/press_logos/les_echos.png"></a>
+						</div>
+						
+						<div class="col-md-2 col-sm-4">
+							<a href="https://news.bitcoin.com/iot-startup-ethereum-computer-going-change-everything/" target="_new"><img alt="" src="img/press_logos/bitcoin_com.png"></a>
+						</div>
+
+						<div class="col-md-2 col-sm-4">
+							<a href="http://nipcast.com/nipdev-38-blockchain-et-philosophie-avec-stephan-tual/" target="_new"><img alt="" src="img/press_logos/nipcast.png"></a>
+						</div>
+
+					</div>
 				</div>
 			</section>
 			
 
 
+
+
+
+
+
+
+
+
+
+
+			<!-- ****************************************** -->
+			<!-- *******          MAILCHIMP        ******** -->
+			<!-- ****************************************** -->
+			<section class="strip bg-primary">
+				<div class="container">
+					<div class="row clearfix">
+						<form  action="http://slock.us12.list-manage.com/subscribe/post?u=17331514871c4dda21f40c7e5&amp;id=b86ac66b6d" method="post" target="_blank"  class="mail-list-signup">
+							<div class="col-sm-9 col-xs-12 pull-left clear-fix">
+								<h3 class="text-white pull-left"><strong>Never miss a beat:&nbsp;</strong></h3>
+								<input  type="email" value="" name="EMAIL"  id="mce-EMAIL"  class="signup-email-field validate-required validate-email" placeholder="Enter your email here">
+							</div>
+							
+							<div class="col-sm-3 col-xs-12 pull-right text-right">
+								<input type="submit" class="btn btn-primary btn-filled" value="Subscribe">
+							</div>
+						</form>
+					</div>
+					
+				</div>
+				<iframe class="mail-list-form" srcdoc="">
+				</iframe>
+			</section>
 
 
 
@@ -218,7 +295,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="content col-sm-8 clearfix col-md-9">
-							<h1>Neues von Slock.it</h1>
+							<h1>Latest News from Slock.it labs</h1>
 		
 							<ul class="blog-snippet-2" id="rss_blog">
 								<li>
@@ -226,8 +303,35 @@
 										<i class="icon icon-newspaper"></i>
 									</div>
 									<div class="title">
+										<a href="https://blog.slock.it/we-re-building-the-ethereum-computer-9133953c9f02#.433wplpej" target="_new" style="font-size: 16px;">We’re building the Ethereum Computer</a>
+										<span class="sub alt-font">Published on December 9th 2015</span>
+									</div>
+								</li>
+								<li>
+									<div class="icon">
+										<i class="icon icon-genius"></i>
+									</div>
+									<div class="title">
+										<a href="https://blog.slock.it/creator-of-solidity-joins-slock-it-team-as-advisor-76b77d0aa459#.65lihrh8o" target="_new" style="font-size: 16px;">Creator of Solidity joins Slock.it Team as Advisor</a>
+										<span class="sub alt-font">Published on December 16th 2015</span>
+									</div>
+								</li>
+								<li>
+									<div class="icon">
+										<i class="icon icon-genius"></i>
+									</div>
+									<div class="title">
+										<a href="https://blog.slock.it/you-know-him-as-lefterisjp-today-lefteris-karapetsas-is-joining-slock-it-3a30683ca4f3#.abtt9mmie" target="_new" style="font-size: 16px;">Welcome, Lefteris</a>
+										<span class="sub alt-font">Published on December 11th 2015</span>
+									</div>
+								</li>
+								<li>
+									<div class="icon">
+										<i class="icon icon-genius"></i>
+									</div>
+									<div class="title">
 										<a href="https://blog.slock.it/former-ethereum-cco-stephan-tual-joins-slock-it-team-9fd956f2408#.w5v3857ht" target="_new" style="font-size: 16px;">Former Ethereum CCO Stephan Tual joins Slock.it Team.</a>
-										<span class="sub alt-font">veröffentlicht am 9. November 2015</span>
+										<span class="sub alt-font">Published on November 9th 2015</span>
 									</div>
 								</li>
 								
@@ -237,7 +341,7 @@
 									</div>
 									<div class="title">
 										<a href="https://blog.slock.it/decentralized-sharing-economy-to-be-revealed-at-leading-blockchain-conference-f419f15beb7f#.sdphsvu2t" target="_new" style="font-size: 16px;">Decentralized Sharing Economy to be revealed at leading Blockchain Conference</a>
-										<span class="sub alt-font">veröffentlicht am 3. November 2015</span>
+										<span class="sub alt-font">Published on November 3rd 2015</span>
 									</div>
 								</li>
 								
@@ -247,13 +351,13 @@
 									</div>
 									<div class="title">
 										<a href="https://blog.slock.it/slock-it-decentralizing-the-emerging-sharing-economy-cf19ce09b957#.d4degbz13" target="_new" style="font-size: 16px;">Decentralizing the Emerging Sharing Economy</a>
-										<span class="sub alt-font">veröffentlicht am 3. June 2015</span>
+										<span class="sub alt-font">Published on June 3rd 2015</span>
 									</div>
 								</li>
 							</ul>	
 							<br><br>
-							<a href="https://blog.slock.it" target="_new" class="btn btn-primary">Mehr</a> 
-							<a href="faq_de.md" class="btn btn-primary btn-text-only">Lesen Sie unsere FAQ</a>
+							<a href="https://blog.slock.it" target="_new" class="btn btn-primary">More articles</a> 
+							<a href="faq.md" class="btn btn-primary btn-text-only">Read our FAQ</a>
 						</div>
 
 					
@@ -279,40 +383,6 @@
 
 
 
-			<!-- ******************************************** -->
-			<!-- *******              SHS            ******** -->
-			<!-- ******************************************** -->
-			<a name="product"></a>
-			<section class="inline-image-right">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-6 align-vertical no-align-mobile">
-							<h1>Der Ethereum Computer</h1>
-							<h6>ein sicheres Tor zum Web 3.0</h6>
-							<p class="lead">
-                        Eine kleiner, vorinstallierter und vorkonfigurierter Home-Server, auf dem sowohl eine optimierte Ethereum-Node, wie auch viele dezentralisierte Apps laufen, 
-                        z.B.: ein web3 ID Vault, Schnittstellen zu vielen Geräten, wie auch innovative Software einschließlich eines IPFS Servers, mit dem sogaer ein paar Ether verdienen könnte.
-                        <br><br>
-                        Unsere erste Version des Ethereum Computers wird eine kryptographisch sicheren Umgebung sein, welche Heimautomatisierung neu definiert und trotzdem populäre Protokolle wie Z-Wave und ZigBee unterstützt und es damit ermöglicht das Haus oder Büro zu vermieten.
-                        <br><br>
-                        Der Ethereum Computer bringt Smart Contracts in ihr Haus, die sich sicher in alle Geräte integrieren lassen um sie bequem mit jedem SmartPhone oder PC steuern zu können. <br><br>
-							</p>
-						</div>
-						
-						<div class="col-sm-6 text-center">
-							<img alt="Product Image" class="product-image" src="img/ethereum_computer.png">
-						</div>
-					</div>
-				</div>
-			</section>
-			
-
-
-
-
-
-
-
 
 
 
@@ -326,6 +396,7 @@
 						<div class="col-sm-12">
 							<div class="testimonials-slider text-center">
 								<ul class="slides">
+
 									<li>
 										<p class="text-white lead">"We think of IoT as an extended new vertical for network infrastructure. We know it's going to be the backbone for a lot of the data that needs to transact in the cloud for smart cities, fleet management, etc"</p>
 										<span class="author text-white">Ed Ruth - Director, Verizon Ventures</span>
@@ -335,20 +406,53 @@
 										<p class="text-white lead">A low-cost, private-by-design “democracy of devices” will emerge that will enable new digital economies and create new value, while offering consumers and enterprises fundamentally better products and UX.</p>
 										<span class="author text-white">Device Democracy - SIBM Institute for Business Value</span>
 									</li>
-									
-									<!-- 
-									<li>
-										<p class="text-white lead">The plethora of content blocks available in Pivot has made it my go-to template of choice. I've already used it for a number of clients - all of which have been thrilled with the outcome. Well done Medium Rare!</p>
-										<span class="author text-white">Toby Whittaker - Design Dojo</span>
-									</li> 
-									-->
+								
 								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
+
+
+
+
+
+
+			<!-- ******************************************** -->
+			<!-- *******           PARTNERS          ******** -->
+			<!-- ******************************************** -->
 			
+			<section class="clients">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">
+							<h1>Amazing Partners</h1>
+							<p class="lead">Slock.it is proud to work with industry leaders to integrate smart contract technology as part of every day items.</p>
+						</div>
+					</div>
+					
+					<div class="row client-row">
+						<div class="row-wrapper">
+							<div class="col-sm-4 text-center">
+								<img alt="client" src="img/partner_logos/safeshare.png">
+							</div>
+						
+							<div class="col-sm-4 text-center">
+								<img alt="client" src="img/partner_logos/ipfs.png">
+							</div>
+						
+							<div class="col-sm-4 text-center">
+								<img alt="client" src="img/partner_logos/shapeshift.png">
+							</div>
+						
+						</div>
+					</div>
+					
+				</div>
+			</section> 
+			
+
 
 
 
@@ -366,10 +470,10 @@
 						<div class="col-md-5 col-sm-12">
 							<h1 class="space-bottom-medium">Slock.it in 3 minutes: demo</h1>
 							<p class="lead space-bottom-medium">
-								Christoph Jentzsch demonstriert das Mieten und Öffnen eines SmartLocks basierend auf der Blockchain auf der London Ethereum Devcon One conference.
+								Founder Christoph Jentzsch demonstrates renting and opening a smart door lock with the Blockchain at the London Ethereum Devcon One conference.
 							</p>
-							<a href="faq_de.md" class="btn btn-primary">Häufige Fragen</a>
-							<a href="https://www.youtube.com/channel/UCPOrzp3CZmdb5HJWxSjv4Ig" class="btn btn-primary btn-text-only" target="_new">More Videos</a>
+							<a href="faq.md" class="btn btn-primary">Read our FAQ</a>
+							<a href="https://www.youtube.com/+SlockItproject" class="btn btn-primary btn-text-only" target="_new">More Videos</a>
 							
 						</div>
 						
@@ -389,651 +493,6 @@
 
 
 
-
-
-
-
-			<!-- ******************************************** -->
-			<!-- *******        MOBILE APP           ******** -->
-			<!-- ******************************************** -->
-			<section class="feature-divider">
-				
-				<div class="background-image-holder">
-					<img class="background-image" alt="Background Image" src="img/grey-bg.jpg">
-				</div>
-				
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-5">
-							<h1>Find, rent and control any Slock from your smartphone</h1>
-							<p class="lead">
-                        Alles, was sie vermieten wollen ist überall in der Welt verfügbar.<br><br>
-                        Sie können jemanden einen Zugang zu ihrer Wohnung gewähren, ihren Schuppen abschließen oder Werkzeuge vermietbar machen durch diese innovative App. 
-                        Vollkommene Kontrolle über ihre Eigentumsrechte. 
-							</p>
-							<a class="store-link" href=""><img alt="Buy On App Store" src="img/app-store.png"></a>
-							<a class="store-link" href=""><img alt="Buy On App Store" src="img/google-play.png"></a>
-						</div>
-						
-						
-						<div class="col-sm-7">
-							<img alt="App Screenshot" src="img/app.png">
-						</div>
-					</div>
-				</div>
-				
-			</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-			<!-- ******************************************** -->
-			<!-- *******        FIRST DAO            ******** -->
-			<!-- ******************************************** -->
-			<section class="side-image clearfix">
-				<div class="image-container col-md-5 col-sm-4 pull-left">
-					<div class="background-image-holder">
-						<img class="background-image" alt="Background Image" src="img/dao.jpg">
-					</div>
-				</div>
-				
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-6 col-sm-7 col-sm-offset-5 content clearfix">
-							<h1>Governed by a DAO</h1>
-							<h6>A new technology for a new economy</h6>
-							<p class="lead">
-								The Slock.it DAO will issue tokens to those who helped bring the project to life, granting rewards when smart objects and property are put to use.
-							</p>
-						
-							<div class="row">
-								<div class="col-md-6 no-pad-left">
-									<div class="feature feature-icon-left">
-										<div class="icon-holder">
-											<i class="icon icon-magnifying-glass"></i>
-										</div>
-										<div class="feature-text">
-											<h6>Transparent</h6>
-											<p>
-												Slock.it is a DAO, or Decentralized Autonomous Organization, a digital company with its by-laws set immutably within the Blockchain. It's the most transparent form of organization there can be.
-											</p>
-										</div>
-									</div>
-								</div>
-						
-								<div class="col-md-6 no-pad-left">
-									<div class="feature feature-icon-left">
-										<div class="icon-holder">
-											<i class="icon icon-refresh"></i>
-										</div>
-										<div class="feature-text">
-											<h6>Integrated</h6>
-											<p>
-												Slock.it's very own token presale is itself governed by a smart contract, so you'll be able to track its progress on the Blockchain. Of course, it's all <a href="https://genius.it/github.com/slockit/smart-contract/blob/master/SlockDAO.sol" target="_new">open source</a>. 
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						
-							<div class="row">
-								<div class="col-md-6 no-pad-left">
-									<div class="feature feature-icon-left">
-										<div class="icon-holder">
-											<i class="icon icon-presentation"></i>
-										</div>
-										<div class="feature-text">
-											<h6>Rewarding</h6>
-											<p>
-												Backers of the project will be able to call the Slock.it DAO smart contract directly and receive their share of the rewards proportional to their contribution - at any time, and for ever.
-											</p>
-										</div>
-									</div>
-								</div>
-						
-								<div class="col-md-6 no-pad-left">
-									<div class="feature feature-icon-left">
-										<div class="icon-holder">
-											<i class="icon icon-happy"></i>
-										</div>
-										<div class="feature-text">
-											<h6>Simple</h6>
-											<p>
-												The Slock.it smart contract is embedded on the Ethereum blockchain, and operates entirely autonomously and 'trustlessly'. To make it easier to read, we will annotate it with Genius (<a href="https://genius.it/github.com/slockit/smart-contract/blob/master/BasicSlock.sol" target="_new">1</a>, <a href="https://genius.it/github.com/slockit/smart-contract/blob/master/SubUser.sol" target="_new">2</a>)</a>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-					
-						</div>
-					</div>
-				</div>
-			</section>
-			
-
-
-
-
-
-			<!-- ****************************************** -->
-			<!-- *******          PRESALE          ******** -->
-			<!-- ****************************************** -->
-			<a name="presale"></a>
-			<section class="pure-textcontact">
-
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center" style="margin-top:80px; margin-bottom:50px;">
-							
-							
-							<h1 class="">The Slock token presale will be announced shortly</h1>
-							<h6 class="">To be notified, sign up to our mailing list (easy unsubscribe available)</h6>
-
-							
-							<div id="mc_embed_signup" class="photo-form-wrapper clearfix space-top-small space-bottom-none">
-								<form action="http://slock.us12.list-manage.com/subscribe/post?u=17331514871c4dda21f40c7e5&amp;id=b86ac66b6d" method="post" target="_blank">
-									
-									<div class="row">
-										<div class="col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4 text-center">
-											<input type="email" value="" name="EMAIL" class="signup-email-field validate-required validate-email" type="email" required id="mce-EMAIL" placeholder="Your Email Address">
-										</div>
-
-<!-- 									<div id="mce-responses" class="clear">
-											<div class="response" id="mce-error-response" style="display:none"></div>
-											<div class="response" id="mce-success-response" style="display:none"></div>
-										</div> -->
-
-									    <div style="position: absolute; left: -5000px;"><input type="text" name="b_17331514871c4dda21f40c7e5_b86ac66b6d" tabindex="-1" value=""></div>
-									</div>    
-									
-
-									<div class="row space-bottom-none">
-										<input type="submit" value="Get Notified" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-filled">
-									</div><br>
-	
-								</form>						
-							</div>
-
-							in partnership with 
-
-							<a href="https://shapeshift.io/" target="_new"><img alt="Shapeshift logo" src="img/shapeshift.png" width="300"></a>
-
-						</div>
-					</div>
-		
-				</div>
-			</section>
-
-			
-
-
-
-
-
-
-			<!-- ******************************************** -->
-			<!-- *******         AVSA INTERVIEW      ******** -->
-			<!-- ******************************************** -->
-			<section class="video-inline">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-5">
-							<div class="media-holder">
-								<iframe width="100%" height="315" src="http://www.youtube.com/embed/85i3bAWxn0E?showinfo=0&amp;rel=0&amp;modestbranding=1" frameborder="0" allowfullscreen="">
-								</iframe>
-							</div>
-						</div>
-
-						<div class="col-md-1"></div>
-
-						<div class="col-md-6">
-							<h1 class="space-bottom-medium">Acknowledged by Experts</h1>
-							<p class="lead space-bottom-medium">
-								Hear what Alex van de Sande, Chief Designer at Ethereum for the Mist project, had to say about Slock.it while at the Ethereum London Devcon One conference.
-							</p>
-							<a href="faq_de.md" class="btn btn-primary">Read our FAQ</a>
-							<a href="https://www.youtube.com/channel/UCPOrzp3CZmdb5HJWxSjv4Ig" class="btn btn-primary btn-text-only" target="_new">More Videos</a>
-						</div>
-						
-			
-					</div>
-				</div>
-			</section>
-
-
-
-
-
-
-
-
-
-
-
-			<!-- ******************************************** -->
-			<!-- *******          DEVELOPMENT        ******** -->
-			<!-- ******************************************** -->
-			<section class="side-image text-heavy clearfix">
-				<div class="image-container col-md-5 col-sm-3 pull-left">
-					<div class="background-image-holder">
-						<img class="background-image" alt="Background Image" src="img/developers.jpg">
-					</div>
-				</div>
-				
-				<div class="container">
-					
-					<div class="row">
-						
-						<div class="col-md-6 col-md-offset-6 col-sm-8 col-sm-offset-4 content clearfix">
-							<h1>Developer Friendly</h1>
-							<p class="lead">
-								Because Slock.it integrates with Raspberry Pis, Beagleboards and even the tiny Intel Edison, any developer can build with Slock.it as part of their project.<br><br>
-								The Slock.it stack is completely open-source: our modular, event based framework can be extended to control smart contracts driven embedded devices on the Ethereum blockchain.
-							</p>
-							<a href="https://github.com/slockit/slock-js" class="btn btn-primary" target="_new">Fork us on Github</a><br>
-							<div class="col-sm-6 no-pad-left feature">
-								<h5>Intuitive</h5>
-								<p>
-									We are developing a simple and clear API that abstract the complexities of the Blockchain, making it straightforward to connect objects.
-								</p>
-							</div>
-							
-							<div class="col-sm-6 no-pad-left feature">
-								<h5>Open</h5>
-								<p>
-									We welcome developers to join us in developing modules and connectors to control new devices on our <a href="https://github.com/slockit/slock-js" target="_new">Github</a>.
-								</p>
-							</div>
-						</div>
-						
-					</div>
-					
-				</div>
-			</section>
-						
-
-
-
-
-
-
-			<!-- ******************************************** -->
-			<!-- *******           PARTNERS          ******** -->
-			<!-- ******************************************** -->
-			<!--
-			<section class="clients">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12 text-center">
-							<h1>Amazing Partners</h1>
-							<p class="lead">Slock.it is proud to work hand in hand with the IoT industry leaders to integrate smart contract technology as part of every day items. </p>
-						</div>
-					</div>
-					
-					<div class="row client-row">
-						<div class="row-wrapper">
-							<div class="col-sm-3 text-center">
-								<img alt="client" src="img/partner_generic.png">
-							</div>
-						
-							<div class="col-sm-3 text-center">
-								<img alt="client" src="img/partner_generic.png">
-							</div>
-						
-							<div class="col-sm-3 text-center">
-								<img alt="client" src="img/partner_generic.png">
-							</div>
-						
-							<div class="col-sm-3 text-center">
-								<img alt="client" src="img/partner_generic.png">
-							</div>
-						</div>
-					</div>
-					
-					<div class="row client-row">
-						<div class="row-wrapper">
-							<div class="col-sm-3 text-center">
-								<img alt="client" src="img/partner_generic.png">
-							</div>
-						
-							<div class="col-sm-3 text-center">
-								<img alt="client" src="img/partner_generic.png">
-							</div>
-						
-							<div class="col-sm-3 text-center">
-								<img alt="client" src="img/partner_generic.png">
-							</div>
-						
-							<div class="col-sm-3 text-center">
-								<img alt="client" src="img/partner_generic.png">
-							</div>
-						</div>
-					</div>
-				</div>
-			</section> 
-			-->
-			
-
-
-
-
-
-			<!-- ******************************************** -->
-			<!-- *******       MANAGEMENT TEAM       ******** -->
-			<!-- ******************************************** -->
-			<a name="team"></a>
-			<section class="team-1 ">
-				<div class="container">
-					
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 text-center">
-							<h1>Management Team</h1>
-							<p class="lead">
-								Our management team has been around since the inception of the blockchain revolution, and with 50 years of combined IT expertise, we bring a pragmatic approach to building enterprise-grade solutions with this exciting technology.
-							</p>
-						</div>
-					</div>
-					
-					<div class="row space-bottom-medium">
-						<div class="col-sm-4">
-							<div class="team-1-member">
-								<img alt="Team Member" src="img/simon_jentzsch.jpg">
-								<h2>Simon Jentzsch</h2>
-								<h5>Founder & CEO</h5>
-								<ul class="social-icons">
-									<li>
-										<a href="https://github.com/slockit/" target="_new">
-											<img src="img/icon_github_social.png" width="19" align="bottom" style="margin-bottom:5px;"></i>
-										</a>
-									</li>
-									<li>
-										<a href="https://twitter.com/simon_jentzsch" target="_new">
-											<i class="icon social_twitter"></i>
-										</a>
-									</li>
-								
-									<li>
-										<a href="https://www.linkedin.com/in/simonjentzsch" target="_new">
-											<i class="icon social_linkedin"></i>
-										</a>
-									</li>
-								</ul>
-								<p class="space-top-small">
-									With prestigious clients including Siemens and Bahn AG, Simon has been deploying enterprise solutions for the last 20 years as Project manager, Developer and Software Architect. Simon is now leading the development of the foundation Slock.it framework, enforcing Ethereum smart contracts into the physical world.
-								</p>
-							</div>
-						</div>
-						
-						<div class="col-sm-4">
-							<div class="team-1-member">
-								<img alt="Team Member" src="img/christoph_jentzsch.jpg">
-								<h2>Christoph Jentzsch</h2>
-								<h5>Founder & CTO</h5>
-								<ul class="social-icons">
-									<li>
-										<a href="https://github.com/slockit/" target="_new">
-											<img src="img/icon_github_social.png" width="19" align="bottom" style="margin-bottom:5px;"></i>
-										</a>
-									</li>
-
-									<li>
-										<a href="https://twitter.com/ChrJentzsch" target="_new">
-											<i class="icon social_twitter"></i>
-										</a>
-									</li>
-								
-									<li>
-										<a href="https://de.linkedin.com/in/cjentzsch" target="_new">
-											<i class="icon social_linkedin"></i>
-										</a>
-									</li>
-								</ul>
-								<p class="space-top-small">
-									Christoph's background is in theoretical physics, where he developed optimized software solutions for high performance computing on specialized hardware. Christoph has been part of the Ethereum project since 2014 as Lead Tester, securing and shaping the core protocol while working on the backend of the C++ client.
-								</p>
-							</div>
-						</div>
-						
-						<div class="col-sm-4">
-							<div class="team-1-member">
-								<img alt="Team Member" src="img/stephan_tual.jpg">
-								<h2>Stephan Tual</h2>
-								<h5>Founder & COO</h5>
-								<ul class="social-icons">
-									<li>
-										<a href="https://twitter.com/stephantual" target="_new">
-											<i class="icon social_twitter"></i>
-										</a>
-									</li>
-								
-									<li>
-										<a href="https://uk.linkedin.com/in/stephantual" target="_new">
-											<i class="icon social_linkedin"></i>
-										</a>
-									</li>
-								</ul>
-								<p class="space-top-small">
-									Previously CCO for the Ethereum project, Stephan has three startups under his belt and brings 20 years of enterprise IT experience to the Slock.it project. Before discovering the Blockchain, Stephan held CTO positions at leading data analytics companies in London with clients including VISA Europe and BP.
-								</p>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</section>
-	
-
-
-
-
-
-
-
-
-			<!-- *************************************** -->
-			<!-- *******        TEAM       ******** -->
-			<!-- *************************************** -->
- 			<section class="team-1">
-				<div class="container">
-					
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 text-center">
-							<h1>World-class Team</h1>
-							<p class="lead">
-								We are slowly but surely building a team of recognized experts. If you have a background in advanced Electronic Engineering and a passion for blockchains, contact us with your CV. 
-							</p>
-						</div>
-					</div>
-					
-					<div class="row">
-
-						<div class="col-md-4"></div>
-		
-						<div class="col-md-2">
-							<div class="team-1-member">
-								<img alt="Team Member" class="background-image" src="img/griff_green.jpg" width="150">
-								<h5>Griff Green</h5>
-								<span>Community Organizer</span><br>
-								<ul class="social-icons">
-									<li>
-										<a href="https://twitter.com/thegrifft" target="_new">
-											<i class="icon social_twitter"></i>
-										</a>
-									</li>
-								
-									<li>
-										<a href="http://www.linkedin.com/in/GriffGreen" target="_new">
-											<i class="icon social_linkedin"></i>
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						
-						<div class="col-md-2">
-							<div class="team-1-member">
-								<a href="http://slock.it:3000" target="_blank"><img alt="Team Member" src="img/join_us.png" width="150"></a>
-								<h5>Join us!</h5>
-								<span>Chat Now</span>
-							</div>
-						</div>
-
-						<div class="col-md-4"></div>
-
-					</div>
-				</div>
-			</section> 
-
-
-
-
-
-
-
-			<!-- ****************************************** -->
-			<!-- *******          ROADMAP          ******** -->
-			<!-- ****************************************** -->
-			<a name="roadmap"></a>
-			<section class="timeline-1">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
-							<h1>Roadmap</h1>
-						</div>
-					</div>
-					
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="timeline-event">
-								<div class="col-sm-6 col-md-push-6">
-									<h2>June 2015</h2>
-									<h5>The Story Begins</h5>
-								</div>
-								
-								<div class="middle">
-									<i class="icon icon-telescope"></i>
-									<div class="vertical-line"></div>
-								</div>
-								
-								<div class="col-sm-6 col-md-pull-6">
-									<p>
-										From the day of the project's inception, our team will spend the following months in stealth mode relentlessly developing, building and testing prototypes. 
-									</p>
-								</div>
-								
-								
-							</div>
-							
-							<div class="timeline-event">
-								<div class="col-sm-6">
-									<h2>November 12th 2015</h2>
-									<h5>Slock.it Revealed</h5>	
-								</div>
-								
-								<div class="middle">
-									<i class="icon icon-streetsign"></i>
-									<div class="vertical-line"></div>
-								</div>
-								
-								<div class="col-sm-6">
-									<p>
-										The project is introduced at <a href="https://www.youtube.com/watch?v=49wHQoJxYPo" target="_new">Devcon One</a> in front of 400 blockchain developers and enthusiasts. Our first product, the SHS (now renamed the 'Ethereum Computer'), is announced, and demoed opening doors and powering up electrical appliances.
-									</p>
-									
-								</div>
-							</div>
-							
-							<div class="timeline-event">
-								<div class="col-sm-6 col-md-push-6">
-									<h2>Early 2016</h2>
-									<h5>Slock token presale</h5>
-								</div>
-								
-								<div class="middle">
-									<i class="icon icon-heart"></i>
-									<div class="vertical-line"></div>
-								</div>
-								
-								<div class="col-sm-6 col-md-pull-6">
-									<p>
-										An innovative presale to bootstrap the world's first DAO. Operating entirely autonomously and transparently, the DAO will elect a service provider to execute on a series of core objectives in the physical world, to be reviewed at regular intervals.
-									</p>
-								</div>
-								
-								
-							</div>
-							
-							<div class="timeline-event">
-								<div class="col-sm-6">
-									<h2>2017</h2>
-									<h5>Launch!</h5>	
-								</div>
-								
-								<div class="middle">
-									<i class="icon icon-global"></i>
-									<div class="vertical-line"></div>
-								</div>
-								
-								<div class="col-sm-6">
-									<p>
-										The first Slocks enter the market. To reward the participants who helped bring it to life, the DAO issued Slock Tokens granting rewards whenever Slocks are put to use. 
-									</p>
-									
-								</div>
-							</div>
-							
-						</div>
-					</div>
-					
-		
-				</div>
-			</section>
-			
-
-
-	
-
-
-			<!-- ****************************************** -->
-			<!-- *******       BRIGHT FUTURE       ******** -->
-			<!-- ****************************************** -->
-			<a id="inline-image-right" class="in-page-link"></a>
-			<section class="inline-image-right">
-				<div class="container">
-					<div class="row">
-					
-						<div class="col-sm-5 align-vertical no-align-mobile" >
-							<h1>A Bright Future</h1>
-							<h6>A World of a 100 Billion Devices</h6>
-							<p class="lead">
-								We started Slock.it with realistic targets and the simplest of all use cases: the humble lock, or ‘slock’, consuming very little of the processing power available to today's SoCs. 
-							</p>
-
-							<p class="lead">
-								Slock.it therefore lends itself very well to deeper IoT integration, both in the commercial and industrial sectors, where we are piloting networks of autonomous devices operating as part of an <a href="https://medium.com/ursium-blog/the-end-of-big-data-a-reasonable-internet-of-things-ff78a4428ed7#.w122umtnn" target="_new">Economy of Things</a>, engaging in contracts with each other, paying each other for their services, yet never having to be centrally managed.
-							</p>
-						</div>
-						
-						<div class="col-sm-5 text-center col-sm-offset-1">
-							<img alt="Product Image" class="product-image" src="img/soc.png">
-						</div>
-					</div>
-				</div>
-			</section>
-
-
-			
 			<!-- ************************************ -->
 			<!-- *******       CONTACT       ******** -->
 			<!-- ************************************ -->
@@ -1045,11 +504,10 @@
 
 						<div class="col-md-5">
 							<br><h1>Contact Us<br>
-							We'd love to hear your ideas</h1>
-							<p>
-								<br><br><br>
+							We'd love to hear from you</h1>
+							<p style="padding-top:40px">
 								Chat with us on Slack! <br/>
-						       <script async defer src="http://slock.it:3000/slackin.js"></script>                        
+						       <script async defer src="http://slock.it:3000/slackin.js?large"></script>                        
 							</p>
 						</div>
 					
@@ -1101,8 +559,8 @@
 										<a href="mailto:info@slock.it">info@slock.it</a><br>
 									</p>
 									<p>
-										Mittweida<br>
-										Germany<br>
+										Company Registration: HRB 30026<br>
+										Schillerstr. Mittweida, Germany<br>
 										<img src="img/german_flag.png" width="20" style="margin-top: 10px">
 									</p>
 								</div>
@@ -1139,7 +597,7 @@
       <!-- content_end -->
 		</div>
 		
-
+    <!--include footer -->
 
 
 
@@ -1155,18 +613,19 @@
 					<div class="row">
 
 						<div class="col-sm-4">
-							<img alt="logo" class="logo" src="img/slockit_text_logo_small.png">
+							<img alt="logo" class="logo" src="img/slockit_text_logo_small.png"  style="margin-bottom: 43px">
 							<p>
-								Slock.it brings the benefits of the Blockchain - transparency, security and auditablity - to real-word objects.<br><br> Our technology can be embedded in almost any device and the first prototypes are already in the hands of developers. 
+								Slock.it brings the benefits of the Blockchain - transparency, security and auditablity - to real-world objects.<br><br> Our technology can be embedded in almost any device and the first prototypes are already in the hands of developers. 
 							</p>
 							<br><br>
 							<img src="img/made_in_germany.png" width="150">
 						</div>
 						
+						<div class="col-sm-1"></div>
 
-						<div class="col-sm-3 col-sm-offset-1">
+						<div class="col-sm-3">
 
-							<h1>Contact</h1>
+							<h1 style="margin-bottom: 35px">Contact</h1>
 		
 							<a href="mailto:press@slock.it?subject=Press request">press@slock.it</a><br>
 							Press and graphic assets requests<br><br>
@@ -1178,10 +637,13 @@
 							For help regarding the Slock token presale<br><br>
 
 						</div>
-						
 
-						<div class="col-sm-4">
-							<h1>Connect with us</h1>
+						
+						<div class="col-sm-1"></div>
+
+
+						<div class="col-sm-3 ">
+							<h1 style="margin-bottom: 35px">Connect with us</h1>
 							<ul class="social-icons">
 								<li>
 									<a href="https://github.com/slockit/" target="_new">
@@ -1202,13 +664,13 @@
 								</li>
 								
 								<li>
-									<a href="https://www.youtube.com/channel/UCPOrzp3CZmdb5HJWxSjv4Ig" target="_new">
+									<a href="https://www.youtube.com/+SlockItproject" target="_new">
 										<i class="icon social_youtube"></i>
 									</a>
 								</li>
 								
 								<li>
-									<a href="https://plus.google.com/u/0/118110149516167471388/posts" target="_new">
+									<a href="https://plus.google.com/+SlockItproject" target="_new">
 										<i class="icon social_googleplus"></i>
 									</a>
 								</li>
@@ -1220,14 +682,19 @@
 								</li>
 
 							</ul>
+							<br>
+							Chat with us on Slack! <br/>
+						    <script async defer src="http://slock.it:3000/slackin.js?large"></script>    
 						</div>
 
 					</div>
 					
 					<div class="row">
+
 						<div class="col-sm-12">
-							<span class="sub">© Copright 2015 <a href="http://slock.it/">Slock.it UG</a> - All Rights Reserved</span>
+							<span class="sub">© Copright 2015 <a href="http://slock.it/">Slock.it UG</a> - All Rights Reserved -- Slock.it is a registered company in Germany - HRB 30026</span>
 						</div>
+
 					</div>
 					
 				</div>
@@ -1278,6 +745,7 @@
         <script src="js/scripts.js"></script>
 
 
+    <!--/include footer -->
 
     </body>
 

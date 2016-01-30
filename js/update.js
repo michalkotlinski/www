@@ -11,11 +11,12 @@ var rootDir = process.argv[2] || ".";
 
 
 function getLang(name) {
-   return name.indexOf('_')>0 ? name.substring(name.indexOf('_')) : "_en_";
+   return  name.match(/.*_[a-z]{2}\.html/) ? name.substring(name.lastIndexOf('_')) : "_en_";
 }
+
 function getIndexFile(name) {
    for (var i=0;i<langs.length;i++) {
-      if (langs[i][0]==name) return "";
+      if (langs[i][0]==name) return name;
       if (getLang(name)==getLang(langs[i][0])) return langs[i][0];
    }
    return langs[0][0];

@@ -14,14 +14,14 @@
 
 Unsere Mission ist es, die zukünftige Infrastruktur der Sharing Economy aufzubauen, indem wir allen ermöglichen, etwas zu vermieten oder zu verkaufen  - ohne Zwischenhändler.
 
-Slock.it verbessert dieses Erlebnis des Teiles durch:
+Slock.it verbessert dieses Erlebnis durch:
 
-- Minimierung der Notwendigkeit dem Mieter oder Vermieter blind zu Vertrauen
+- Minimierung der Notwendigkeit dem Mieter oder Vermieter blind zu vertrauen
 - Sichere und direkte "Peer-to-Peer" Zahlungen
 - Einen Mechanismus anzubieten, der Kautionen und letztlich auch komplette Versicherungen ermöglicht
 - Wegfall der manuellen Schlüsselübergabe
-- die Möglichkeit eien Verbindung zwischen Mieter und Vermieter zu erstellen
-- Unterstützung für fas alle Objekte inklöusive Autos, Schließfächer, Wohnungen, Hallen, Büros ...
+- die Möglichkeit eine Verbindung zwischen Mieter und Vermieter zu erstellen
+- Unterstützung für fas alle Objekte inklusive Autos, Schließfächer, Wohnungen, Hallen, Büros ...
 
 Wenn es verschlossen werden kann, kann es auch vermietet werden.
 
@@ -30,11 +30,11 @@ Für einen ersten Überblick, bitte Christoph Jentzsch's [ersten Blogpost](https
 
 ### Was ist Slock.its potentieller Markt?
 
-Überall dort, wo es  wenig genutzt Vermögenswerte wie parkende Autos, Stellplätze oder vorübergehend leerstehende Wohnungen gibt, ergibt es eine Möglichkeit, mit Slock.it einen Gewinn daraus zu machen. Unsere Lösung ermöglicht sowohl die Verbraucher als auch Unternehmen ihre Vermögenswerte in Erträge umzuwandeln. Wohnungen, Büros, Elektrowerkzeuge, Fahrräder, Haushaltselektronik, Wi-Fi-Router, Autos, Motorräder und natürlich Schließfächer: Fast alles kann mit einem Slock nachgerüstet werden.
+Überall dort, wo es wenig genutzte Vermögenswerte wie parkende Autos, Stellplätze oder vorübergehend leerstehende Wohnungen gibt, ergibt sich eine Möglichkeit, mit Slock.it einen Gewinn daraus zu machen. Unsere Lösung ermöglicht sowohl den Verbrauchern als auch Unternehmen ihre Vermögenswerte in Erträge umzuwandeln. Wohnungen, Büros, Elektrowerkzeuge, Fahrräder, Haushaltselektronik, Wi-Fi-Router, Autos, Motorräder und natürlich Schließfächer: Fast alles kann mit einem Slock nachgerüstet werden.
 
 Die Sharing Economy hat [17](http://venturebeat.com/2015/06/04/the-sharing-economy-has-created-17-billion-dollar-companies-and-10-unicorns/) verschiedene Milliarden-Dollar-Unternehmen mit 60.000 Mitarbeitern hervorgebracht. Der Sektor erhielt knapp 15 Mrd. $ Finanzierung so weit und seine globalen Jahresumsatz wird voraussichtlich 335.000.000.000 $ im Jahr 2025 erreichen (Quelle : [PWC](https://www.pwc.com/us/en/technology/publications/assets/pwc-consumer-intelligence-series-the-sharing-economy.pdf)).
 
-Wir glauben, dass sehr bald, mietbare Autos in jeder großen Stadt zur Verfügung stehen und AirBnB-Wohnungen vollständig automatisiert werden und kleine Unternehmen es vorziehen werden, privaten Arbeitsräume bei Bedarf zu mieten anstatt zu komplizierte lange Leasingverträge einzugehen. Besitzer in der Sharing Economy werden sowohl Verbraucher als auch Produzenten sein und Slocks nutzen, ein Einkommen zu verdienen, ohne Einnahmen an eine dritte Partei zu verlieren.
+Wir glauben, dass sehr bald, mietbare Autos in jeder großen Stadt zur Verfügung stehen, AirBnB-Wohnungen vollständig automatisiert und kleine Unternehmen es vorziehen werden, private Arbeitsräume bei Bedarf zu mieten anstatt zu komplizierte lange Leasingverträge einzugehen. Besitzer in der Sharing Economy werden sowohl Verbraucher als auch Produzenten sein und Slocks nutzen, ein Einkommen zu verdienen, ohne Einnahmen an eine dritte Partei zu verlieren.
 
 Die Millennials 'Philosophie wird mehr und mehr: "Wenn Sie es mieten kann, warum dann besitzen?". 66% der Weltbevölkerung ist bereit, ihr persönliches Eigentum für finanziellen Gewinn zu teilen oder zu vermieten, und diese Zahl beträgt sogar [94%](http://www.nielsen.com/content/dam/nielsenglobal/apac/docs/reports/2014/Nielsen-Global-Share-Community-Report.pdf) in China. Wir glauben, Slock.it ist einzigartig und trifft genau auf dieses Bedürfnis weltweit.
 
@@ -43,38 +43,38 @@ Die Millennials 'Philosophie wird mehr und mehr: "Wenn Sie es mieten kann, warum
 
 Wir sind derzeit dabei verschiedene Partnerschaften einzugehen, insbesondere:
 
-- Sharing Economy Versicherungen
+- Versicherungen der Sharing Economy 
 - Hersteller von SmartLocks für zu Hause und Büros
 - Hersteller von elektronischen Fahrradschlösser
-- Immobilienunternehmen in Smart Homes investieren
+- Immobilienunternehmen, welche sich auf Smart Homes spezialisieren
 - Hotels und BnBs
 - Netzwerk- und Betriebssystementwickler
-- Mehr Astraleum und Kryptowährung Geschäfte
+- andere Ethereum Unternehmen
 
 
 ### Ist Slock.it Open Source?
 
-Als Dienstleister für die DAO wird Slock.it GmbH machen den Code, die intelligente Verträge, Benutzerschnittstellen, mobile Anwendungen, und alles, was die Slock.it DAO freie und Open-Source-bildenden, für jedermann zu benutzen und Zweck wieder. Wir werden nicht nur diese Dinge öffentlich machen, werden wir auch alles in unserer Macht stehende tun Unternehmen, um zu sehen außer uns Slock.it kompatible Produkte entwickeln, wie wir daran interessiert, das Ökosystem zu sehen wachsen jenseits dessen, was wir begonnen haben.
+Als Dienstleister für die DAO wird Slock.it GmbH den Code, die Smart Contracts, Benutzeroberfläche und mobile Anwendungen entwickeln und dies alles offen jedermann zur freien Benutzung zur Verfügung stellen. Wir werden nicht nur diese Dinge öffentlich machen, sondern auch alles in unserer Macht tun, Unternehmen, welche  Slock.it compatible Produkte herstellen dazu zu bewegen es ebenfalls zu tun, da wir daran interessiert sind, das Ökosystem wachsen zu sehen, weit über das hinaus, was wir begonnen haben.
 
 
-### Was ist drin für Slock.it GmbH dann?
+### Was hat die Slock.it GmbH davon?
 
-Am Ende des Token-Vorverkauf wird Slock.it GmbH die Standarddienstanbieters DAO werden. Slock.it GmbH ist eine gemeinnützige Gesellschaft, und die DAO wird eine ihrer Kunden sein. Es ist wichtig für uns Anreize zwischen der DAO und unseres Unternehmens in Einklang zu bringen, so dass man eine symbiotische Beziehung erwarten, was wir privat arbeiten wird auch die Slock.it Ökosystem als Ganzes profitieren. Zum Beispiel Slock.it GmbH in Zusammenarbeit mit Schlosshersteller konsultieren für Immobilienunternehmen baut Smart Homes eingreifen könnte, die Slock.it API an Teil der populären Smart Objects integrieren, mit Banken Slocks arbeiten FIAT, Zahlungen entgegenzunehmen, usw.
+Am Ende des Token-Vorverkauf wird Slock.it GmbH per daefault Dienstanbieter der DAO werden. Slock.it GmbH ist eine Firma, und die DAO wird eine ihrer Kunden sein. Es ist wichtig für uns die Ziele und Interessen zwischen der DAO und unseres Unternehmens in Einklang zu bringen, so dass Sie eine symbiotische Beziehung erwarten können. Denn von dem, was wir als GmbH erarbeiten wird auch das Slock.it Ökosystem als Ganzes profitieren. Zum Beispiel kann Slock.it GmbH eine Partnerschaft mit verschiedenen Schlossherstellern eingehen, Beratung für Unternehmen im Bereich SmartHome anbieten, die Slock.it API an Teil verbreiteter Smart Objects integrieren oder mit Banken zusammenarbeiten, um die Zahlungsmöglichkleiten für Slocks zu einfachen.
 
 
-### Kann ich mit irgendetwas helfen?
+### Kann ich mithelfen?
 
-Ja, es ist ein Open Source Projekt und jeder ermutigt wird sie in irgendeiner Weise zu beteiligen. Wir sehen gerade eine Freiwilligen-Programm in den #communityorganizers unserer Slack Erprobung.
+Ja, es ist ein Open-Source Projekt und wir ermutigen jeden sich in irgendeiner Weise zu beteiligen. Wir bauen gerade ein Programm für Freiwillige in unserem Slack-Channel #communityorganizers auf.
 
-Dinge, die wir Hilfe bei umfassen verwenden:
+z.B.: können Sie in diesen Punkten unterstützen:
 
-- Überprüfung und trägt Code auf [github](https://github.com/Slockit/) (es ist ein Open-Source-Projekt, nachdem alle!)
-- Analyse des Marktes in verschiedenen Teilen der Welt
-- Die Übersetzung der Website, das Whitepaper, Videos und die Anwendungen in Ihrer Muttersprache
-- Betriebs lokalen Foren (vor allem in nicht-lateinischen Zeichensätze)
-- Prüfung Prototyp-Hardware
+- Quellcode auf [github](https://github.com/Slockit/) überprüfen und kommentieren (wie es Open-Source-Projekten üblich ist)
+- Marktanaylsen in verschiedenen Teilen der Welt
+- Die Übersetzung der Website, Whitepaper, Videos und App in Ihrer Muttersprache
+- lokale Foren betreiben (vor allem in nicht-lateinischen Zeichensätze)
+- Tester unserer Prototypen
 
-Um teilzunehmen, einfach Zugriff auf unsere [Chatraum] anfordern (http://Slock.it:3000/).
+Um mitzumachen, einfach im [Slack](http://Slock.it:3000/) registrieren.
 
 
 

@@ -29,11 +29,6 @@
    ?>
  		<!-- this is bad, I know -->
 		<style type="text/css">
-			ul {
-				font-size:16px; 
-				margin-left:20px;
-				line-height: 35px;
-			}
 			.article-body li {
             margin-left: 20px;
          }

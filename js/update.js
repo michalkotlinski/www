@@ -4,6 +4,8 @@
 var langs = [
   ['index.html'   ,'img/icon_en.png','english'], 
   ['index_de.html','img/icon_de.png','german'], 
+  ['index_fr.html','img/icon_fr.png','french'], 
+  ['index_ru.html','img/icon_ru.png','russian'], 
   ['index_es.html','img/icon_es.png','spanish'], 
   ['index_zh.html','img/icon_zh.png','chinese'] 
 ];

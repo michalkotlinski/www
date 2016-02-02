@@ -34,6 +34,7 @@
 			.article-body li {
             margin-left: 20px;
             font-size: 16px;
+            line-height: 32px;
          }
 
 			.article-body p {

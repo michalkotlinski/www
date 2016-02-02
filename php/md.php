@@ -54,7 +54,7 @@
         list-style-type: disc;
       }
       footer.details {
-      background: #ffffff ;
+         background: #ffffff !important;
       }
 
 		</style>

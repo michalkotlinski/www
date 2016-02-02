@@ -33,6 +33,7 @@
 		<style type="text/css">
 			.article-body li {
             margin-left: 20px;
+            font-size: 16px;
          }
 
 			.article-body p {

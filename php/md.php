@@ -52,6 +52,9 @@
       .article-body ul {
         list-style-type: disc;
       }
+      footer.details {
+      background: #ffffff ;
+      }
 
 		</style>
    <?php

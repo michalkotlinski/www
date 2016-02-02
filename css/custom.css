@@ -68,3 +68,7 @@ ul.pull-right {
       
    }
 }
+
+img.grayscale {
+    opacity: 0.5;
+}

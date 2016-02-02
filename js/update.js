@@ -29,6 +29,8 @@ function getLangHtml(fname) {
    langs.forEach(function(l){
       if (getLang(l[0]) != getLang(fname || "index.html")) 
          html+='<a href="'+l[0]+'"><img src="'+l[1]+'" width="18" align="top"  title="'+l[2]+'"></a>&nbsp;';
+      else
+         html+='<img class="grayscale" src="'+l[1]+'" width="18" align="top"  title="'+l[2]+'">&nbsp;';
    });
    return html;
 }

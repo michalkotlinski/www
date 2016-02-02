@@ -28,9 +28,18 @@ function getIndexFile(name) {
 function getLangHtml(fname) {
    var html="";
    if (fname.indexOf("/")>0)   fname = fname.substring(fname.lastIndexOf("/")+1);
+   var srcLang = getLang(fname || "index.html")
    langs.forEach(function(l){
-      if (getLang(l[0]) != getLang(fname || "index.html")) 
-         html+='<a href="'+l[0]+'"><img src="'+l[1]+'" width="18" align="top"  title="'+l[2]+'"></a>&nbsp;';
+      var lang = getLang(l[0]), target=fname;
+      if (srcLang=="_en_")  
+         target = fname.replace(/(.*)\.html/,"$1"+lang);
+      else if (lang=="_en_") 
+         target = fname.replace(/(.*)_[a-z]{2}\./,"$1.");
+      else
+         target = fname.replace(/(.*)_[a-z]{2}\.html/,"$1"+lang);
+      
+      if (lang != srcLang) 
+         html+='<a href="'+target+'"><img src="'+l[1]+'" width="18" align="top"  title="'+l[2]+'"></a>&nbsp;';
       else
          html+='<img class="grayscale" src="'+l[1]+'" width="18" align="top"  title="'+l[2]+'">&nbsp;';
    });

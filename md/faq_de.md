@@ -86,9 +86,9 @@ Um mitzumachen, einfach im [Slack](http://Slock.it:3000/) registrieren.
 
 Der Besitzer eines Slock setzt eine Kaution (falls nötig) und einen Preis für sein Angebot. Ein Benutzer kann dieses Slock mit der mobilen App finden und dann eine Zahlung durchführen, wodurch er die Berechtigung erhält das Schloß mit seinem Smartphone zu öffnen und zu schließen.
 
-Wurde eine Kaution gesetzt, so wird diese als Sicherheit in einem SmartContract gehalten, bis der Benutzer das Schloß wieder freigibt. Dabei sorgt diese SmartContract dafür, daß nach der Benutzung der Besitzer seine Miete erhält und der Benutzer den Restbetrag (Kaution - Miete) zurückerstattet bekommt.
+Wurde eine Kaution gesetzt, so wird diese als Sicherheit in einem SmartContract gehalten, bis der Benutzer das Schloß wieder freigibt. Dabei sorgt diese SmartContract dafür, dass nach der Benutzung der Besitzer seine Miete erhält und der Benutzer den Restbetrag (Kaution - Miete) zurückerstattet bekommt.
 
-Dank unserem Partner [SafeShare](http://www.safeshareinsurance.com/), sind nun erstmalig auch Ad-hoc-Versicherung möglich, wodurch auch die Fälle abgedeckte werden, wo eine Kaution das Risiko nicht abdecken würde.
+Dank unserem Partner [SafeShare](http://www.safeshareinsurance.com/), sind nun erstmalig auch Ad-hoc-Versicherungen möglich, wodurch auch die Fälle abgedeckt werden, wo eine Kaution das Risiko nicht abdecken würde.
 
 All dies funktioniert ohne Hilfe Dritter.
 
@@ -98,7 +98,7 @@ All dies funktioniert ohne Hilfe Dritter.
 Nein. Lediglich einmal, um Zugang zu dem Schloß zu erhalten. Danach kann das Schloß so oft man will geöffnet und geschlossen werden, da dies nun mit Hilfe von signierten Nachrichten [Whisper](https://github.com/ethereum/wiki/wiki/Whisper-Overview) geschieht, die dann direkt vom Smartphone zum Schloss geschickt werden. Diese werden verifiziert und mit der aktuell autorisierten Benutzer verglichen, bevor diese ausgeführt und damit das Schloss in Bewegung setzen.
 
 
-### Können Benutzer auch Kreditkarten zu verwenden, um eine Slock zu öffnen?
+### Können Benutzer auch Kreditkarten verwenden, um ein Slock zu öffnen?
 
 Zur Zeit sind wir mit verschiedenen Finanzinstituten im Gespräch, um dies in Zukunft zu ermöglichen.
 
@@ -107,22 +107,21 @@ Zur Zeit sind wir mit verschiedenen Finanzinstituten im Gespräch, um dies in Zu
 
 Natürlich werden einige beschädigt oder zerstört, so wie auch herkömmliche Schlösser kein Allheilmittel gegen Diebstahl und Beschädigung sind. Allerdings haben Slocks die Versicherungsoption direkt im SmartContract eingebaut, was traditionelle Schlösser nicht können.
 Dort, wo es um geringere Werte geht, legt der Besitzer einfach eine Kaution fest, die im Schadensfall das Risiko abdecken sollte.
-Für höhere Werte können wir, dank unseres Partners [SafeShare](http://www.safeshareinsurance.com/) eine neue und revolutionäre Versicherung anbieten, die lediglich dann etwas kostet, wenn die Schlösser auch benutzt werden. Das heißt, die Versicherung kann anhand der Daten auf der Blockchain erkennen wann der Besitzer das Objekt vermietet hat und danach den Preis berechnen und somit deutlich günstigere und faire Traife anbieten.
+Für höhere Werte können wir, dank unseres Partners [SafeShare](http://www.safeshareinsurance.com/) eine neue und revolutionäre Versicherung anbieten, die lediglich dann etwas kostet, wenn die Schlösser auch benutzt werden. Das heißt, die Versicherung kann anhand der Daten auf der Blockchain erkennen wann der Besitzer das Objekt vermietet hat und danach den Preis berechnen und somit deutlich günstigere und faire Tarife anbieten.
 
 
-### Was passiert, wenn es keinen Strom oder Internet ist?
+### Was passiert, wenn es keinen Strom oder Internet gibt?
 
-Das gleiche, wie bei jedem andere SmartLock. Je nach regionalen Bestimmungen und Benutzereinstellungen, kann das Schloss "Fail Secure" (bei Ausfall verschlossen) oder "Fail Safe" (bei Ausfall direkt öffenbar) konfiguriert werden. So wird man z.B. bei Brandschutztüren in einem Hotel eher "Fail Safe" wählen, während ein Schließfach in diesem Fall eher verschlossen bleiben sollte (Fail Secure). 
+Das gleiche, wie bei jedem anderen SmartLock. Je nach regionalen Bestimmungen und Benutzereinstellungen, kann das Schloss "Fail Secure" (bei Ausfall verschlossen) oder "Fail Safe" (bei Ausfall direkt aufschließbar) konfiguriert werden. So wird man z.B. bei Brandschutztüren in einem Hotel eher "Fail Safe" wählen, während ein Schließfach in diesem Fall eher verschlossen bleiben sollte (Fail Secure). 
 
 ## Das Produkt
 
 ### Was genau ist ein "Ethereum Computer"?
 
-Es ist der einfachste Einstieg in die Welt von Slock.it und Ethereum, ohne mit der Einrichtung von "clients" zu kämpfen hat, Ether über eine Börse zu kaufen oder sich Gedanken über Sicherheits-Updates machen zu müssen.
+Es ist der einfachste Einstieg in die Welt von Slock.it und Ethereum, ohne das man mit der Einrichtung von "clients" zu kämpfen hat, Ether über eine Börse zu kaufen oder sich Gedanken über Sicherheits-Updates machen muss.
+Die Ethereum Computer ist ein kleiner, vorinstallierter, vorkonfigurierter Home-Server, auf dem sowohl eine optimierte Ethereum Client, wie auch aufregende neue [dezentrale Anwendungen](http://dapps.ethercasts.com/), einschließlich eines Browsers dafür laufen. Der Ethereum Computer setzt Identität, Fonds und persönliche Informationen wieder unter der Kontrolle der Nutzer, und wir denken, es wird sich ändern _alles_.
 
-Die Ethereum Computer ist ein kleiner, vorinstallierte, vorkonfigurierte Home-Server, auf dem sowohl eine optimierte Ethereum Client, wie auch aufregende neue [dezentrale Anwendungen](http://dapps.ethercasts.com/), einschließlich eines Browsers dafür laufen. Die Ethereum Computers setzt Identität, Fonds und persönliche Informationen wieder unter der Kontrolle der Nutzer, und wir denken, es wird sich ändern _alles_.
-
-Denken Sie an eine kleine Box, die Ihre Rechte und Identität, mit starker Verschlüsselung und Berechtigungskontrolle verwaltet. Im Inneren finden Sie eine web3 Identitätsdepot, ein Slock Gateway zu Ihrem Internet der Dinge, und auch experimentelle Software wie ein IPFS Server finden Ihre ungenutzten Festplattenspeicher zu mieten - automatisch.
+Denken Sie an eine kleine Box, die Ihre Rechte und Identität, mit starker Verschlüsselung und Berechtigungskontrolle verwaltet. Im Inneren finden Sie ein web3 Identitätsdepot, ein Slock Gateway zu Ihrem Internet der Dinge, und auch experimentelle Software wie ein IPFS Server, finden Ihre ungenutzten Festplattenspeicher zu mieten - automatisch.
 
 - Es ist der einfachere Weg Dapps zu suchen.
 - Es ist eine sichere Gatekeeper zwischen der Bahn und web3 zu Ihnen nach Hause oder in kleinen Büros IoT, drahtlos mit Ihrem Smart Objects in Verbindung steht.

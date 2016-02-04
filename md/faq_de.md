@@ -6,8 +6,6 @@
 > Um mitzudiskutieren, Fragen zu stellen oder Hilfe zu erhalten, registrieren Sie sich in unserem [Slack Chatraum](http://Slock.it:3000/).
 
 
-
-
 ## Projekt
 
 ### Was wollen Sie erreichen?
@@ -77,97 +75,88 @@ z.B.: können Sie in diesen Punkten unterstützen:
 Um mitzumachen, einfach im [Slack](http://Slock.it:3000/) registrieren.
 
 
-
-
-
 ## Wie funktioniert es
 
 ### Was sind "Slocks '?
 
-'Slock' ist ein porte-Manteau von "Smart, Safe and Secure Lock '. Jedes Objekt unterstützen ZigBee, Z-Wave, Bluetooth LE oder WLAN kann bereits als Slock dank unseres ersten Produkts verwendet werden, die Astraleum Arbeitsplatz. Wenn es darum geht, eine "dumm" Objekt einschalten, wird es eine Falle der Nachrüstung sei es klug Steckern. Slocks kommen auch in vielen Formen und Größen: Fahrrad Slocks, Auto Slocks und Tür Slocks sind bereits durch Partnerschaften mit IoT Hersteller geprüft.
+'Slock' ist ein Wortspiel mit den Begriffen *S*chlau und *S*icher und *Lock* (Schloss). Alle Geräte, die ZigBee, Z-Wave, Bluetooth oder WLAN unterstützen können als Slock benutzt werden, dank unseren ersten Produktes, dem Ethereum Computers. Wenn es darum geht, ein "einfaches" Gerät zu steuern, dann können diese mit intelligenten Steckdosen nachgerüstet werden. Slocks kommen auch in vielen Formen und Größen vor: Fahrradschlösser, Autoschlösser und Türschlösser werden derzeit durch Partnerschaften mit verschiedenen IoT Herstellern entwickelt. 
 
 
 ### Wie funktionieren Slocks?
 
-Der Besitzer eines Slock setzt einen Einzahlungsbetrag (falls nötig) und einen Preis für das Produkt verwendet wird. Ein Benutzer kann die Slock mit der mobilen App finden und dann eine Zahlung im Astraleum blockchain machen, damit Erlaubnis oder nah, dass Slock mit ihrem Smartphone zu öffnen, zu gewinnen.
+Der Besitzer eines Slock setzt eine Kaution (falls nötig) und einen Preis für sein Angebot. Ein Benutzer kann dieses Slock mit der mobilen App finden und dann eine Zahlung durchführen, wodurch er die Berechtigung erhält das Schloß mit seinem Smartphone zu öffnen und zu schließen.
 
-Wenn aktiviert, wird eine Kaution als Sicherheit in einem Smart Vertrag gehalten, bis der Benutzer das Element zurückgibt. Die Smart-Vertrag wird automatisch durchgesetzt, mit der Niederschlag an den Benutzer abzüglich der Kosten für die Miete zurück, die wiederum automatisch an den Besitzer des Slock ausgezahlt werden.
+Wurde eine Kaution gesetzt, so wird diese als Sicherheit in einem SmartContract gehalten, bis der Benutzer das Schloß wieder freigibt. Dabei sorgt diese SmartContract dafür, daß nach der Benutzung der Besitzer seine Miete erhält und der Benutzer den Restbetrag (Kaution - Miete) zurückerstattet bekommt.
 
-Wir danken unserem Partner [SafeShare](http://www.safeshareinsurance.com/), Ad-hoc-Versicherung auch zur Verfügung gestellt werden können, wo eine Anzahlung nicht angemessen wäre.
+Dank unserem Partner [SafeShare](http://www.safeshareinsurance.com/), sind nun erstmalig auch Ad-hoc-Versicherung möglich, wodurch auch die Fälle abgedeckte werden, wo eine Kaution das Risiko nicht abdecken würde.
 
-All dies geschieht ohne Hilfe von einem Drittanbieter.
-
-
-### Müssen die Benutzer jedes Mal, wenn sie einen Slock nutzen zu zahlen?
-
-Sie müssen nicht, da nur Zugriff auf die Sperr Anmietung kostet Geld. Alle aktuellen Benutzer (die auch die Besitzer enthalten könnte) sendet [Flüstern](https://github.com/ethereum/wiki/wiki/Whisper-Overview) unterzeichnet Shannon Nachrichten (was nichts kostet) zum Öffnen oder Schließen der Slock .
+All dies funktioniert ohne Hilfe Dritter.
 
 
-### Können Benutzer eine Debit- oder Kreditkarte zu verwenden, um eine Slock zu öffnen?
+### Müssen die Benutzer jedes Mal, wenn sie einen Slock nutzen zahlen?
 
-Wir haben zur Zeit unseren Partnern und verschiedenen Finanzinstituten Annäherung zu versuchen, diese zu verwirklichen.
+Nein. Lediglich einmal, um Zugang zu dem Schloß zu erhalten. Danach kann das Schloß so oft man will geöffnet und geschlossen werden, da dies nun mit Hilfe von signierten Nachrichten [Whisper](https://github.com/ethereum/wiki/wiki/Whisper-Overview) geschieht, die dann direkt vom Smartphone zum Schloss geschickt werden. Diese werden verifiziert und mit der aktuell autorisierten Benutzer verglichen, bevor diese ausgeführt und damit das Schloss in Bewegung setzen.
 
 
-### Sind nicht die Slocks werde zerstört werden?
+### Können Benutzer auch Kreditkarten zu verwenden, um eine Slock zu öffnen?
 
-Natürlich einige werden, wie Slocks sind kein Allheilmittel für Diebstahl oder Beschädigung. Was Slocks traditionellen Sperren kann das tun kann nicht, ist eine Versicherung Option zur Verfügung stellen "gebacken" in den Nutzungsvertrag.
+Zur Zeit sind wir mit verschiedenen Finanzinstituten im Gespräch, um dies in Zukunft zu ermöglichen.
 
-Wenn keine Versicherung im Falle von niedrigeren Wert oder umständliche Einzelteile erforderlich ist, wird eine Grund Anzahlung Implementierung standardmäßig zur Verfügung gestellt und wird ausreichen.
 
-Für höherwertige Produkte und dank unserem Partner [SafeShare](http://www.safeshareinsurance.com/) wird Slock.it Smart Verträge der Lage sein, eine revolutionäre anzubieten, universal, auf die Vor-Ort-Versicherung, wo Nutzer zahlen nur für die Art der Versicherung, die sie benötigen, wenn sie es brauchen. Die Versicherung wird von der Astraleum blockchain lesen, wenn die Objekte vermietet werden, und Besitzer werden nur für die Zeit bezahlen Eigentum gemietet wurde.
+### Können die Slocks nicht auch zerstört werden?
+
+Natürlich werden einige beschädigt oder zerstört, so wie auch herkömmliche Schlösser kein Allheilmittel gegen Diebstahl und Beschädigung sind. Allerdings haben Slocks die Versicherungsoption direkt im SmartContract eingebaut, was traditionelle Schlösser nicht können.
+Dort, wo es um geringere Werte geht, legt der Besitzer einfach eine Kaution fest, die im Schadensfall das Risiko abdecken sollte.
+Für höhere Werte können wir, dank unseres Partners [SafeShare](http://www.safeshareinsurance.com/) eine neue und revolutionäre Versicherung anbieten, die lediglich dann etwas kostet, wenn die Schlösser auch benutzt werden. Das heißt, die Versicherung kann anhand der Daten auf der Blockchain erkennen wann der Besitzer das Objekt vermietet hat und danach den Preis berechnen und somit deutlich günstigere und faire Traife anbieten.
 
 
 ### Was passiert, wenn es keinen Strom oder Internet ist?
 
-Dasselbe, was, wenn eine andere intelligente Sperre passieren würde beschäftigt war: einige werden "sicher nicht", während andere "fail safe". Welche Betriebsmodus verwendet wird, durch die Slock DAO nicht bestimmt, sondern durch den Anwendungsfall und lokalen Vorschriften. Zum Beispiel Feuer bewertet und Hotelzimmertüren werden wahrscheinlich 'fail safe ", während ein Schließfach sicher,' fail secure").
-
-
-
-
+Das gleiche, wie bei jedem andere SmartLock. Je nach regionalen Bestimmungen und Benutzereinstellungen, kann das Schloss "Fail Secure" (bei Ausfall verschlossen) oder "Fail Safe" (bei Ausfall direkt öffenbar) konfiguriert werden. So wird man z.B. bei Brandschutztüren in einem Hotel eher "Fail Safe" wählen, während ein Schließfach in diesem Fall eher verschlossen bleiben sollte (Fail Secure). 
 
 ## Das Produkt
 
-### Was genau ist die "Astraleum Computer"?
+### Was genau ist ein "Ethereum Computer"?
 
-Es ist der einfachste Einstieg in die Welt der Slock.it und Astraleum, ohne einen Client mit der Einrichtung zu kämpfen hat, Äther von einer Börse kaufen oder sich Gedanken über Sicherheits-Updates.
+Es ist der einfachste Einstieg in die Welt von Slock.it und Ethereum, ohne mit der Einrichtung von "clients" zu kämpfen hat, Ether über eine Börse zu kaufen oder sich Gedanken über Sicherheits-Updates machen zu müssen.
 
-Die Astraleum Computer ist ein winziges, vorinstallierte, vorkonfigurierte Home-Server sowohl eine optimierte Astraleum Knoten und aufregende neue [dezentrale Anwendungen](http://dapps.ethercasts.com/), einschließlich Mist läuft. Die Astraleum Computers setzt Identität, Fonds und persönliche Informationen wieder unter der Kontrolle der Nutzer, und wir denken, es wird sich ändern _alles_.
+Die Ethereum Computer ist ein kleiner, vorinstallierte, vorkonfigurierte Home-Server, auf dem sowohl eine optimierte Ethereum Client, wie auch aufregende neue [dezentrale Anwendungen](http://dapps.ethercasts.com/), einschließlich eines Browsers dafür laufen. Die Ethereum Computers setzt Identität, Fonds und persönliche Informationen wieder unter der Kontrolle der Nutzer, und wir denken, es wird sich ändern _alles_.
 
 Denken Sie an eine kleine Box, die Ihre Rechte und Identität, mit starker Verschlüsselung und Berechtigungskontrolle verwaltet. Im Inneren finden Sie eine web3 Identitätsdepot, ein Slock Gateway zu Ihrem Internet der Dinge, und auch experimentelle Software wie ein IPFS Server finden Ihre ungenutzten Festplattenspeicher zu mieten - automatisch.
 
 - Es ist der einfachere Weg Dapps zu suchen.
 - Es ist eine sichere Gatekeeper zwischen der Bahn und web3 zu Ihnen nach Hause oder in kleinen Büros IoT, drahtlos mit Ihrem Smart Objects in Verbindung steht.
-- Und es ist auch ein brillanter Entwicklungsplattform, die Verpackung die gesamte Software benötigt Astraleum Dapps im Rahmen eines einfachen, optimierten Bild zu bauen.
+- Und es ist auch ein brillanter Entwicklungsplattform, die Verpackung die gesamte Software benötigt Ethereum Dapps im Rahmen eines einfachen, optimierten Bild zu bauen.
 
 
-### Was könnte ich tun mit dem Astraleum Computer?
+### Was könnte ich tun mit dem Ethereum Computer?
 
 Aktivieren Sie Ihr ganzes Haus mit dem blockchain zu kommunizieren -: Mieten Sie Ihre Wohnung, Ihr Büro, Zugang zu Ihrem WLAN-Hotspot, oder den Austausch aller Slock.it Smart-Objekt in Reichweite direkt aktiviert und sicher
-- Probieren Sie neue, spannende Anwendungen: Die Astraleum Computer einen ausgewachsenen Umsetzung des Astraleums Stapel ist, und daher jede Dapp über HDMI an Ihr Heimkino dienen kann.
-- Blättern web3 sicher: Sie können Ihren Browser, Handy oder Tablet mit dem Astraleum Computer, und die 3rd-Party-Web-Server verweisen wird nur verwendet werden, um statische HTML-Vermögen zu dienen, während Sie Ihre kostbare Krypto-Schlüssel sicher innerhalb der Grenzen von zu Hause bleiben .
-Gewinnen Sie ein passives Einkommen -: die Astraleum-Computer verwendet werden, um eine IPFS Knoten laufen, vielleicht sogar Belohnungen für die Anmietung Ihre ungenutzten Festplattenspeicher zu empfangen. Wir suchen auch in der Möglichkeit, dass Sie Ihre Astraleum Computer als Oracle verwenden, verdienen Tokens durch physikalische Datenbereit Smart Verträge blockchain.
-- Entwickeln von Anwendungen mit Astraleum und sich niemals über die Installation Schwierigkeiten sorgen. Wir werden Updates aussortieren und Kompatibilitätsprobleme zwischen den verschiedenen Komponenten des Astraleums 'Stack' (Flüstern, EVM, Web3.js, Schwarm, etc), und wird Push-Updates nur, wenn wir den Rahmen von oben nach unten getestet haben.
-- Helfen Sie dem Astraleum Netzwerk sichern und dafür belohnt (einmal Astraleum zu PoS geschaltet hat), ohne größer zu widmen haben, teurer und weniger sichere Anlagen zu dieser Aufgabe.
+- Probieren Sie neue, spannende Anwendungen: Die Ethereum Computer einen ausgewachsenen Umsetzung des Ethereums Stapel ist, und daher jede Dapp über HDMI an Ihr Heimkino dienen kann.
+- Blättern web3 sicher: Sie können Ihren Browser, Handy oder Tablet mit dem Ethereum Computer, und die 3rd-Party-Web-Server verweisen wird nur verwendet werden, um statische HTML-Vermögen zu dienen, während Sie Ihre kostbare Krypto-Schlüssel sicher innerhalb der Grenzen von zu Hause bleiben .
+Gewinnen Sie ein passives Einkommen -: die Ethereum-Computer verwendet werden, um eine IPFS Knoten laufen, vielleicht sogar Belohnungen für die Anmietung Ihre ungenutzten Festplattenspeicher zu empfangen. Wir suchen auch in der Möglichkeit, dass Sie Ihre Ethereum Computer als Oracle verwenden, verdienen Tokens durch physikalische Datenbereit Smart Verträge blockchain.
+- Entwickeln von Anwendungen mit Ethereum und sich niemals über die Installation Schwierigkeiten sorgen. Wir werden Updates aussortieren und Kompatibilitätsprobleme zwischen den verschiedenen Komponenten des Ethereums 'Stack' (Flüstern, EVM, Web3.js, Schwarm, etc), und wird Push-Updates nur, wenn wir den Rahmen von oben nach unten getestet haben.
+- Helfen Sie dem Ethereum Netzwerk sichern und dafür belohnt (einmal Ethereum zu PoS geschaltet hat), ohne größer zu widmen haben, teurer und weniger sichere Anlagen zu dieser Aufgabe.
 
 
 ### Wird es hackable / offen sein?
 
-Absolut. Wir werden nicht nur die devkit Bilder öffentlich zugänglich zu machen, sondern auch all die detaillierten Code, der in den Bau der "Stapel" ging so geändert werden können / Verbesserung der Anlage notwendig. (Wir schon [Autor](https://blog.slock.it/let-s-play-with-snappy-ethereum-816588198528)) Eine Sache, wir sind mit dem Ziel zu tun ist eine Hardware (Board + SoC) Kombination das ist im Handel erhältlich, so dass ein vollständig Astraleum-Computer von Grund auf neu erstellen könnten, wenn sie wollten. einige GPIO zur Verfügung zu haben ermöglicht auch jemand drahtgebundenen Objekte zum Astraleum Netzwerk zu verbinden. Wir wollen Sie in der Lage zu sein, zu experimentieren!
+Absolut. Wir werden nicht nur die devkit Bilder öffentlich zugänglich zu machen, sondern auch all die detaillierten Code, der in den Bau der "Stapel" ging so geändert werden können / Verbesserung der Anlage notwendig. (Wir schon [Autor](https://blog.slock.it/let-s-play-with-snappy-ethereum-816588198528)) Eine Sache, wir sind mit dem Ziel zu tun ist eine Hardware (Board + SoC) Kombination das ist im Handel erhältlich, so dass ein vollständig Ethereum-Computer von Grund auf neu erstellen könnten, wenn sie wollten. einige GPIO zur Verfügung zu haben ermöglicht auch jemand drahtgebundenen Objekte zum Ethereum Netzwerk zu verbinden. Wir wollen Sie in der Lage zu sein, zu experimentieren!
 
 
-### Wann wird die Astraleum-Computer zur Verfügung stehen zu kaufen?
+### Wann wird die Ethereum-Computer zur Verfügung stehen zu kaufen?
 
 Irgendwann im Jahr 2017, obwohl wir devkits viel früher als Teil eines iterativen Entwicklungsprozess zu antizipieren. Sie können Ihr Interesse für eine devkit von <a href=""> registrieren uns </a> kontaktieren.
 
 
 ### Wird es für den Bergbau nützlich sein?
 
-Die Astraleum Computer ist ein voll Astraleum Client und somit durchaus in der Lage seine Bergbau-Funktion aktiviert haben. Das heißt, wäre es nicht eine gute Plattform, um mein sein, während Astraleum noch Proof of Work verwendet, ist, wie der Formfaktor sie daran hindert, mit der Hash-Leistung GPUs haben. Die Astraleum Computer lässt sich jedoch eine perfekt geeignete Plattform sein, um das Netzwerk zu helfen sichern, sobald Astraleum zu Nachweis Stake schaltet, als Teil Ihre Schlüssel sicher zu halten von einem gehärteten Stapel.
+Die Ethereum Computer ist ein voll Ethereum Client und somit durchaus in der Lage seine Bergbau-Funktion aktiviert haben. Das heißt, wäre es nicht eine gute Plattform, um mein sein, während Ethereum noch Proof of Work verwendet, ist, wie der Formfaktor sie daran hindert, mit der Hash-Leistung GPUs haben. Die Ethereum Computer lässt sich jedoch eine perfekt geeignete Plattform sein, um das Netzwerk zu helfen sichern, sobald Ethereum zu Nachweis Stake schaltet, als Teil Ihre Schlüssel sicher zu halten von einem gehärteten Stapel.
 
 
 **Wie viel wird es kosten**
 
-Wir definieren noch die Kosten, da sie von vielen Faktoren abhängt, einschließlich Produkt-Design (wir Astraleum-Computer wollen für Ihren Schreibtisch ein würdiger Gesprächsstoff zu werden). Es ist unsere Absicht, ihn zu behalten sehr zugänglich.
+Wir definieren noch die Kosten, da sie von vielen Faktoren abhängt, einschließlich Produkt-Design (wir Ethereum-Computer wollen für Ihren Schreibtisch ein würdiger Gesprächsstoff zu werden). Es ist unsere Absicht, ihn zu behalten sehr zugänglich.
 
 
 
@@ -183,7 +172,7 @@ Es wird zu Beginn 2016 statt und wird etwa einen Monat dauern. Weitere Details w
 
 ### Warum ein Slock Token Vorverkauf?
 
-Wir verwenden Smart-Verträge auf dem Astraleum blockchain zu bauen, damit die Menschen auf der ganzen Welt die Befugnis erhalten, kann eine neue Zukunft für den Austausch von Wirtschaft zu bauen, und im Austausch für ihre frühe Hilfe, werden sie eine Belohnung in Form von Slock Token erhalten die halten viele Vorteile.
+Wir verwenden Smart-Verträge auf dem Ethereum blockchain zu bauen, damit die Menschen auf der ganzen Welt die Befugnis erhalten, kann eine neue Zukunft für den Austausch von Wirtschaft zu bauen, und im Austausch für ihre frühe Hilfe, werden sie eine Belohnung in Form von Slock Token erhalten die halten viele Vorteile.
 
 Um Governance fair zu halten und dezentral, wird ein DAO erstellt werden, so dass die von der Gemeinschaft gehalten Mittel werden nie zentral verwaltet werden. Eine kleine Gebühr wird von den Gewinnen der einzelnen Slock Transaktion in Slock nicht bezahlt Token genommen werden. Dies wird zu einer DAO zurückgegeben werden, es die Möglichkeit gibt, die Gewinne zu reinvestieren, um sein Wachstum zu unterstützen.
 
@@ -262,7 +251,7 @@ Eine dezentrale Selbstorganisation (DAO) ist eine Form der Gesellschaft, die gan
 
 ### Ist das nur für Geeks?
 
-Auf keinen Fall. Um Entscheidungen zu treffen, wird Token Inhaber der Lage sein, eine einfache Schnittstelle mit Mist zu stimmen mit der Astraleum Browser. Sie werden in der Lage, um Software auf Ihrem Rechner zu installieren und verwenden, was aussieht wesentlichen und fühle mich wie eine Website. Das ist es.
+Auf keinen Fall. Um Entscheidungen zu treffen, wird Token Inhaber der Lage sein, eine einfache Schnittstelle mit Mist zu stimmen mit der Ethereum Browser. Sie werden in der Lage, um Software auf Ihrem Rechner zu installieren und verwenden, was aussieht wesentlichen und fühle mich wie eine Website. Das ist es.
 
 
 ### Was kann genau die DAO tun?
@@ -276,7 +265,7 @@ Welche Parameter zur Verfügung stehen, hängt von der Service-Provider Smart Ve
 
 ### In der Praxis wird, was nach dem crowdsale passieren?
 
-Der Standard-Service-Provider Slock.it GmbH ein Angebot zur Entwicklung von Produkten und Dienstleistungen (einschließlich des Astraleums Computer) in Form einer Smart Vertrag vorzulegen. Die DAO kann dann stimmen zu diesem Angebot und, falls sie angenommen, interagieren mit dem Smart-Vertrag mit Nebel, die Astraleum Browser.
+Der Standard-Service-Provider Slock.it GmbH ein Angebot zur Entwicklung von Produkten und Dienstleistungen (einschließlich des Ethereums Computer) in Form einer Smart Vertrag vorzulegen. Die DAO kann dann stimmen zu diesem Angebot und, falls sie angenommen, interagieren mit dem Smart-Vertrag mit Nebel, die Ethereum Browser.
 
 
 ### Ich bin kein Programmierer - was wird das erste Angebot für die DAO gehören?
@@ -305,7 +294,7 @@ Ja absolut. Wir glauben, dass eine Beziehung, wobei die DAO die Kontrolle über 
 
 ### Wie Abstimmung stattfinden?
 
-Version 1 des DAO wird am Ende der Vorverkauf aktiviert werden, um die Mittel zu halten und Grund Abstimmung ermöglichen. Die Abstimmung findet über die [offizielle Astraleum GUI Brieftasche](https://github.com/ethereum/mist/releases), durch eine automatisch generierte HTML-Oberfläche. Version 2 des DAO (bei der Vorstellung des Projekts veröffentlicht werden) wird die Verwendung eines vollständig angepasst Dapp erreichbar über [Mist](https://www.youtube.com/watch?v=IgNjs_WaFSc) machen, der offiziellen Astraleum Dapp Browser.
+Version 1 des DAO wird am Ende der Vorverkauf aktiviert werden, um die Mittel zu halten und Grund Abstimmung ermöglichen. Die Abstimmung findet über die [offizielle Ethereum GUI Brieftasche](https://github.com/ethereum/mist/releases), durch eine automatisch generierte HTML-Oberfläche. Version 2 des DAO (bei der Vorstellung des Projekts veröffentlicht werden) wird die Verwendung eines vollständig angepasst Dapp erreichbar über [Mist](https://www.youtube.com/watch?v=IgNjs_WaFSc) machen, der offiziellen Ethereum Dapp Browser.
 
 
 ### Wie kann die DAO ihre Mittel aus Ether Volatilität schützen?

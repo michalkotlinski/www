@@ -162,23 +162,23 @@ The Ethereum Computer is a full Ethereum client and therefore perfectly capable 
 ## The Presale
 
 
-### When is the Slock token presale?
+### When is the DAO token presale?
 
 It will take place at the beginning of 2016 and will last roughly two months. Further details will be released soon. 
 
 
-### Why do a Slock token presale?
+### Why do a DAO token presale?
 
-We're using smart contracts build on the Ethereum blockchain so people all over the world can be empowered to build a new future for the sharing economy, and in exchange for their early help, they will receive a reward in the form of Slock tokens which holds many benefits.
+We're using smart contracts build on the Ethereum blockchain so people all over the world can be empowered to build a new future for the sharing economy, and in exchange for their early help, they will receive a reward in the form of DAO tokens which holds many benefits.
 
-In order to keep governance fair and decentralized, a DAO will be created so that the funds held by the sharing community will never be centrally managed. A small fee representing the cost of decentralization is taken from each Slock transaction not paid in Slock tokens and returned to the DAO, giving it an option to reinvest the profits to support its growth.
+In order to keep governance fair and decentralized, a DAO will be created so that the funds held by the sharing community will never be centrally managed. A small fee representing the cost of decentralization is taken from each Slock transaction not paid in DAO tokens and returned to the DAO, giving it an option to reinvest the profits to support its growth.
 
-Slock tokens holders will be able to vote on important decisions relating to the management of the DAO, including redistributing profits amongst Slock token holders. 
+DAO tokens holders will be able to vote on important decisions relating to the management of the DAO, including redistributing profits amongst DAO token holders. 
 
 
-### What are Slock tokens?
+### What are DAO tokens?
 
-Slock tokens allows the holders to:
+DAO tokens allows the holders to:
 
 - Vote on important issues in the DAO 
 - Open or close Slocks without having to pay a fee to the DAO
@@ -191,14 +191,14 @@ Slock tokens allows the holders to:
 It's possible, by paying a one-time deployment fee to the DAO. This will remove the per-use fee. Note that the amount in question will be determined by the DAO itself as it engages with the service provider.
 
 
-### Can I mine Slock tokens?
+### Can I mine DAO tokens?
 
-No. Slock tokens are used purely to represent the proportion of votes a Slock token holder is entitled to as part of the DAO. If you would like to mine something, try [ether](https://github.com/ethereum/go-ethereum/wiki/Mining).
+No. DAO tokens are used purely to represent the proportion of votes a DAO token holder is entitled to as part of the DAO. If you would like to mine something, try [ether](https://github.com/ethereum/go-ethereum/wiki/Mining).
 
 
-### Will I be able to send, receive and exchange Slock tokens?
+### Will I be able to send, receive and exchange DAO tokens?
 
-Yes, there will be functions build in the smart contract to send/receive Slock tokens and peer to peer exchange will be possible from day one. 
+Yes, there will be functions build in the smart contract to send/receive DAO tokens and peer to peer exchange will be possible from day one. 
 
 
 ### Will I need to be a programmer to purchase tokens?
@@ -208,17 +208,17 @@ No, we want to be inclusive every step of the way so that as many people as poss
 
 ### Will anyone hold 'premined' tokens?
 
-No. No one will get an unfair advantage: the only tokens in circulation will be the ones purchased during the Slock token presale.
+No. No one will get an unfair advantage: the only tokens in circulation will be the ones purchased during the DAO token presale.
 
 
 ### Will there be another opportunity to purchase tokens?
 
-There will be only one Slock token presale. Once launched during the course of 2016, the Slock DAO will be fully autonomous and decentralized. How it then manages itself, including decisions on its finances, is entirely up to 'it'. Slock token holders will hold voting rights, be able to submit proposals, and pass motions.
+There will be only one DAO token presale. Once launched during the course of 2016, the Slock DAO will be fully autonomous and decentralized. How it then manages itself, including decisions on its finances, is entirely up to 'it'. DAO token holders will hold voting rights, be able to submit proposals, and pass motions.
 
 
 ### How will the DAO control the funds it receives during the presale?
 
-The Slock token holders will elect the service provider of their choosing, and the conditions under which funds are distributed. These decisions are entirely governed by smart contracts, and accessible through a simple online interface.
+The DAO token holders will elect the service provider of their choosing, and the conditions under which funds are distributed. These decisions are entirely governed by smart contracts, and accessible through a simple online interface.
 
 
 ### Is there a minimum goal for the presale?
@@ -228,10 +228,10 @@ Yes. A minimum of 700,000 ether (equivalent) is required to build a meaningful D
 
 ### Will the presale accept Bitcoin, Doge, etc.?
 
-Yes, we have partnered with Shapeshift so that the Slock token presale will accept most cryptocurrencies in existence, including Ether, Bitcoin, Litecoin, Doge, Maidsafe, StorjcoinX, Bitshares, BitUSD, Nxt, Dash, Clams and many, many others.
+Yes, we have partnered with Shapeshift so that the DAO token presale will accept most cryptocurrencies in existence, including Ether, Bitcoin, Litecoin, Doge, Maidsafe, StorjcoinX, Bitshares, BitUSD, Nxt, Dash, Clams and many, many others.
 
 
-### Will the Slock token presale accept FIAT currencies?
+### Will the DAO token presale accept FIAT currencies?
 
 Not directly. In order to take part, you must use a cryptocurrency. To exchange FIAT for cryptocurrencies you could use an exchange such as [Kraken](https://kraken.com).
 
@@ -242,7 +242,7 @@ Not directly. In order to take part, you must use a cryptocurrency. To exchange 
 
 ### DA.. what?
 
-A Decentralized Autonomous Organization (DAO) is a form of company which operates entirely on the blockchain. In our case, the DAO is made up of Slock token holders that can review proposals and cast their votes to elect and direct a service provider which will represent them in the physical world. This process is very similar to selecting a vendor or supplier. A DAO is however superior in many respects to a traditional company in the sense that all the decisions it makes are transparent, its finances can be audited by anyone and corruption is impossible.
+A Decentralized Autonomous Organization (DAO) is a form of company which operates entirely on the blockchain. In our case, the DAO is made up of DAO token holders that can review proposals and cast their votes to elect and direct a service provider which will represent them in the physical world. This process is very similar to selecting a vendor or supplier. A DAO is however superior in many respects to a traditional company in the sense that all the decisions it makes are transparent, its finances can be audited by anyone and corruption is impossible.
 
 
 ### Is this just for geeks?
@@ -261,7 +261,7 @@ What parameters are available depend on the service provider's smart contract an
 
 ### Who can submit proposals to vote on?
 
-Any Slock token holder.
+Any DAO token holder.
 
 
 ### How often can the DAO vote on proposals?
@@ -281,7 +281,7 @@ The Slock DAO can enter into a hedging contract to protect its funds from ether'
 
 ### Why doesn't Slock.it GmbH raise money through a direct crowdsale instead?
 
-Because we believe DAOs are the future of how businesses will be structured. A DAO will provide much greater security and transparency than a traditional presale as investors will stay in control of the funds even after the presale has ended. DAOs also bring about open governance by allowing any Slock token holder to vote on all major business decisions.
+Because we believe DAOs are the future of how businesses will be structured. A DAO will provide much greater security and transparency than a traditional presale as investors will stay in control of the funds even after the presale has ended. DAOs also bring about open governance by allowing any DAO token holder to vote on all major business decisions.
 
 <br><br>
 
@@ -289,7 +289,7 @@ Because we believe DAOs are the future of how businesses will be structured. A D
 
 ### What's a 51% attack, and how do you prevent it?
 
-If someone was to acquire 51% of the Slock tokens, they could vote themselves as the service provider, and then send 100% of the funds to their own account. In order to prevent this, the Slock DAO is able to split itself proportionally to the vote results, leaving the attacker with their funds and the rest of the  participants with their own. Because of this mechanism, there is no incentive to run such an attack, since it is not only unprofitable, but the attacker would also be stuck with worthless tokens from their own fork of the DAO.
+If someone was to acquire 51% of the DAO tokens, they could vote themselves as the service provider, and then send 100% of the funds to their own account. In order to prevent this, the Slock DAO is able to split itself proportionally to the vote results, leaving the attacker with their funds and the rest of the  participants with their own. Because of this mechanism, there is no incentive to run such an attack, since it is not only unprofitable, but the attacker would also be stuck with worthless tokens from their own fork of the DAO.
 
 
 ### Why is there only a single service provider at any given time?

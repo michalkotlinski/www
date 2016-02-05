@@ -164,22 +164,22 @@ Wir definieren noch die Kosten, da sie von vielen Faktoren abhängt, einschließ
 ## Der Vorverkauf
 
 
-### Wann ist die Slock Token Vorverkauf?
+### Wann ist die DAO token Vorverkauf?
 
 Es wird zu Beginn 2016 statt und wird etwa einen Monat dauern. Weitere Details werden so bald freigegeben werden, wie wir sie haben. Wenn Sie benachrichtigt werden möchten, sobald sich die Dinge fertig sind, melden Sie sich bitte an unsere [Mailingliste](/ presale.html).
 
 
-### Warum ein Slock Token Vorverkauf?
+### Warum ein DAO token Vorverkauf?
 
-Wir verwenden Smart-Verträge auf dem Ethereum blockchain zu bauen, damit die Menschen auf der ganzen Welt die Befugnis erhalten, kann eine neue Zukunft für den Austausch von Wirtschaft zu bauen, und im Austausch für ihre frühe Hilfe, werden sie eine Belohnung in Form von Slock Token erhalten die halten viele Vorteile.
+Wir verwenden Smart-Verträge auf dem Ethereum blockchain zu bauen, damit die Menschen auf der ganzen Welt die Befugnis erhalten, kann eine neue Zukunft für den Austausch von Wirtschaft zu bauen, und im Austausch für ihre frühe Hilfe, werden sie eine Belohnung in Form von DAO token erhalten die halten viele Vorteile.
 
 Um Governance fair zu halten und dezentral, wird ein DAO erstellt werden, so dass die von der Gemeinschaft gehalten Mittel werden nie zentral verwaltet werden. Eine kleine Gebühr wird von den Gewinnen der einzelnen Slock Transaktion in Slock nicht bezahlt Token genommen werden. Dies wird zu einer DAO zurückgegeben werden, es die Möglichkeit gibt, die Gewinne zu reinvestieren, um sein Wachstum zu unterstützen.
 
-Slock Token Inhaber der Lage sein, bei wichtigen Entscheidungen zu stimmen das Management der DAO beziehen, einschließlich der Befugnis, die Gewinne untereinander zu verteilen.
+DAO token Inhaber der Lage sein, bei wichtigen Entscheidungen zu stimmen das Management der DAO beziehen, einschließlich der Befugnis, die Gewinne untereinander zu verteilen.
 
-### Welche Slock Token?
+### Welche DAO token?
 
-Slock Token:
+DAO token:
 
 Geben Stimmrechte in wichtigen Fragen in der DAO -
 - Kann ohne zu öffnen oder zu schließen Slocks verwendet werden, eine Gebühr an die DAO zu zahlen
@@ -192,12 +192,12 @@ Geben Stimmrechte in wichtigen Fragen in der DAO -
 Es ist möglich, die per-Use-Gebühren zu zahlen zu vermeiden, indem sie sich, indem sie sich eine einmalige Bereitstellungsgebühr an die DAO zu zahlen. Beachten Sie, dass der betreffende Betrag von dem sich DAO bestimmt werden, wie es mit dem Service-Provider eingreift.
 
 
-### Kann ich abbauen Slock Token?
+### Kann ich abbauen DAO token?
 
-Nr Slock Token werden rein zu stellen, den Anteil der Stimmen ein Slock Tokenhalter ist berechtigt, im Rahmen der DAO verwendet. Wenn Sie etwas abbauen möchte, versuchen [Äther](https://github.com/ethereum/go-ethereum/wiki/Mining).
+Nr DAO token werden rein zu stellen, den Anteil der Stimmen ein DAO tokenhalter ist berechtigt, im Rahmen der DAO verwendet. Wenn Sie etwas abbauen möchte, versuchen [Äther](https://github.com/ethereum/go-ethereum/wiki/Mining).
 
 
-### Werde ich versenden, empfangen und Austausch Slock Token?
+### Werde ich versenden, empfangen und Austausch DAO token?
 
 Ja, es wird Funktionen in der Smart-Vertrag aufgebaut sein Slock Jetons und Handels Peer-to-Peer wird möglich zu senden / empfangen werden vom ersten Tag an.
 
@@ -209,17 +209,17 @@ Nein, wir wollen jeden Schritt des Weges inklusive sein, damit so viele Menschen
 
 ### Wird jemand 'premined' Token halten?
 
-Nein. Niemand wird einen unfairen Vorteil erhalten: Die einzigen Token im Umlauf sind die, während der Slock Token Vorverkauf erworben werden.
+Nein. Niemand wird einen unfairen Vorteil erhalten: Die einzigen Token im Umlauf sind die, während der DAO token Vorverkauf erworben werden.
 
 
 ### Gibt es eine andere Möglichkeit sein Token zu kaufen?
 
-Es wird nur ein Slock Token Vorverkauf sein. Nachdem im Laufe des 2016 ins Leben gerufen, wird der Slock DAO völlig autonom und dezentral sein. Wie es sich dann verwaltet, einschließlich der Entscheidung über ihre Finanzen, ist völlig bis zu "es". Slock Token Inhaber Stimmrechte halten, können Vorschläge zu unterbreiten, und Bewegungen übergeben.
+Es wird nur ein DAO token Vorverkauf sein. Nachdem im Laufe des 2016 ins Leben gerufen, wird der Slock DAO völlig autonom und dezentral sein. Wie es sich dann verwaltet, einschließlich der Entscheidung über ihre Finanzen, ist völlig bis zu "es". DAO token Inhaber Stimmrechte halten, können Vorschläge zu unterbreiten, und Bewegungen übergeben.
 
 
 ### Wie steuert die DAO, die Mittel es im Vorverkauf erhält?
 
-Die Slock Token Inhaber werden den Service-Provider ihrer Wahl zu wählen, und die Bedingungen, unter denen die Mittel verteilt werden. Diese Entscheidungen werden ausschließlich von Smart-Verträge geregelt, und die über eine einfache Online-Schnittstelle.
+Die DAO token Inhaber werden den Service-Provider ihrer Wahl zu wählen, und die Bedingungen, unter denen die Mittel verteilt werden. Diese Entscheidungen werden ausschließlich von Smart-Verträge geregelt, und die über eine einfache Online-Schnittstelle.
 
 
 ### Gibt es eine Mindestziel für den Vorverkauf?
@@ -229,12 +229,12 @@ Ja. Ein Minimum von 500.000 USD (äquivalent) ist erforderlich, um eine sinnvoll
 
 ### Wird der Vorverkauf Bitcoin bezahlen, Doge, usw.?
 
-Ja, wir haben mit Shapeshift Partner, so dass die Slock Token Vorverkauf meisten cryptocurrencies in Existenz zu akzeptieren, einschließlich Ether, Bitcoin, Litecoin, Dogecoin, MaidsafeCoin, StorjcoinX, Bitshares, Ripple, BitUSD, NXT, DASH, Muscheln und viele, viele andere.
+Ja, wir haben mit Shapeshift Partner, so dass die DAO token Vorverkauf meisten cryptocurrencies in Existenz zu akzeptieren, einschließlich Ether, Bitcoin, Litecoin, Dogecoin, MaidsafeCoin, StorjcoinX, Bitshares, Ripple, BitUSD, NXT, DASH, Muscheln und viele, viele andere.
 
 Für größere Einkäufe in Krypto lauten, suchen wir auf direkt mit dem Austausch Partnerschaft.
 
 
-### Wird die Slock Token Vorverkauf FIAT Währungen akzeptieren?
+### Wird die DAO token Vorverkauf FIAT Währungen akzeptieren?
 
 Nicht direkt. Um daran teilzunehmen, müssen Sie einen Kryptowährung verwenden. Zum Austausch von FIAT für cryptocurrencies könnte Ihnen einen Austausch verwenden, wie beispielsweise [Kraken](https://kraken.com). Wir arbeiten derzeit mit Austausch zu sehen, ob wir diesen Prozess rationalisieren konnten.
 
@@ -245,7 +245,7 @@ Nicht direkt. Um daran teilzunehmen, müssen Sie einen Kryptowährung verwenden.
 
 ### DA .. was?
 
-Eine dezentrale Selbstorganisation (DAO) ist eine Form der Gesellschaft, die ganz auf die blockchain arbeitet. In unserem Fall wird die DAO bestehend aus Slock Token Halter, die Vorschläge überprüfen und ihre Stimmen einen Dienstleister zu wählen und zu leiten, die sie in der physischen Welt vertreten. Dieser Prozess ist sehr ähnlich wie bei einem Verkäufer oder Anbieter zu wählen. Ein DAO ist jedoch in vieler Hinsicht überlegen zu einem traditionellen Unternehmen in dem Sinne, dass alle Entscheidungen, die sie sind transparent macht, kann seine Finanzen von jedermann werden geprüft und Korruption ist nicht möglich.
+Eine dezentrale Selbstorganisation (DAO) ist eine Form der Gesellschaft, die ganz auf die blockchain arbeitet. In unserem Fall wird die DAO bestehend aus DAO token Halter, die Vorschläge überprüfen und ihre Stimmen einen Dienstleister zu wählen und zu leiten, die sie in der physischen Welt vertreten. Dieser Prozess ist sehr ähnlich wie bei einem Verkäufer oder Anbieter zu wählen. Ein DAO ist jedoch in vieler Hinsicht überlegen zu einem traditionellen Unternehmen in dem Sinne, dass alle Entscheidungen, die sie sind transparent macht, kann seine Finanzen von jedermann werden geprüft und Korruption ist nicht möglich.
 
 
 ### Ist das nur für Geeks?
@@ -303,7 +303,7 @@ Die Slock DAO könnte in einer Sicherungs Vertrag teil, um ihre Mittel aus Ether
 
 ### Warum nicht Slock.it GmbH statt Geld durch eine direkte crowdsale erhöhen?
 
-Weil wir glauben, DAOs sind die Zukunft, wie Unternehmen wird strukturiert werden. Ein DAO wird eine viel größere Sicherheit und Transparenz als eine herkömmliche Vorverkauf, da die Anleger die Kontrolle über die Mittel bleiben, selbst nachdem der Vorverkauf beendet ist. DAOs bringen auch über offene Regierungsführung, indem jede Slock Tokenhalter auf allen wichtigen Geschäftsentscheidungen zu stimmen.
+Weil wir glauben, DAOs sind die Zukunft, wie Unternehmen wird strukturiert werden. Ein DAO wird eine viel größere Sicherheit und Transparenz als eine herkömmliche Vorverkauf, da die Anleger die Kontrolle über die Mittel bleiben, selbst nachdem der Vorverkauf beendet ist. DAOs bringen auch über offene Regierungsführung, indem jede DAO tokenhalter auf allen wichtigen Geschäftsentscheidungen zu stimmen.
 
 
 ### Wie oft kann man die DAO Änderung Dienstleister?
@@ -323,7 +323,7 @@ Beide werden auf unseren Slack diskutiert werden, während Abstimmung wird ganz 
 
 ### Was ist ein 51% Angriff, und wie man es nicht verhindern?
 
-Wenn jemand 51% der Slock Token zu erwerben war, konnte sie sich als Dienstleister stimmen, und dann 100% der Mittel auf eigene Rechnung schicken. Um dies zu verhindern, ist die Slock DAO kann sich im Verhältnis zu den Abstimmungsergebnisse zu spalten, die Angreifer mit ihren Mitteln und den Rest der Teilnehmer die Kontrolle über ihre eigenen zu verlassen. Aufgrund dieses Mechanismus gibt es keinen Anreiz, einen solchen Angriff auszuführen, da sie nicht nur unwirtschaftlich ist, sondern der Angreifer auch mit wertlosen Tokens aus dem eigenen Gabel des DAO geklebt werden.
+Wenn jemand 51% der DAO token zu erwerben war, konnte sie sich als Dienstleister stimmen, und dann 100% der Mittel auf eigene Rechnung schicken. Um dies zu verhindern, ist die Slock DAO kann sich im Verhältnis zu den Abstimmungsergebnisse zu spalten, die Angreifer mit ihren Mitteln und den Rest der Teilnehmer die Kontrolle über ihre eigenen zu verlassen. Aufgrund dieses Mechanismus gibt es keinen Anreiz, einen solchen Angriff auszuführen, da sie nicht nur unwirtschaftlich ist, sondern der Angreifer auch mit wertlosen Tokens aus dem eigenen Gabel des DAO geklebt werden.
 
 
 ### Warum gibt es nur eine einzige Service-Provider zu einem bestimmten Zeitpunkt?

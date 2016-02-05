@@ -10,6 +10,7 @@
 
 ## The Project
 
+
 ### What are you trying to achieve?
 
 Our mission is to build the future infrastructure of the sharing economy by enabling anyone to rent, sell or share anything - without middlemen.
@@ -24,6 +25,8 @@ Slock.it strives to improve the experience of sharing items by:
 - Supporting almost any objects including cars, lockers, apartments, sheds, office space, etc.
 
 If it can be locked, it can be Slocked!
+
+For an in-depth introduction to our vision, please see Christoph Jentzsch's [project reveal at Devcon One](https://www.youtube.com/embed/49wHQoJxYPo?start=29s&showinfo=0&rel=0&modestbranding=1).
 
 
 

@@ -112,7 +112,7 @@ Bien sûr, certains volonté, comme Slocks ne sont pas une panacée pour vol ou 
 
 ### Qu'est-ce qui se passe si il n'y a pas de pouvoir ou Internet?
 
-La même chose qui se passerait si un autre verrou Smart a été employé: certains vont «fail secure» tandis que d'autres seront «fail safe». Quel mode de fonctionnement est utilisé est pas déterminée par le Slock DAO, mais plutôt par le cas de l'utilisation et de la réglementation locale. Par exemple, sa résistance au feu et les portes des chambres d'hôtel sera probablement 'fail safe "tout en un casier sera certainement' fail secure ').
+La même chose qui se passerait si un autre verrou Smart a été employé: certains vont «fail secure» tandis que d'autres seront «fail safe». Quel mode de fonctionnement est utilisé est pas déterminée par le DAO, mais plutôt par le cas de l'utilisation et de la réglementation locale. Par exemple, sa résistance au feu et les portes des chambres d'hôtel sera probablement 'fail safe "tout en un casier sera certainement' fail secure ').
 
 
 
@@ -213,7 +213,7 @@ Non, personne ne va obtenir un avantage injuste: les seuls jetons en circulation
 
 ### Qu'il y aura une autre occasion d'acheter des jetons?
 
-Il y aura un seul Slock prévente jeton. Une fois lancé au cours de 2016, le Slock DAO sera entièrement autonome et décentralisée. Comment il gère alors lui-même, y compris les décisions sur ses finances, est entièrement à «ça». Détenteurs de jetons SLOCK détiendra les droits de vote, être en mesure de soumettre des propositions, et adopter des motions.
+Il y aura un seul Slock prévente jeton. Une fois lancé au cours de 2016, le DAO sera entièrement autonome et décentralisée. Comment il gère alors lui-même, y compris les décisions sur ses finances, est entièrement à «ça». Détenteurs de jetons SLOCK détiendra les droits de vote, être en mesure de soumettre des propositions, et adopter des motions.
 
 
 ### Comment le DAO contrôler les fonds qu'il reçoit au cours de la pré-vente?
@@ -276,7 +276,7 @@ Version 1 de la DAO sera publié à la fin de la prévente à détenir les fonds
 
 ### Comment le DAO peut protéger ses fonds de la volatilité de l'éther?
 
-Le Slock DAO peut conclure un contrat de couverture pour protéger ses fonds de la volatilité de l'éther. Ce contrat pourrait être fourni par une tierce partie. Slock.it GmbH a l'intention de présenter une proposition sur la couverture à la DAO à la fin de la prévente.
+Le DAO peut conclure un contrat de couverture pour protéger ses fonds de la volatilité de l'éther. Ce contrat pourrait être fourni par une tierce partie. Slock.it GmbH a l'intention de présenter une proposition sur la couverture à la DAO à la fin de la prévente.
 
 
 ### Pourquoi ne Slock.it GmbH soulève pas de l'argent grâce à un crowdsale directe à la place?
@@ -289,7 +289,7 @@ Parce que nous croyons DAO sont l'avenir de la façon dont les entreprises seron
 
 ### Qu'est-ce qu'une attaque de 51%, et comment voulez-vous éviter?
 
-Si quelqu'un était d'acquérir 51% des jetons SLOCK, ils pourraient se votent comme le fournisseur de service, puis envoient 100% des fonds pour leur propre compte. Afin d'éviter cela, le Slock DAO est capable de se diviser proportionnellement aux résultats du vote, laissant l'attaquant avec leurs fonds et le reste des participants avec leur propre. En raison de ce mécanisme, il n'y a aucune incitation pour lancer une telle attaque, car il est non seulement rentable, mais l'attaquant devrait également être coincé avec des jetons sans valeur de leur propre fourche de la DAO.
+Si quelqu'un était d'acquérir 51% des jetons SLOCK, ils pourraient se votent comme le fournisseur de service, puis envoient 100% des fonds pour leur propre compte. Afin d'éviter cela, le DAO est capable de se diviser proportionnellement aux résultats du vote, laissant l'attaquant avec leurs fonds et le reste des participants avec leur propre. En raison de ce mécanisme, il n'y a aucune incitation pour lancer une telle attaque, car il est non seulement rentable, mais l'attaquant devrait également être coincé avec des jetons sans valeur de leur propre fourche de la DAO.
 
 
 ### Pourquoi est-il seulement un fournisseur de services unique à un moment donné?

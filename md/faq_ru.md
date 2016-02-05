@@ -112,7 +112,7 @@ Of course some will, as Slocks aren't a panacea for theft or damage. What Slocks
 
 ### What happens if there is no power or Internet?
 
-The same thing that would happen if any other smart lock was employed: some will 'fail secure' while others will 'fail safe'. Which mode of operation is used is not determined by the Slock DAO, but instead by the use case and local regulation. For example, fire rated and hotel room doors will probably 'fail safe' while a locker will certainly 'fail secure').
+The same thing that would happen if any other smart lock was employed: some will 'fail secure' while others will 'fail safe'. Which mode of operation is used is not determined by the DAO, but instead by the use case and local regulation. For example, fire rated and hotel room doors will probably 'fail safe' while a locker will certainly 'fail secure').
 
 
 
@@ -213,7 +213,7 @@ No. No one will get an unfair advantage: the only tokens in circulation will be 
 
 ### Will there be another opportunity to purchase tokens?
 
-There will be only one DAO token presale. Once launched during the course of 2016, the Slock DAO will be fully autonomous and decentralized. How it then manages itself, including decisions on its finances, is entirely up to 'it'. DAO token holders will hold voting rights, be able to submit proposals, and pass motions.
+There will be only one DAO token presale. Once launched during the course of 2016, the DAO will be fully autonomous and decentralized. How it then manages itself, including decisions on its finances, is entirely up to 'it'. DAO token holders will hold voting rights, be able to submit proposals, and pass motions.
 
 
 ### How will the DAO control the funds it receives during the presale?
@@ -276,7 +276,7 @@ Version 1 of the DAO will be released at the end of the presale to hold the fund
 
 ### How can the DAO protect its funds from ether's volatility?
 
-The Slock DAO can enter into a hedging contract to protect its funds from ether's volatility. This contract could be provided by a third party. Slock.it GmbH intends to submit a proposal on hedging to the DAO at the end of the presale.
+The DAO can enter into a hedging contract to protect its funds from ether's volatility. This contract could be provided by a third party. Slock.it GmbH intends to submit a proposal on hedging to the DAO at the end of the presale.
 
 
 ### Why doesn't Slock.it GmbH raise money through a direct crowdsale instead?
@@ -289,7 +289,7 @@ Because we believe DAOs are the future of how businesses will be structured. A D
 
 ### What's a 51% attack, and how do you prevent it?
 
-If someone was to acquire 51% of the DAO tokens, they could vote themselves as the service provider, and then send 100% of the funds to their own account. In order to prevent this, the Slock DAO is able to split itself proportionally to the vote results, leaving the attacker with their funds and the rest of the  participants with their own. Because of this mechanism, there is no incentive to run such an attack, since it is not only unprofitable, but the attacker would also be stuck with worthless tokens from their own fork of the DAO.
+If someone was to acquire 51% of the DAO tokens, they could vote themselves as the service provider, and then send 100% of the funds to their own account. In order to prevent this, the DAO is able to split itself proportionally to the vote results, leaving the attacker with their funds and the rest of the  participants with their own. Because of this mechanism, there is no incentive to run such an attack, since it is not only unprofitable, but the attacker would also be stuck with worthless tokens from their own fork of the DAO.
 
 
 ### Why is there only a single service provider at any given time?

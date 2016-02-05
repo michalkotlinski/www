@@ -214,7 +214,7 @@ Nein. Niemand wird einen unfairen Vorteil erhalten: Die einzigen Token im Umlauf
 
 ### Gibt es eine andere Möglichkeit sein Token zu kaufen?
 
-Es wird nur ein DAO token Vorverkauf sein. Nachdem im Laufe des 2016 ins Leben gerufen, wird der Slock DAO völlig autonom und dezentral sein. Wie es sich dann verwaltet, einschließlich der Entscheidung über ihre Finanzen, ist völlig bis zu "es". DAO token Inhaber Stimmrechte halten, können Vorschläge zu unterbreiten, und Bewegungen übergeben.
+Es wird nur ein DAO token Vorverkauf sein. Nachdem im Laufe des 2016 ins Leben gerufen, wird der DAO völlig autonom und dezentral sein. Wie es sich dann verwaltet, einschließlich der Entscheidung über ihre Finanzen, ist völlig bis zu "es". DAO token Inhaber Stimmrechte halten, können Vorschläge zu unterbreiten, und Bewegungen übergeben.
 
 
 ### Wie steuert die DAO, die Mittel es im Vorverkauf erhält?
@@ -298,7 +298,7 @@ Version 1 des DAO wird am Ende der Vorverkauf aktiviert werden, um die Mittel zu
 
 ### Wie kann die DAO ihre Mittel aus Ether Volatilität schützen?
 
-Die Slock DAO könnte in einer Sicherungs Vertrag teil, um ihre Mittel aus Ether Volatilität zu schützen. Dieser Vertrag würde die von der Behörde als Teil eines neuen Angebots zur Verfügung gestellt werden.
+Die DAO könnte in einer Sicherungs Vertrag teil, um ihre Mittel aus Ether Volatilität zu schützen. Dieser Vertrag würde die von der Behörde als Teil eines neuen Angebots zur Verfügung gestellt werden.
 
 
 ### Warum nicht Slock.it GmbH statt Geld durch eine direkte crowdsale erhöhen?
@@ -323,7 +323,7 @@ Beide werden auf unseren Slack diskutiert werden, während Abstimmung wird ganz 
 
 ### Was ist ein 51% Angriff, und wie man es nicht verhindern?
 
-Wenn jemand 51% der DAO token zu erwerben war, konnte sie sich als Dienstleister stimmen, und dann 100% der Mittel auf eigene Rechnung schicken. Um dies zu verhindern, ist die Slock DAO kann sich im Verhältnis zu den Abstimmungsergebnisse zu spalten, die Angreifer mit ihren Mitteln und den Rest der Teilnehmer die Kontrolle über ihre eigenen zu verlassen. Aufgrund dieses Mechanismus gibt es keinen Anreiz, einen solchen Angriff auszuführen, da sie nicht nur unwirtschaftlich ist, sondern der Angreifer auch mit wertlosen Tokens aus dem eigenen Gabel des DAO geklebt werden.
+Wenn jemand 51% der DAO token zu erwerben war, konnte sie sich als Dienstleister stimmen, und dann 100% der Mittel auf eigene Rechnung schicken. Um dies zu verhindern, ist die DAO kann sich im Verhältnis zu den Abstimmungsergebnisse zu spalten, die Angreifer mit ihren Mitteln und den Rest der Teilnehmer die Kontrolle über ihre eigenen zu verlassen. Aufgrund dieses Mechanismus gibt es keinen Anreiz, einen solchen Angriff auszuführen, da sie nicht nur unwirtschaftlich ist, sondern der Angreifer auch mit wertlosen Tokens aus dem eigenen Gabel des DAO geklebt werden.
 
 
 ### Warum gibt es nur eine einzige Service-Provider zu einem bestimmten Zeitpunkt?

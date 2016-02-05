@@ -54,7 +54,7 @@ Nous sommes en train de toucher un certain nombre de partenaires, en particulier
 
 ### Est-Slock.it open source?
 
-Si Slock.it GmbH est sélectionné comme le premier fournisseur de services pour le DAO, nous allons faire tout le code, les contrats à puce, interfaces utilisateur, des applications mobiles, et tout formant la source libre et ouvert Slock.it DAO, pour quiconque d'utiliser et re-but. Nous allons non seulement faire ces choses en commun, nous allons aussi le faire tout en notre pouvoir pour voir d'autres entreprises que nous développons Slock.it produits compatibles, comme nous sommes impatients de voir l'écosystème croître au-delà de ce que nous avons commencé.
+Si Slock.it GmbH est sélectionné comme le premier fournisseur de services pour le DAO, nous allons faire tout le code, les contrats à puce, interfaces utilisateur, des applications mobiles, et tout formant la source libre et ouvert DAO, pour quiconque d'utiliser et re-but. Nous allons non seulement faire ces choses en commun, nous allons aussi le faire tout en notre pouvoir pour voir d'autres entreprises que nous développons Slock.it produits compatibles, comme nous sommes impatients de voir l'écosystème croître au-delà de ce que nous avons commencé.
 
 
 ### Qu'est-ce qu'il ya dedans pour Slock.it GmbH alors?

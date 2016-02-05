@@ -54,7 +54,7 @@ We are currently reaching out to a number of partners, in particular:
 
 ### Is Slock.it open source?
 
-As the service provider for the DAO, Slock.it GmbH will make all the code, the smart contracts, user interfaces, mobile apps, and everything forming the Slock.it DAO free and open source, for anyone to use and re-purpose. We'll not only make these things public, we'll also do everything in our power to see companies other than us develop Slock.it compatible products, as we are keen to see the ecosystem grow beyond what we started.
+As the service provider for the DAO, Slock.it GmbH will make all the code, the smart contracts, user interfaces, mobile apps, and everything forming the DAO free and open source, for anyone to use and re-purpose. We'll not only make these things public, we'll also do everything in our power to see companies other than us develop Slock.it compatible products, as we are keen to see the ecosystem grow beyond what we started.
 
 
 ### What's in it for Slock.it GmbH then?

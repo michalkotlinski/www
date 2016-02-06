@@ -242,7 +242,7 @@ Not directly. In order to take part, you must use a cryptocurrency. To exchange 
 
 ### DA.. what?
 
-A Decentralized Autonomous Organization (DAO) is a form of company which operates entirely on the blockchain. In our case, the DAO is made up of DAO token holders that can review proposals and cast their votes to elect and direct a service provider which will represent them in the physical world. This process is very similar to selecting a vendor or supplier. A DAO is however superior in many respects to a traditional company in the sense that all the decisions it makes are transparent, its finances can be audited by anyone and corruption is impossible.
+A Decentralized Autonomous Organization (DAO) is a form of company which operates entirely on the blockchain. In our case, the DAO is composed of DAO token holders that can review proposals and cast their votes to elect and direct a service provider which will represent them in the physical world. This process is very similar to selecting a vendor or supplier. A DAO is however superior in many respects to a traditional company in the sense that all the decisions it makes are transparent, its finances can be audited by anyone and corruption is impossible.
 
 
 ### Is this just for geeks?

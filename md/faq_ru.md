@@ -208,7 +208,7 @@ Ethereum Computer является полноценным Ethereum-клиент�
 
 ### Получит ли кто-нибудь токены заранее?
 
-Нет. Никто не получит несправедливого преимущества: токены DAO, которые будут в обращении, возможно купить только во время их предпродажи.
+Нет. Никто не получит такого преимущества: токены DAO, которые будут в обращении, возможно купить только во время их предпродажи.
 
 
 ### Будет ли другая возможность, купить токены?
@@ -251,23 +251,42 @@ Ethereum Computer является полноценным Ethereum-клиент�
 Определенно нет. Чтобы принимать решения, владельцы токенов DAO смогут голосовать, используя интуитивный интерфейс в Mist, Ethereum-браузере. Вы сможете установить эту программу на свой компьютер и использовать то, что выглядит как обычная веб-страница. И это все.
 
 
-### What can the DAO do exactly?
+### Что конкретно может делать DAO?
 
-The DAO can choose a service provider to implement a technology or develop a product, either by sending funds directly or signing a smart contract. The smart contract specifies the terms of the relationship between the DAO and its service provider.
+DAO может выбирать сервис-провайдера для создания технологии или разработки продукта, или переслав деньги или подписав умный контракт. В умном контракте прописаны условия сотрудничества между DAO и ее сервис-провайдером.
 
-Once a provider has been selected, the DAO can call functions on the service provider smart contract, setting the values of operating parameters which could include, for example, what percentage of each Slock transaction is used to further fund the DAO, or what milestones have to be reached before the service provider receives certain payments.
+После выбора сервис-провайдера, DAO сможет вызывать функции из умного контракта сервис-провайдера, устанавливая значения рабочих параметров, например, какой процент от каждой Slock-транзакции используется для дальнейшего финансирования DAO, или при достижении какого этапа сервис-провайдер получает определенное вознаграждение.
 
-What parameters are available depend on the service provider's smart contract and could range from a 'hands off' approach to having the DAO hold complete operational control.
+Какие параметры доступны, зависит от умного контракта сервис-провайдера, и могут варьироваться от полного невмешательства ("hands off") до удержания DAO полного контроля над операциями. 
+
+### Что случится на практике после продажи?
+
+Как сервис-провайдер по умолчанию Slock.it GmbH в форме умного контракта предоставит офферту на разработку продуктов и сервисов (включая, разумеется, Ethereum Computer). DAO сможет проголосовать за или против этой офферты и, при ее одобрении, взаимодействовать с умным контрактом, используя Mist, Ethereum-браузер.
 
 
-### Who can submit proposals to vote on?
+### Я не программист - что будет включать в себя первая офферта для DAO?
 
-Any DAO token holder.
+Перед предпродажей мы опубликуем в нашем блоге условия умного контракта или умных контрактов, которые мы могли бы подписать с DAO. Эта офферта будет включать в себя учебное руководство, документацию, FAQ и "how to" видео.
 
 
-### How often can the DAO vote on proposals?
+### Will there be further offers?
 
-As often as it wishes to.
+Of course. No business can predict the future, not even the DAO - so it's expected for the DAO to review its engagement with the service provider at regular intervals. New offers can be submitted by the service provider at anytime - each of these can be as simple or as complex as needed as the terms are written in a turing complete smart contract language. 
+
+
+### Will the terms of the offer be explained in plain English? 
+
+Not only they will be explained in plain English, the smart contract itself can store plain English - holding the Service provider responsible for its offer. 
+
+
+### Can the DAO fire the service provider?
+
+Of course. Offers will usually include a total amount (say, USD 1m to complete project A), an initial deposit (USD 300k to bootstrap project A) and a monthly payment (for example, USD 50K / month for 24 months). At anytime, the DAO can stop the regular payments if it is dissatisfied by the service provider, effectively firing it. 
+
+
+### Does this mean you created a model where you can be fired yourself?
+
+Yes, absolutely. We believe a relationship whereby the DAO stays in control of its fund is actually more beneficial to both parties than a traditional token sale where the service provider retains 100% of the presale funds. 
 
 
 ### How will votes take place?

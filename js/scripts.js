@@ -565,7 +565,7 @@ $(document).ready(function(){
     var max =5;
     var blogs = $("#rss_blog");
     if (blogs.length>0) 
-      $.ajax({ type: "GET",  url: "http://mail.slock.it/rss.xml",  dataType: "xml",  success: function(xml) {
+      $.ajax({ type: "GET",  url: "https://mail.slock.it/rss.xml",  dataType: "xml",  success: function(xml) {
             var content = "";
             $(xml).find("item").each(function() {
                var d = $(this).find("pubDate").text();

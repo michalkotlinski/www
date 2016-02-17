@@ -269,57 +269,66 @@ DAO может выбирать сервис-провайдера для соз�
 Перед предпродажей мы опубликуем в нашем блоге условия умного контракта или умных контрактов, которые мы могли бы подписать с DAO. Эта офферта будет включать в себя учебное руководство, документацию, FAQ и "how to" видео.
 
 
-### Will there be further offers?
+### Будут ли предложения в дальнейшем?
 
-Of course. No business can predict the future, not even the DAO - so it's expected for the DAO to review its engagement with the service provider at regular intervals. New offers can be submitted by the service provider at anytime - each of these can be as simple or as complex as needed as the terms are written in a turing complete smart contract language. 
-
-
-### Will the terms of the offer be explained in plain English? 
-
-Not only they will be explained in plain English, the smart contract itself can store plain English - holding the Service provider responsible for its offer. 
+Разумеется. Ни одна организация не может предсказать будущее, даже DAO - поэтому мы ожидаем, что DAO будет регулярно пересматривать договоренности с сервис-провайдером. Сервис-провайдер может представлять новые офферты в любое время - каждая из них может быть настолько простой или сложной, насколько просты или сложны условия, записанные на полном по Тьюрингу языке умного контракта.
 
 
-### Can the DAO fire the service provider?
+### Будут ли условия офферты объясняться на английском языке? 
 
-Of course. Offers will usually include a total amount (say, USD 1m to complete project A), an initial deposit (USD 300k to bootstrap project A) and a monthly payment (for example, USD 50K / month for 24 months). At anytime, the DAO can stop the regular payments if it is dissatisfied by the service provider, effectively firing it. 
-
-
-### Does this mean you created a model where you can be fired yourself?
-
-Yes, absolutely. We believe a relationship whereby the DAO stays in control of its fund is actually more beneficial to both parties than a traditional token sale where the service provider retains 100% of the presale funds. 
+Они не только будут объясняться на английском, умный контракт сам по себе может хранить английский язык - поддерживая таким образом ответственность сервис-провайдера за свою офферту.
 
 
-### How will votes take place?
+### Может ли DAO уволить сервис-провадйера?
 
-Version 1 of the DAO will be released at the end of the presale to hold the funds and allow basic voting. The voting will take place via the [official Ethereum GUI wallet](https://github.com/ethereum/mist/releases), through an automatically generated HTML interface. Version 2 of the DAO (to be released at the launch of the project) will make use a completely customized Dapp accessible via [Mist](https://www.youtube.com/watch?v=IgNjs_WaFSc), the official Ethereum Dapp browser.
-
-
-### How can the DAO protect its funds from ether's volatility?
-
-The DAO can enter into a hedging contract to protect its funds from ether's volatility. This contract could be provided by a third party. Slock.it GmbH intends to submit a proposal on hedging to the DAO at the end of the presale.
+Конечно. Офферты обычно будут включать в себя общую сумму (например, 1 млн. долларов за выполнение проекта А), начальный депозит (300 тыс. долларов за раскручивание проекта А) и ежемесячные выплаты (например, 50 тыс. долларов в месяц в течение 24 месяцев). DAO может в любое время остановить регулярные выплаты, если она не удовлетворена работой сервис-провайдера, фактически уволив его.
 
 
-### Why doesn't Slock.it GmbH raise money through a direct crowdsale instead?
+### Означает ли это, что вы создали модель, когда вы можете уволить сами себя?
 
-Because we believe DAOs are the future of how businesses will be structured. A DAO will provide much greater security and transparency than a traditional presale as investors will stay in control of the funds even after the presale has ended. DAOs also bring about open governance by allowing any DAO token holder to vote on all major business decisions.
+Да, безусловно. Мы верим, что взаимоотношения, когда DAO сама управляет своими деньгами, более выгодны обоим участникам нежели традиционная продажа токенов, при которой сервис-провайдер остается владельцем 100% капитала. 
 
-<br><br>
 
-*Note: the following section of the document is technical and covers advanced topics that originate from Vitalik Buterin's blog post on [The Subjectivity / Exploitability Tradeoff](https://blog.ethereum.org/2015/02/14/subjectivity).*
+### Как будет проходить голосование?
 
-### What's a 51% attack, and how do you prevent it?
+Первая версия DAO будет активизирована в конце предпродажи для хранения капитала и базовой возможности голосования. Голосование будет проходить с помощью [официального Ethereum GUI для кошелька](https://github.com/ethereum/mist/releases), через автоматически генерируемый HTML интерфейс. Вторая версия DAO (будет выпущена во время старта проекта) будет использовать полностью адаптируемое Dapp (распределенное приложение) доступное посредством [Mist](https://www.youtube.com/watch?v=IgNjs_WaFSc), официального Ethereum-браузера.
 
-If someone was to acquire 51% of the DAO tokens, they could vote themselves as the service provider, and then send 100% of the funds to their own account. In order to prevent this, the DAO is able to split itself proportionally to the vote results, leaving the attacker with their funds and the rest of the  participants with their own. Because of this mechanism, there is no incentive to run such an attack, since it is not only unprofitable, but the attacker would also be stuck with worthless tokens from their own fork of the DAO.
+
+### Как может защитить DAO капиталы от колебания курса Ether?
+
+DAO может заключить хеджированный (hedging) контракт для защиты своих капиталов от колебания курса Ether. Этот контракт будет представлен сервис-провайдером как часть новой офферты.
+
+
+### Почему Slock.it GmbH не собирает деньги посредством массовой продажи (crowdsale)?
+
+Потому что мы верим, что DAO это будущее для структур построения бизнеса. DAO предоставит гораздо больше гарантий и прозрачности нежели традиционная предпродажа, когда инвесторы контролируют капиталы даже после ее окончания. DAO также привнесет открытое управление, позволяя любому владельцу токенов голосовать при принятии всех деловых решений.
+
+
+### Как часто DAO может менять сервис-провайдера?
+
+В любое время и так часто, как она считает нужным.
+
+
+### Где будут обсуждаться офферты и взаимодействие с умными контрактами?
+
+Обе темы будут обсуждаться в нашем [чате](http://Slock.it:3000/), в то время как голосование будет полностью проходить в Blockchain.
+
+
+
+
+## Дополнительные темы
+
+*Замечание: следующий раздел является техническим и охватывает дополнительные темы, порожденные статьей блога Vitalik Buterin в [The Subjectivity / Exploitability Tradeoff](https://blog.ethereum.org/2015/02/14/subjectivity).*
+
+
+### Что такое атака 51% и как ее предотвратить?
+
+Если бы кто-нибудь приобрел 51% токенов DAO, он смог бы проголосовать за себя как сервис-провайдера, и потом переслать 100% капитала на свой собственный счет. Для предотвращения этого DAO может разделить саму себя пропорционально результатам голосования, оставив злоумышленника с его деньгами, а другие смогут и дальше управлять оставшимися средствами. Благодаря этому механизму, такая атак теряет смысл, поскольку она не только не принесет дивидендов, но и заведет злоумышленника в тупик, оставив его с ничего не стоящими токенами от своей собственной ветки DAO.
 
 
 ### Why is there only a single service provider at any given time?
 
-For safety reasons. In order to prevent a 51% attack, we needed to introduce the rule that the DAO may split up in case there is no mutual agreement on a selecting a service provider, which in turn removes any incentive to even attempt to bring about such an attack. Having room for more than a single service provider would negate this failsafe.
-
-
-### How often can the DAO change service provider?
-
-At anytime.
+For safety reasons. In order to prevent a 51% attack, we needed to introduce the rule that the DAO may split up in case there is no mutual agreement on a selecting a service provider, which in turn removes any incentive to even attempt to bring about such an attack. Having room for more than a single service provider would negate this fail-safe.
 
 
 ### What is the process for selecting a new service provider?
@@ -327,7 +336,17 @@ At anytime.
 This takes place in two steps. The first step is a simple vote on keeping the existing service provider or choosing a new one. The second step is a confirmation vote, where the minority, having lost the previous vote but comfortable the winner is indeed not an attacker, can vote alongside the majority in order to avoid splitting the DAO. On the other hand, if the minority does suspects a 51% attack, it's important for it to keep its ability to stick with its decision to split the DAO, effectively rendering any attack unprofitable.
 
 
+### I thought DAOs were fully automated, why do you call this a DAO?
+
+Slock.it GmbH is set on building a DAO, that is, the first proposal to the DAO will include an offer relating to the continuous improvement of the DAO's own codebase. 
+
+Version 1 of the DAO, while not fully autonomous in the sense that the DAO token holders will be 100% in control of it, still represents an considerably better process than a traditional 'crypto kickstarter'. Longer term, a Version 2 could see the percentage of transactions going back to the DAO to become dynamic and orchestrated by a narrow AI, lowering the fee as more Slocks are deployed, or raising it when in need of further funds - this effectively would automate the decentralized organization. Such a switch would however first require a vote by the DAO token holders. 
 
 
+### Why did you choose to abstract the operational parameters of the DAO?
+
+You might wonder why the operational parameters of the DAO have been abstracted as part of a series of smart contract between the DAO and its service provider. This is because the DAO will hold 100% of its funds from day one and had to be made immutable code-wise, while at the same time needed to retain enough flexibility to hire and fire service providers. 
+
+Using this model we are able to guarantee that the core DAO code itself (the part that holds the funds) will rarely, if ever need to be updated. To keep adapting rapidly to market changes, the DAO will vote on offers and could even change service providers. This means the DAO will still be able to not only affect the operational parameters of its relationships with suppliers, but also completely change business models if needed.
 
 

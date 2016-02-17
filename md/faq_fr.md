@@ -10,22 +10,22 @@
 
 ## Le projet
 
-### Qu'est-ce que vous essayez d'atteindre?
+### Que faites-vous ?
 
-Notre mission est de construire la future infrastructure de l'économie par le partage permettant à quiconque de louer, vendre ou partager quoi que ce soit - sans intermédiaires.
+Notre mission est de construire la future infrastructure de l'économie de partage, en permettant à quiconque de louer, vendre ou partager quoi que ce soit - sans intermédiaires.
 
-Slock.it vise à améliorer l'expérience de partage d'articles par:
+Slock.it vise à améliorer l'expérience du partage d'objets ou de biens, son apport consiste à :
 
-- Making confiance à l'autre partie aussi inutile que possible
-- Le traitement des paiements P2P directs sécurisés
-- Fournir un mécanisme de dépôts, et, finalement, l'assurance complète soufflé
-- Libérer les utilisateurs d'avoir à coordonner les uns avec les autres de remettre les clés
-- Permettant à la fois les propriétaires et les locataires à trouver l'autre
-- Soutenir presque tous les objets, y compris les voitures, des casiers, des appartements, des hangars, des bureaux, etc.
+- Supprimer le problème de savoir si la partie adverse est fiable ou non 
+- Traiter les paiements de pair à pair, directs et sécurisés
+- Fournir un mécanisme de dépôts de garantie, et, à terme, un système d'assurance complet
+- Eviter aux utilisateurs d'avoir à s'organiser pour la remise de clés
+- Mettre en relation propriétaires et locataires
+- S'appliquer à presque tous les objets (voitures, casiers, appartements, hangars, bureaux, etc...)
 
-Si elle ne peut être verrouillé, il peut être Slocked!
+Si cela peut être verrouillé, cela peut être Slocké !
 
-Pour une bonne introduction à notre vision, s'il vous plaît voir [blog introduction de Christoph Jentzsch post](https://blog.Slock.it/Slock-it-blog/Slock-it-decentralizing-the-emerging-sharing-economy-cf19ce09b957#.4j2mtca7t).
+Pour une introduction plus en détail de notre vision, voir [l'introduction de Christoph Jentzsch  à la DEVCON One](https://blog.Slock.it/Slock-it-blog/Slock-it-decentralizing-the-emerging-sharing-economy-cf19ce09b957#.4j2mtca7t).
 
 
 ### Quel est Slock.it marché potentiel?

@@ -121,7 +121,7 @@ For higher value items, and thanks to our partner [SafeShare](http://www.safesha
 
 ### What happens if there is no power or Internet?
 
-The same thing that would happen if any other smart lock was employed: some will 'fail secure' while others will 'fail safe'. Which mode of operation is used is not determined by the DAO, but instead by the use case and local regulations. For example, fire rated and hotel room doors will probably 'fail safe' while a locker will certainly 'fail secure').
+The same thing that would happen if any other smart lock was employed: some will 'fail secure' while others will 'fail safe'. Which mode of operation is used is not determined by the DAO, but instead by the use case and local regulations. For example, fire rated and hotel room doors will probably 'fail safe' while a locker will certainly 'fail secure'.
 
 
 

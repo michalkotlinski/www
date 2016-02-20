@@ -203,7 +203,7 @@ DAO tokens:
 
 ### What if users want to own a Slock outright?
 
-It's possible to avoid paying the per-use fees by opting by opting to pay a one-time deployment fee to the DAO. Note that the amount in question will be determined by the DAO itself as it engages with the service provider.
+It's possible to avoid paying the per-use fees by opting to pay a one-time deployment fee to the DAO. Note that the amount in question will be determined by the DAO itself as it engages with the service provider.
 
 
 ### Can I mine DAO tokens?

@@ -61,7 +61,7 @@ As the service provider for the DAO, Slock.it GmbH will make all the code, the s
 
 ### What's in it for Slock.it GmbH then?
 
-At the end of the the token presale, Slock.it GmbH will become the DAO's default service provider. Slock.it GmbH is a for profit company, and the DAO will be one of its clients. It's critical for us to align incentives between the DAO and our company, so you can expect a symbiotic relationship: what we will work on privately will also benefit the Slock.it ecosystem as a whole. For example, Slock.it GmbH could engage in partnerships with lock manufacturers, consult for real estate companies building smart homes, integrate the Slock.it API at part of popular smart objects, work with banks for Slocks to accept FIAT payments, etc. 
+At the end of the the DAO token sale, Slock.it GmbH will become the DAO's default service provider. Slock.it GmbH is a for profit company, and the DAO will be one of its clients. It's critical for us to align incentives between the DAO and our company, so you can expect a symbiotic relationship: what we will work on privately will also benefit the Slock.it ecosystem as a whole. For example, Slock.it GmbH could engage in partnerships with lock manufacturers, consult for real estate companies building smart homes, integrate the Slock.it API at part of popular smart objects, work with banks for Slocks to accept FIAT payments, etc. 
 
 
 ### Can I help with anything?
@@ -147,7 +147,7 @@ We want to make the Ethereum Computer the easiest entry point to the world of Sl
 - Try out new, exciting applications: The Ethereum Computer is a full blown implementation of the Ethereum stack, and therefore can serve any Dapp via HDMI out to your home theater.
 - Browse web3 securely: you can point your browser, mobile phone or tablet to the Ethereum Computer, and the 3rd party web servers will only be used to serve static HTML assets, while your precious crypto keys will safely stay within the confines of your home.
 - Earn a passive income: the Ethereum Computer can be used to run an IPFS node, perhaps even receiving rewards for renting your unused hard drive space. We're also looking at the possibility of letting you use your Ethereum Computer as an Oracle, earning tokens by providing physical data to blockchain smart contracts.
-- Develop applications with Ethereum and never have to worry about installation difficulties. We’ll sort out updates and compatibility issues between the various components of the Ethereum 'stack' (Whisper, EVM, Web3.js, Swarm, etc), and will push updates only when we have tested the framework top to bottom.
+- Develop applications with Ethereum and never have to worry about installation difficulties. We’ll sort out updates and compatibility issues between the various components of the Ethereum 'stack' (Whisper, EVM, Web3.js, Swarm, etc), and will push updates only when we have tested the framework top to bottom.
 - Help secure the Ethereum network and get rewarded for it (once Ethereum has switched to PoS), without having to dedicate larger, more expensive and less secure equipment to that task.
 
 
@@ -174,15 +174,15 @@ We're still defining the cost, as it will be dependent on many factors, includin
 
 
 
-## The Presale
+## The DAO Token Sale
 
 
-### When is the DAO token presale?
+### When is the DAO token sale?
 
 It will take place early 2016 and will last roughly a month. Further details will be released as soon as we have them. If you'd like to be notified once things are ready, please sign up to our [mailing list](/presale.html). 
 
 
-### Why do a DAO token presale?
+### Why do a DAO token sale?
 
 We're using smart contracts to build on the Ethereum blockchain so people all over the world can be empowered to build a new future for the sharing economy, and in exchange for their early help, they will receive a reward in the form of DAO tokens which hold many benefits.
 
@@ -223,32 +223,32 @@ No, we want to be inclusive every step of the way so that as many people as poss
 
 ### Will anyone hold 'premined' tokens?
 
-No. No one will get an unfair advantage: the only tokens in circulation will be the ones purchased during the DAO token presale.
+No. No one will get an unfair advantage: the only tokens in circulation will be the ones purchased during the DAO token sale.
 
 
 ### Will there be another opportunity to purchase tokens?
 
-There will be only one DAO token presale. Once launched during the course of 2016, the DAO will be fully autonomous and decentralized. How it then manages itself, including decisions on its finances, is entirely up to 'it'. DAO token holders will hold voting rights, be able to submit proposals, and pass motions.
+There will be only one DAO token sale. Once launched during the course of 2016, the DAO will be fully autonomous and decentralized. How it then manages itself, including decisions on its finances, is entirely up to 'it'. DAO token holders will hold voting rights, be able to submit proposals, and pass motions.
 
 
-### How will the DAO control the funds it receives during the presale?
+### How will the DAO control the funds it receives during the token sale?
 
 The DAO token holders will elect the service provider of their choosing, and the conditions under which funds are distributed. These decisions are entirely governed by smart contracts, and accessible through a simple online interface.
 
 
-### Is there a minimum goal for the presale?
+### Is there a minimum goal for the token sale?
 
-Yes. A minimum of 500,000 USD (equivalent) is required to build a meaningful DAO and first product. If the minimum is not reached, participants in the presale will be able to request their funds back (denominated in ether).
+Yes. A minimum of 500,000 USD (equivalent) is required to build a meaningful DAO and first product. If the minimum is not reached, participants in the token sale will be able to request their funds back (denominated in ether).
 
 
-### Will the presale accept Bitcoin, Doge, etc.?
+### Will the DAO token sale accept Bitcoin, Doge, etc.?
 
-Yes, we have partnered with Shapeshift so that the DAO token presale will accept most cryptocurrencies in existence, including Ether, Bitcoin, Litecoin, Dogecoin, MaidsafeCoin, StorjcoinX, Bitshares, Ripple, BitUSD, NXT, DASH, CLAMS and many, many others.
+Yes, we have partnered with Shapeshift so that the DAO token sale will accept most cryptocurrencies in existence, including Ether, Bitcoin, Litecoin, Dogecoin, MaidsafeCoin, StorjcoinX, Bitshares, Ripple, BitUSD, NXT, DASH, CLAMS and many, many others.
 
 For larger purchases denominated in cryptocurrencies, we are currently looking at partnering directly with exchanges. 
 
 
-### Will the DAO token presale accept FIAT currencies?
+### Will the DAO token sale accept FIAT currencies?
 
 Not directly. In order to take part, you must use a cryptocurrency. To exchange FIAT for cryptocurrencies you could use an exchange such as [Kraken](https://kraken.com). We are currently working with exchange to see if we could streamline this process. 
 
@@ -276,49 +276,49 @@ Once a service provider has been selected, the DAO can call functions on the ser
 What parameters are available depend on the service provider's smart contract and can range from a 'hands off' approach to having the DAO hold complete operational control.
 
 
-### In practice, what will happen after the crowdsale? 
+### In practice, what will happen after the DAO token sale? 
 
-The default service provider Slock.it GmbH will submit an offer to develop products and services (including of course the Ethereum Computer) in the form of a smart contract. The DAO can then vote on this offer and, if accepted, interact with the smart contract using Mist, the Ethereum browser. 
-
-
-### I'm not a programmer - what will the first offer to the DAO include?
-
-Ahead of the presale, we'll make public on our blog the terms of the smart contract or smart contracts we could sign off with the DAO. This offer will include tutorials, a whitepaper, a FAQ, and 'how to' videos.
+The default service provider Slock.it GmbH will submit a proposal to develop products and services (including of course the Ethereum Computer) in the form of a smart contract. The DAO can then vote on this proposal and, if accepted, interact with the smart contract using Mist, the Ethereum browser. 
 
 
-### Will there be further offers?
+### I'm not a programmer - what will the first proposal to the DAO include?
 
-Of course. No business can predict the future, not even the DAO - so it's expected for the DAO to review its engagement with the service provider at regular intervals. New offers can be submitted by the service provider at anytime - each of these can be as simple or as complex as needed as the terms are written in a turing complete smart contract language. 
+Ahead of the token sale, we'll make public on our blog the terms of the smart contract or smart contracts we could sign off with the DAO. This proposal will include tutorials, a whitepaper, a FAQ, and 'how to' videos.
 
 
-### Will the terms of the offer be explained in plain English? 
+### Will there be further proposals?
 
-Not only they will be explained in plain English, the smart contract itself can store plain English - holding the Service provider responsible for its offer. 
+Of course. No business can predict the future, not even the DAO - so it's expected for the DAO to review its engagement with the service provider at regular intervals. New proposals can be submitted by the service provider at anytime - each of these can be as simple or as complex as needed as the terms are written in a turing complete smart contract language. 
+
+
+### Will the terms of the proposal be explained in plain English? 
+
+Not only they will be explained in plain English, the smart contract itself can store plain English - holding the service provider responsible for its proposal. 
 
 
 ### Can the DAO fire the service provider?
 
-Of course. Offers will usually include a total amount (say, USD 1m to complete project A), an initial deposit (USD 300k to bootstrap project A) and a monthly payment (for example, USD 50K / month for 24 months). At anytime, the DAO can stop the regular payments if it is dissatisfied by the service provider, effectively firing it. 
+Of course. Proposals will usually include a total amount (say, USD 1m to complete project A), an initial deposit (USD 300k to bootstrap project A) and a monthly payment (for example, USD 50K / month for 24 months). At anytime, the DAO can stop the regular payments if it is dissatisfied by the service provider, effectively firing it. 
 
 
 ### Does this mean you created a model where you can be fired yourself?
 
-Yes, absolutely. We believe a relationship whereby the DAO stays in control of its fund is actually more beneficial to both parties than a traditional token sale where the service provider retains 100% of the presale funds. 
+Yes, absolutely. We believe a relationship whereby the DAO stays in control of its funds is actually more beneficial to both parties than a traditional token sale where the service provider retains 100% of the funds. 
 
 
 ### How will voting take place?
 
-Version 1 of the DAO will be activated at the end of the presale to hold the funds and allow basic voting. The voting will take place via the [official Ethereum GUI wallet](https://github.com/ethereum/mist/releases), through an automatically generated HTML interface. Version 2 of the DAO (to be released at the launch of the project) will make use of a completely customized Dapp accessible via [Mist](https://www.youtube.com/watch?v=IgNjs_WaFSc), the official Ethereum Dapp browser.
+Version 1 of the DAO will be activated at the end of the token sale to hold the funds and allow basic voting. The voting will take place via the [official Ethereum GUI wallet](https://github.com/ethereum/mist/releases), through an automatically generated HTML interface. Version 2 of the DAO (to be released at the launch of the project) will make use of a completely customized Dapp accessible via [Mist](https://www.youtube.com/watch?v=IgNjs_WaFSc), the official Ethereum Dapp browser.
 
 
 ### How can the DAO protect its funds from ether's volatility?
 
-The DAO could enter into a hedging contract to protect its funds from ether's volatility. This contract would be provided by the service provider as part of a new offer.
+The DAO could enter into a hedging contract to protect its funds from ether's volatility. This contract would be provided by the service provider as part of a new proposal.
 
 
 ### Why doesn't Slock.it GmbH raise money through a direct crowdsale instead?
 
-Because we believe DAOs are the future of how businesses will be structured. A DAO will provide much greater security and transparency than a traditional presale as investors will stay in control of the funds even after the presale has ended. DAOs also bring about open governance by allowing any DAO token holder to vote on all major business decisions.
+Because we believe DAOs are the future of how businesses will be structured. A DAO will provide much greater security and transparency than a traditional token sale as investors will stay in control of the funds even after the token sale has ended. DAOs also bring about open governance by allowing any DAO token holder to vote on all major business decisions.
 
 
 ### How often can the DAO change service provider?
@@ -326,7 +326,7 @@ Because we believe DAOs are the future of how businesses will be structured. A D
 At anytime and as often as it sees fit. 
 
 
-### Where will offers and smart contract interactions be discussed?
+### Where will proposals and smart contract interactions be discussed?
 Both will be discussed in our [Slack chat room](http://Slock.it:3000/), while voting will be done entirely on the blockchain.
 
 
@@ -353,15 +353,16 @@ This takes place in two steps. The first step is a simple vote on keeping the ex
 
 ### I thought DAOs were fully automated, why do you call this a DAO?
 
-Slock.it GmbH is set on building a DAO, that is, the first proposal to the DAO will include an offer relating to the continuous improvement of the DAO's own codebase. 
+Slock.it GmbH is set on building a fully automated DAO, that is, the first proposal to the DAO will include an proposal relating to the continuous improvement of the DAO's own codebase. 
 
-Version 1 of the DAO, while not fully autonomous in the sense that the DAO token holders will be 100% in control of it, still represents an considerably better process than a traditional 'crypto kickstarter'. Longer term, a Version 2 could see the percentage of transactions going back to the DAO to become dynamic and orchestrated by a narrow AI, lowering the fee as more Slocks are deployed, or raising it when in need of further funds - this effectively would automate the decentralized organization. Such a switch would however first require a vote by the DAO token holders. 
+Version 1 of the DAO, while not fully automated is fully autonomous in the sense that the DAO token holders will be 100% in control of it and we as the code creators will have no influence over it. Thisl represents a considerably better process than a traditional 'crypto kickstarter'. Longer term, a Version 2 could see the percentage of transactions going back to the DAO to become dynamic and orchestrated by a narrow AI, lowering the fee as more Slocks are deployed, or raising it when in need of further funds - this effectively would automate the decentralized organization. Such a switch would however first require a vote by the DAO token holders. 
 
 
 ### Why did you choose to abstract the operational parameters of the DAO?
 
 You might wonder why the operational parameters of the DAO have been abstracted as part of a series of smart contract between the DAO and its service provider. This is because the DAO will hold 100% of its funds from day one and had to be made immutable code-wise, while at the same time needed to retain enough flexibility to hire and fire service providers. 
 
-Using this model we are able to guarantee that the core DAO code itself (the part that holds the funds) will rarely, if ever need to be updated. To keep adapting rapidly to market changes, the DAO will vote on offers and could even change service providers. This means the DAO will still be able to not only affect the operational parameters of its relationships with suppliers, but also completely change business models if needed.
+Using this model we are able to guarantee that the core DAO code itself (the part that holds the funds) will rarely, if ever need to be updated. To keep adapting rapidly to market changes, the DAO will vote on proposals and could even change service providers. This means the DAO will still be able to not only affect the operational parameters of its relationships with suppliers, but also completely change business models if needed.
+
 
 

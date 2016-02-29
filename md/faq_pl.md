@@ -46,14 +46,13 @@ Mottem tego tysiąclecia szybko staje się stwierdzenie: „Jeśli możesz coś 
 
 Obecnie zbieramy wielu partnerów, w szczególności:
 
-- Ubezpieczycieli dla ekonomii współdzielonej 
-– Producentów zamków dla potrzeb domowych lub biurowych 
-– Producentów elektronicznych zamknięć dla rowerów 
-– Firmy z branży obrotu nieruchomościami inwestujących w&nbsp;inteligentne domy 
-– Hotele i noclegi ze śniadaniem (B&B)
-– Programistów sieciowych i systemów operacyjnych 
-– Inne firmy działające z Ethereum i kryptowalutami
-
+- Ubezpieczycieli dla ekonomii współdzielonej
+- Producentów zamków dla potrzeb domowych lub biurowych
+- Producentów elektronicznych zamknięć dla rowerów
+- Firmy z branży obrotu nieruchomościami inwestujących w&nbsp;inteligentne domy
+- Hotele i noclegi ze śniadaniem (B&B)
+- Programistów sieciowych i systemów operacyjnych
+- Inne firmy działające z Ethereum i kryptowalutami
 
 ### Czy platforma Slock.it jest otwartym oprogramowaniem (open source)?
 
@@ -67,15 +66,15 @@ Po zakończeniu przedsprzedaży żetonów Slock.it GmbH stanie się domyślnym d
 
 ### Czy mogę w czymś pomóc?
 
-Tak, to jest otwarty projekt (ang. open source) i każdy może w nim uczestniczyć, wykorzystując swoje umiejętności. Aktualnie sprawdzamy program wolontariacki w&nbsp;kanale #communityorganizers naszego komunikatora Slack.
+Tak, to jest otwarty projekt (ang. open source) i&nbsp;każdy może w&nbsp;nim&nbsp;uczestniczyć, wykorzystując swoje umiejętności. Aktualnie sprawdzamy program wolontariacki w&nbsp;kanale #communityorganizers naszego komunikatora Slack.
 
 Sprawy, w których możesz pomóc:
 
-– Przeglądanie i tworzenie kodu w [github](https://github.com/Slockit/) (w końcu jest to otwarty projekt!) 
-– Analiza rynków w różnych częściach świata 
-– Tłumaczenie strony, dokumentacji, filmów video i aplikacji na twój język ojczysty 
-– Obsługa lokalnych forum (szczególnie w językach ze znakami spoza rzymskiego alfabetu) 
-– Testowanie prototypowego oprogramowania
+- Przeglądanie i tworzenie kodu w [github](https://github.com/Slockit/) (w końcu jest to otwarty projekt!)
+- Analiza rynków w różnych częściach świata
+- Tłumaczenie strony, dokumentacji, filmów video i aplikacji na twój język ojczysty
+- Obsługa lokalnych forum (szczególnie w językach ze znakami spoza rzymskiego alfabetu)
+- Testowanie prototypowego oprogramowania
 
 Żeby dołączyć, po prostu zażądaj dostępu do naszego [komunikatora](http://slock.it:3000/).
 
@@ -134,9 +133,9 @@ To samo, co mogłoby się wydarzyć, jeśli zastosowany byłby innych inteligent
 
 „Komputer Ethereum” jest wstępną nazwą produktu handlowego, który firma Slock.it GmbH będzie rozwijała w ramach DAO. Komputer Ethereum to mały, wstępnie skonfigurowany serwer domowy obsługujący węzeł Ethereum zoptymalizowany dla&nbsp;IoT (Internet rzeczy (ang. Internet of things)).
 
-– To bezpieczna bramka zamków Slock pomiędzy web i web3 do domu lub małego biura IoT, komunikująca się bezprzewodowo z inteligentnymi obiektami. 
-– Jest to najłatwiejszy sposób przeglądania nowych, ekscytujących [zdecentralizowanych aplikacji](http://dapps.ethercasts.com/), w&nbsp;tym&nbsp;aplikacji Mist. 
-– Jest to również wspaniała platforma programistyczna, zawierająca wszelkie oprogramowanie potrzebne do tworzenia aplikacji Ethereum Dapps jako część bezpośredniego, zoptymalizowanego obrazu.
+- To bezpieczna bramka zamków Slock pomiędzy web i web3 do domu lub małego biura IoT, komunikująca się bezprzewodowo z inteligentnymi obiektami.
+- Jest to najłatwiejszy sposób przeglądania nowych, ekscytujących [zdecentralizowanych aplikacji](http://dapps.ethercasts.com/), w&nbsp;tym&nbsp;aplikacji Mist.
+- Jest to również wspaniała platforma programistyczna, zawierająca wszelkie oprogramowanie potrzebne do tworzenia aplikacji Ethereum Dapps jako część bezpośredniego, zoptymalizowanego obrazu.
 
 Chcemy, aby Komputer Ethereum stał się najłatwiejszym sposobem wejścia w świat Slock.it i Ethereum, bez konieczności umawiania się z&nbsp;klientem, kupowania etherów na giełdzie lub martwienia się o aktualizacje bezpeiczeństwa.
 
@@ -145,11 +144,11 @@ Chcemy, aby Komputer Ethereum stał się najłatwiejszym sposobem wejścia w św
 ### Co można zrobić za pomocą Komputera Ethereum?
 
 - Skomunikować cały dom z blockchain: wynająć mieszkanie, powierzchnię biurową, połączyć się z hotspotem Wi-Fi lub bezpośrednio i&nbsp;bezpiecznie podzielić się jakimkolwiek inteligentnym obiektem z uruchomionym zamkiem Slock.it znajdującym się w zasięgu; 
-– Wypróbować nasze nowe niesamowite aplikacje: Komputer Ethereum jest całkowitym wdrożeniem stosu Ethereum i może obsługiwać każdą aplikację Dapp przez wyjście HDMI w twoim kinie domowym. 
-– Bezpiecznie przeglądać web3: możesz wskazać Komputerowi Ethereum swoją przeglądarkę, telefon komórkowy lub tablet i serwery trzeciej strony będą używane tylko do przesyłania statycznych zasobów HTML, podczas gdy twoje cenne klucze krypto bezpiecznie pozostają w twoim domu. 
-– Zarabiać pasywnie: Komputer Ethereum może być używany do obsługi węzła IPFS, może nawet zarabiać, otrzymując zapłatę za wynajęcie twojej nieużywanej przestrzeni dyskowej. Pracujemy również nad możliwością używania Komputera Ethereu jak Oracle, żeby zarabiał żetony, przesyłając fizyczne dane do inteligentnych kontraktów blockchain. 
-– Tworzyć aplikacje za pomocą Ethereum i nie martwić się o problemy z instalacją. Podzielimy aktualizacje i zadania kompatybilności między różne elementy „stosu” Ethereum (Szept, EVM, Web3.js, Rój, itp.) i wydamy aktualizacje tylko, jeśli dokładnie przetestujemy framework. 
-– Pomóc zabezpieczyć sieć Ethereum i zarobić na tym (kiedy Ethereum przejdzie do PoS (Punkt obsługi sprzedaży)), bez konieczności przeznaczania do tego zadania większych, droższych i mniej bezpiecznych urządzeń.
+- Wypróbować nasze nowe niesamowite aplikacje: Komputer Ethereum jest całkowitym wdrożeniem stosu Ethereum i może obsługiwać każdą aplikację Dapp przez wyjście HDMI w twoim kinie domowym.
+- Bezpiecznie przeglądać web3: możesz wskazać Komputerowi Ethereum swoją przeglądarkę, telefon komórkowy lub tablet i serwery trzeciej strony będą używane tylko do przesyłania statycznych zasobów HTML, podczas gdy twoje cenne klucze krypto bezpiecznie pozostają w twoim domu.
+- Zarabiać pasywnie: Komputer Ethereum może być używany do obsługi węzła IPFS, może nawet zarabiać, otrzymując zapłatę za wynajęcie twojej nieużywanej przestrzeni dyskowej. Pracujemy również nad możliwością używania Komputera Ethereu jak Oracle, żeby zarabiał żetony, przesyłając fizyczne dane do inteligentnych kontraktów blockchain.
+- Tworzyć aplikacje za pomocą Ethereum i nie martwić się o problemy z instalacją. Podzielimy aktualizacje i zadania kompatybilności między różne elementy „stosu” Ethereum (Szept, EVM, Web3.js, Rój, itp.) i wydamy aktualizacje tylko, jeśli dokładnie przetestujemy framework.
+- Pomóc zabezpieczyć sieć Ethereum i zarobić na tym (kiedy Ethereum przejdzie do PoS (Punkt obsługi sprzedaży)), bez konieczności przeznaczania do tego zadania większych, droższych i mniej bezpiecznych urządzeń.
 
 
 ### Czy to będzie hakowalne/otwarte?

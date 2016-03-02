@@ -11,6 +11,7 @@
    if (strpos($requested, "_zh.md") !==false) $lang="_zh";
    if (strpos($requested, "_ja.md") !==false) $lang="_ja";
    if (strpos($requested, "_fr.md") !==false) $lang="_fr";
+   if (strpos($requested, "_pl.md") !==false) $lang="_pl";
    
    $index     = file_get_contents("../index$lang.html");
    $md_source = $_SERVER['DOCUMENT_ROOT'] . $requested;

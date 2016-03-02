@@ -1,367 +1,367 @@
-> Version 1.4
+> Wersja 1.4
 
-# Slock.it, in-depth
+# Slock.it, szczegóły
   
-> This document is in development, it can and will change. We'd love your feedback.<br>
-> To become part of the conversation, ask questions or receive help, join our [Slack chat room](http://Slock.it:3000/).
+> Ten dokument jest w trakcie opracowywania, może i będzie się zmieniać. 
+Zależy nam na informacji zwrotnej od ciebie.<br>
+> Żeby uczestniczyć w rozmowie, zadać pytanie lub otrzymać pomoc, dołącz do [Slack](http://Slock.it:3000/).
 
 
 
 
-## The Project
+## Projekt
 
 
-### What are you trying to achieve?
+### Co chcecie osiągnąć?
 
-Our mission is to build the future infrastructure of the sharing economy by enabling anyone to rent, sell or share anything - without middlemen.
+Naszą misją jest zbudowanie przyszłej infrastruktury ekonomii współdzielonej, umożliwiając każdemu wynajęcie, sprzedaż czegokolwiek lub podzielenie się tym –&nbsp;bez pośredników.
 
-Slock.it strives to improve the experience of sharing items by:
+Slock.it usiłuje poprawić dzielenie się przez:
 
-- Making trusting the other party as unnecessary as possible
-- Handling secure Peer-to-Peer payments
-- Providing a mechanism of deposits, and eventually, full blown insurance
-- Freeing the users from having to coordinate with each other to hand over keys
-- Enabling both owners and renters to connect each other
-- Supporting almost any objects including cars, lockers, apartments, sheds, office space, etc.
+- Uczynienie zaufania do drugiej strony tak koniecznym jak to jest możliwe
+- Obsługę bezpiecznych płatności osobistych
+- Zapewnienie mechanizmu depozytów i ewentualnie pełnego ubezpieczenia
+- Uwalnianie użytkowników od konieczności ustalenia przekazania sobie kluczy
+- Umożliwienie zarówno właścicielom jak i wynajmującym skontaktowania się ze&nbsp;sobą
+- Obsługę niemal każdego przedmiotu w tym samochodów, schowków, mieszkań, nagarów/wiat, przestrzeni biurowych, itp.
 
 If it can be locked, it can be Slocked!
 
-For an in-depth introduction to our vision, please see Christoph Jentzsch's [project reveal at Devcon One](https://www.youtube.com/embed/49wHQoJxYPo?start=29s&showinfo=0&rel=0&modestbranding=1).
+Szczegółowo opowiada o naszym projekcie Christoph Jentzsch [prezentacja projektu podczas konferencji Devcon One](https://www.youtube.com/embed/49wHQoJxYPo?start=29s&showinfo=0&rel=0&modestbranding=1).
 
 
 
-### Who is Slock.it's potential market?
+### Potencjalny rynek Slock.it?
 
-Anywhere where there are underused assets such as parked cars, parking slots or temporarily vacant apartments, there is an opportunity to make a profit using Slock.it. Our solution enables both consumers and businesses to turn their assets into income. Almost anything can be retrofitted with a Slock: homes, offices, power tools, bicycles, household electronics, wifi routers, cars, motorcycles and of course lockers.
+Gdziekolwiek są niewykorzystane aktywa takie jak zaparkowane samochody, miejsca parkingowe lub tymczasowo wolne mieszkania, istnieje szansa zarobienia na&nbsp;tym&nbsp;za&nbsp;pomocą Slock.it. Nasze rozwiązanie umożliwia klientom i&nbsp;przedsiębiorstwom zamienić swoje aktywa w przychody. Prawie wszystko może być zmodernizowane za&nbsp;pomocą Slock: domy, biura, narzędzia elektryczne, rowery, elektroniczny gospodarstwa domowego, rutery wifi, samochody, motocykle i&nbsp;oczywiście zamki.
 
-The sharing economy has created [17](http://venturebeat.com/2015/06/04/the-sharing-economy-has-created-17-billion-dollar-companies-and-10-unicorns/) different billion-dollar companies with 60,000 employees. The sector has received close to $15 billion in funding so far and its global yearly revenue is projected to reach $335 billion by 2025 (source: [PWC](https://www.pwc.com/us/en/technology/publications/assets/pwc-consumer-intelligence-series-the-sharing-economy.pdf)).
+Dzięki współdzielonej ekonomii powstało [17](http://venturebeat.com/2015/06/04/the-sharing-economy-has-created-17-billion-dollar-companies-and-10-unicorns/) różnych wartych bilion dolarów firm&nbsp;zatrudniających 60 000 pracowników. Sektor osiągnął prawie 15 bilionów finansowania do tej pory a jego roczny dochód całkowity przewidywany jest, że&nbsp;osiągnie 335 bilionów dolarów do 2025 roku (źródło: [PWC](https://www.pwc.com/us/en/technology/publications/assets/pwc-consumer-intelligence-series-the-sharing-economy.pdf)).
 
-We believe that very soon, cars will be available for rent in the streets of every city, Airbnbs will be fully automated, and small business owners will prefer to rent private work spaces on demand rather than commit to complex leases. Owners in a sharing economy become both consumers and producers, leveraging Slocks to earn an income without losing revenue to a third party.
+Wierzymy, że już bardzo niedługo będzie można wynająć samochody na ulicach w każdym mieście, urlopowe wynajmowanie (Airbnbs) będzie w&nbsp;pełni automatyczne, a&nbsp;właściciele małych firm będą woleli w razie konieczności wynająć prywatną powierzchnię biurową niż&nbsp;wynajmować ją stale. W ekonomii współdzielenia właściciele stają się zarówno klientami i producentami, umożliwiając użytkownikom zamków Slock zarabiać, nie wydając pieniędzy na pośredników.
 
-The millennials' philosophy is fast becoming "If you can rent it, why own it". 66% of the world is willing to share or rent their personal assets for financial gain, and that figure is as high as [94%](http://www.nielsen.com/content/dam/nielsenglobal/apac/docs/reports/2014/Nielsen-Global-Share-Community-Report.pdf) in China. We believe Slock.it is uniquely placed to address those needs worldwide, today.
+Mottem tego tysiąclecia szybko staje się stwierdzenie: „Jeśli możesz coś wynająć, po&nbsp;co to posiadać.” 66% populacji świata chce&nbsp;dzielić lub wynajmować swoje prywatne aktywa i zarabiać na tym. Ta liczba jest równa [94%](http://www.nielsen.com/content/dam/nielsenglobal/apac/docs/reports/2014/Nielsen-Global-Share-Community-Report.pdf) w Chinach. Wierzymy, że&nbsp;platforma Slock.it jest już dzisiaj wyjątkowym miejscem stworzonym w tym celu dla&nbsp;całego świata.
 
 
-### Who are Slock.it's potential partners?
+### Kim są potencjalni partnerzy Slock.it?
 
-We are currently reaching out to a number of partners, in particular:
+Obecnie zbieramy wielu partnerów, w szczególności:
 
-- Sharing economy insurance providers
-- Manufacturers of smart locks for the home and offices
-- Manufacturers of electronic bike locks
-- Real estate companies investing in smart homes
-- Hotels and BnBs
-- Network and operating systems developers
-- Other Ethereum and cryptocurrency businesses
+- Ubezpieczycieli dla ekonomii współdzielonej
+- Producentów zamków dla potrzeb domowych lub biurowych
+- Producentów elektronicznych zamknięć dla rowerów
+- Firmy z branży obrotu nieruchomościami inwestujących w&nbsp;inteligentne domy
+- Hotele i noclegi ze śniadaniem (B&B)
+- Programistów sieciowych i systemów operacyjnych
+- Inne firmy działające z Ethereum i kryptowalutami
 
+### Czy platforma Slock.it jest otwartym oprogramowaniem (open source)?
 
-### Is Slock.it open source?
+Slock.it GMBH jako wykonawca DAO napisze kod, inteligentne kontrakty (ang.&nbsp;smart&nbsp;contracts), interfejsy użytkownika, aplikacje mobilne i wszystko co czyni DAO darmowym i otwartym oprogramowaniem do użytku i modyfikacji przez każdego. Nie&nbsp;tylko uczynimy to wszystko publicznie dostępnym, zrobimy również wszystko co&nbsp;w&nbsp;naszej mocy, aby inne firmy niż nasza opracowały produkty kompatybilne z platformą Slock.it, ponieważ chcemy widzieć że nasz ekosystem rozrasta się od punktu, w&nbsp;którym go rozpoczęliśmy.
 
-As the service provider for the DAO, Slock.it GmbH will make all the code, the smart contracts, user interfaces, mobile apps, and everything forming the DAO free and open source, for anyone to use and re-purpose. We'll not only make these things public, we'll also do everything in our power to see companies other than us develop Slock.it compatible products, as we are keen to see the ecosystem grow beyond what we started.
 
+### Co z tego ma Slock.it GmbH?
 
-### What's in it for Slock.it GmbH then?
+Po zakończeniu przedsprzedaży żetonów Slock.it GmbH stanie się domyślnym dostawcą usług DAO. Slock.it GmbH jest firmą komercyjną, a&nbsp;DAO zostanie jednym z jej klientów. Duże znaczenie ma dla nas połączenie zachęt, bodźców DAO i naszej firmy. Możesz więc spodziewać się wzajemnej relacji: to, co zrobimy prywatnie, przyniesie korzyści również całemu ekosystemowi Slock.it. Na przykład, firma Slock.it GmbH nawiąże współpracę z producentami zamków, skonsultuje się z firmami z&nbsp;branży nieruchomości budującymi inteligentne domy, zintegruje API zamków Slock.it jako część popularnych inteligentnych obiektów (ang. smart objects), będzie współpracowała z bankami użytkowników przy akceptacji płatności FIAT, itp. 
 
-At the end of the the token presale, Slock.it GmbH will become the DAO's default service provider. Slock.it GmbH is a for profit company, and the DAO will be one of its clients. It's critical for us to align incentives between the DAO and our company, so you can expect a symbiotic relationship: what we will work on privately will also benefit the Slock.it ecosystem as a whole. For example, Slock.it GmbH could engage in partnerships with lock manufacturers, consult for real estate companies building smart homes, integrate the Slock.it API at part of popular smart objects, work with banks for Slocks to accept FIAT payments, etc. 
 
+### Czy mogę w czymś pomóc?
 
-### Can I help with anything?
+Tak, to jest otwarty projekt (ang. open source) i&nbsp;każdy może w&nbsp;nim&nbsp;uczestniczyć, wykorzystując swoje umiejętności. Aktualnie sprawdzamy program wolontariacki w&nbsp;kanale #communityorganizers naszego komunikatora Slack.
 
-Yes, it's an open source project and everyone is encouraged to participate in any way they can. We're currently trialling a volunteer program in the #communityorganizers of our Slack.
+Sprawy, w których możesz pomóc:
 
-Things we could use help with include:
+- Przeglądanie i tworzenie kodu w [github](https://github.com/Slockit/) (w końcu jest to otwarty projekt!)
+- Analiza rynków w różnych częściach świata
+- Tłumaczenie strony, dokumentacji, filmów video i aplikacji na twój język ojczysty
+- Obsługa lokalnych forum (szczególnie w językach ze znakami spoza rzymskiego alfabetu)
+- Testowanie prototypowego oprogramowania
 
-- Reviewing and contributing code on [github](https://github.com/Slockit/) (it's an open source project after all!)
-- Analyzing the market in different parts of the world
-- Translating the site, the whitepaper, the videos and the apps into your native language
-- Operating local forums (especially in non-roman character sets)
-- Testing prototype hardware
+Żeby dołączyć, po prostu zażądaj dostępu do naszego [komunikatora](http://slock.it:3000/).
 
-To join, simply request access to our [chat room](http://slock.it:3000/).
 
 
 
 
+## Jak to działa?
 
-## How it works
+### Co znaczy „Slocks”?
 
-### What are 'Slocks'?
+„Slock” jest kontaminacją wyrażenia: „Smart, Safe and Secure Lock”, pl. Inteligentne, Bezpieczne i Pewne Zamknięcie. Dzięki naszemu pierwszemu produktowi – komputerowi Ethereum – wszystko co obsługuje protokoły ZigBee, Z-Wave, Bluetooth LE lub Wi-Fi może być&nbsp;już&nbsp;wykorzystane jako zamek Slock. W przypadku załączenia zasilania do „głupich” obiektów, należy je zmodernizować, używając inteligentnych gniazdek. Zamki Slock pojawią się również w różnych kształtach i rozmiarach: zamki Slock do rowerów, zamki Slock do&nbsp;samochodów i zamki Slock drzwi, które są już testowane dzięki partnerstwu z producentami IoT (Internet rzeczy (ang.&nbsp;Internet of Things)).
 
-'Slock' is a porte-manteau of 'Smart, Safe and Secure Lock'. Any object supporting ZigBee, Z-Wave, Bluetooth LE or Wi-Fi can already be used as a Slock thanks to our first product, the Ethereum Computer. When it comes to powering up a ‘dumb’ object, it will be a case of retrofitting it using smart plugs. Slocks will also come in many shapes and sizes: bike Slocks, car Slocks and door Slocks are already being explored through partnerships with IoT manufacturers.
 
+### Jak działają zamki Slock?
 
-### How do Slocks work?
+Właściciel zestawu zamka Slock, w razie konieczności, ustanawia wartość depozytu i&nbsp;cenę za&nbsp;używanie przedmiotu. Użytkownicy mogą znaleźć zamek Slock za pomocą aplikacji mobilnej i następnie zapłacić w blockchain Ethereum, otrzymując&nbsp;tym&nbsp;samym możliwość otwarcia lub zamknięcia tego zamka Slock smartfonem.
 
-The owner of a Slock sets a deposit amount (if needed) and a price for using the item. Users can find the Slock using the mobile app and then make a payment on the Ethereum blockchain, thereby gaining permission to open or close that Slock with their smart phone.
+Jeżeli zostało tak wybrane, depozyt jest przetrzymywany jako zabezpieczenie w&nbsp;inteligentnym kontrakcie (ang. smart contract). Inteligentny kontrakt jest automatycznie wprowadzany w&nbsp;życie ze zwrotem depozytu pomniejszonego o koszt wynajęcia, który automatycznie zostanie przekazany właścicielowi zamka Slock.
 
-If selected, a deposit is held as collateral in a smart contract until the user returns the item. The smart contract is automatically enforced, with the deposit returned to the user minus the cost of the rental, which in turn will be automatically disbursed to the owner of the Slock.
+Współpracujemy z naszym partnerem [SafeShare](http://www.safeshareinsurance.com/), aby zapewnić ubezpieczenie ad-hoc, jeśli depozyt nie byłby odpowiedni.
 
-We're working with our partner [SafeShare](http://www.safeshareinsurance.com/), to provide ad-hoc insurance where a deposit wouldn't be appropriate.
+Trzecie strony nie biorą żadnego udziału w tym wszystkim. 
 
-All of this happens without any assistance from a third-party. 
 
+### Czy użytkownicy będą musieli płacić za każdym razem, kiedy używają swojego zamka Slock?
 
-### Will users have to pay every time they use a Slock?
+Nie, ponieważ kosztuje tylko wynajęcie dostępu do zamka. Każdy aktualny użytkownik (co również obejmuje właściciela) wysyła [Szept (ang. Whisper)](https://github.com/ethereum/wiki/wiki/Whisper-Overview)- podpisane wiadomości (które nic nie kosztują), żeby otworzyć lub zamknąć zamek Slock.
 
-They won't have to, as only renting access to the lock costs money. Any current user (which could also include the owner) sends [Whisper](https://github.com/ethereum/wiki/wiki/Whisper-Overview)-signed messages (which do not cost anything) to open or close the Slock.
 
+### Czy użytkownicy będą mogli użyć karty debetowej lub kredytowej do otwarcia zamka Slock?
 
-### Will users be able to use a debit or credit card to open a Slock?
+Aktualnie zwracamy się do naszych partnerów i różnych instytucji finansowych, żeby&nbsp;spróbowały i zamieniły naszą wizję w rzeczywistość.
 
-We're currently approaching our partners and various financial institutions to try and make this a reality.
 
+### Czy zamki Slock nie będą niszczone?
 
-### Aren't the Slocks going to get vandalized?
+Oczywiście niektóre tak. Zamki Slock nie są panaceum na kradzież lub uszkodzenie. Zapewnienie opcji ubezpieczenia „wbudowanego” w&nbsp;umowę korzystania jest tym, czego nie oferują tradycyjne zamki. 
 
-Of course some will, as Slocks aren't a panacea for theft or damage. What Slocks can do that traditional locks cannot, is provide an insurance option 'baked' into the usage contract. 
+Jeżeli w przypadku niższej wartości lub nieporęcznych przedmiotów nie jest wymagane żadne ubezpieczenie, domyślnie wymagany jest podstawowy depozyt i&nbsp;to&nbsp;wystarczy.  
 
-If no insurance is required in the case of lower value or cumbersome items, a basic deposit implementation is provided by default and will suffice.  
+Dla przedmiotów dużej wartości, dzięki naszemu partnerowi [SafeShare](http://www.safeshareinsurance.com/), przygotowujemy rewolucyjne, uniwersalne, miejscowe ubezpieczenie, w którym użytkownicy zapłacą tylko za rodzaj ubezpieczenia jakiego potrzebują, kiedy go potrzebują. Ubezpieczyciel odczyta z blockchain Ethereum, kiedy przedmioty zostały wypożyczone i właściciele zapłacą tylko za czas wypożyczenia.
 
-For higher value items, and thanks to our partner [SafeShare](http://www.safeshareinsurance.com/), we're working towards being able to offer a revolutionary, universal, on-the-spot insurance where users would pay only for the type of insurance they need, when they need it. The insurance provider will read from the Ethereum blockchain when the objects are rented out, and owners will only pay for the time the property was being rented.
 
+### Co się stanie, jeśli nie będzie prądu lub dostępu do&nbsp;Internetu?
 
-### What happens if there is no power or Internet?
+To samo, co mogłoby się wydarzyć, jeśli zastosowany byłby innych inteligentny zamek: niektóre są „odporne na uszkodzenia (ang. fail secure”, a inne „bezpieczne w&nbsp;razie uszkodzenia (ang. fail safe)”. DAO nie określa, który tryb użytkowania został zastosowany, ale jest to określane przez przypadek użycia i lokalne regulacje prawne. Na przykład, wybucha pożar i drzwi w pokoju hotelowym prawdopodobnie są&nbsp;odporne na uszkodzenia, a zamek oczywiście bezpieczny w razie uszkodzenia”.
 
-The same thing that would happen if any other smart lock was employed: some will 'fail secure' while others will 'fail safe'. Which mode of operation is used is not determined by the DAO, but instead by the use case and local regulations. For example, fire rated and hotel room doors will probably 'fail safe' while a locker will certainly 'fail secure').
 
 
 
 
+## Produkt
 
-## The Product
+### Co to dokładnie jest „Komputer Ethereum”?
 
-### What exactly is the "Ethereum Computer"?
+„Komputer Ethereum” jest wstępną nazwą produktu handlowego, który firma Slock.it GmbH będzie rozwijała w ramach DAO. Komputer Ethereum to mały, wstępnie skonfigurowany serwer domowy obsługujący węzeł Ethereum zoptymalizowany dla&nbsp;IoT (Internet rzeczy (ang. Internet of things)).
 
-The "Ethereum Computer" is the tentative name for a consumer product Slock.it GmbH hopes to develop on behalf of the DAO. The Ethereum computer is a tiny, preinstalled, preconfigured home server running an  Ethereum node optimized for the IoT.
+- To bezpieczna bramka zamków Slock pomiędzy web i web3 do domu lub małego biura IoT, komunikująca się bezprzewodowo z inteligentnymi obiektami.
+- Jest to najłatwiejszy sposób przeglądania nowych, ekscytujących [zdecentralizowanych aplikacji](http://dapps.ethercasts.com/), w&nbsp;tym&nbsp;aplikacji Mist.
+- Jest to również wspaniała platforma programistyczna, zawierająca wszelkie oprogramowanie potrzebne do tworzenia aplikacji Ethereum Dapps jako część bezpośredniego, zoptymalizowanego obrazu.
 
-- It’s a secure Slock gateway between the web & web3 to your home or small office IoT, communicating wirelessly with your smart objects. 
-- It’s the easiest way to browse exciting new [decentralised applications](http://dapps.ethercasts.com/), including Mist.
-- And it’s also a brilliant development platform, packaging all the software needed to build Ethereum Dapps as part of a straightforward, optimized image.
+Chcemy, aby Komputer Ethereum stał się najłatwiejszym sposobem wejścia w świat Slock.it i Ethereum, bez konieczności umawiania się z&nbsp;klientem, kupowania etherów na giełdzie lub martwienia się o aktualizacje bezpeiczeństwa.
 
-We want to make the Ethereum Computer the easiest entry point to the world of Slock.it and Ethereum, without having to struggle with setting up a client, buying ether from an exchange or worrying about security updates.
 
 
+### Co można zrobić za pomocą Komputera Ethereum?
 
-### What could I do with the Ethereum Computer?
+- Skomunikować cały dom z blockchain: wynająć mieszkanie, powierzchnię biurową, połączyć się z hotspotem Wi-Fi lub bezpośrednio i&nbsp;bezpiecznie podzielić się jakimkolwiek inteligentnym obiektem z uruchomionym zamkiem Slock.it znajdującym się w zasięgu; 
+- Wypróbować nasze nowe niesamowite aplikacje: Komputer Ethereum jest całkowitym wdrożeniem stosu Ethereum i może obsługiwać każdą aplikację Dapp przez wyjście HDMI w twoim kinie domowym.
+- Bezpiecznie przeglądać web3: możesz wskazać Komputerowi Ethereum swoją przeglądarkę, telefon komórkowy lub tablet i serwery trzeciej strony będą używane tylko do przesyłania statycznych zasobów HTML, podczas gdy twoje cenne klucze krypto bezpiecznie pozostają w twoim domu.
+- Zarabiać pasywnie: Komputer Ethereum może być używany do obsługi węzła IPFS, może nawet zarabiać, otrzymując zapłatę za wynajęcie twojej nieużywanej przestrzeni dyskowej. Pracujemy również nad możliwością używania Komputera Ethereu jak Oracle, żeby zarabiał żetony, przesyłając fizyczne dane do inteligentnych kontraktów blockchain.
+- Tworzyć aplikacje za pomocą Ethereum i nie martwić się o problemy z instalacją. Podzielimy aktualizacje i zadania kompatybilności między różne elementy „stosu” Ethereum (Szept, EVM, Web3.js, Rój, itp.) i wydamy aktualizacje tylko, jeśli dokładnie przetestujemy framework.
+- Pomóc zabezpieczyć sieć Ethereum i zarobić na tym (kiedy Ethereum przejdzie do PoS (Punkt obsługi sprzedaży)), bez konieczności przeznaczania do tego zadania większych, droższych i mniej bezpiecznych urządzeń.
 
-- Enable your entire home to communicate with the blockchain: rent your flat, your office space, access to your Wi-Fi hotspot, or share any Slock.it enabled smart object in range directly and securely
-- Try out new, exciting applications: The Ethereum Computer is a full blown implementation of the Ethereum stack, and therefore can serve any Dapp via HDMI out to your home theater.
-- Browse web3 securely: you can point your browser, mobile phone or tablet to the Ethereum Computer, and the 3rd party web servers will only be used to serve static HTML assets, while your precious crypto keys will safely stay within the confines of your home.
-- Earn a passive income: the Ethereum Computer can be used to run an IPFS node, perhaps even receiving rewards for renting your unused hard drive space. We're also looking at the possibility of letting you use your Ethereum Computer as an Oracle, earning tokens by providing physical data to blockchain smart contracts.
-- Develop applications with Ethereum and never have to worry about installation difficulties. We’ll sort out updates and compatibility issues between the various components of the Ethereum 'stack' (Whisper, EVM, Web3.js, Swarm, etc), and will push updates only when we have tested the framework top to bottom.
-- Help secure the Ethereum network and get rewarded for it (once Ethereum has switched to PoS), without having to dedicate larger, more expensive and less secure equipment to that task.
 
+### Czy to będzie hakowalne/otwarte?
 
-### Will it be hackable/open?
+Oczywiście. Nie tylko udostępnimy publicznie narzędzia programistyczne, ale&nbsp;również cały kod, który został użyty dobudowania „stosu”, będziesz mógł więc&nbsp;go&nbsp;zmodyfikować/ulepszyć w instalacji. (już [zaczęliśmy](https://blog.slock.it/let-s-play-with-snappy-ethereum-816588198528)). Poświęcony, zapalony komputerowiec, gdyby tylko chciał, mógłby całkowicie przebudować Komputer Ethereum od podstaw. Każdy kto miałby dostępny interfejs GPIO, mógłby również przewodowo podłączyć inne urządzenia do sieci Ethereum. Chcemy umożliwić ci eksperymentowanie!
 
-Absolutely. We'll not only make the devkit images publicly available, but also all of the detailed code that went into building the 'stack' so you can modify/improve on the installation. (we already [started](https://blog.slock.it/let-s-play-with-snappy-ethereum-816588198528)). A dedicated hacker could completely rebuild an Ethereum Computer from scratch if they wanted to. Having some GPIO available will also allow anyone to connect wired objects to the Ethereum network. We want you to be able to experiment!
 
+### Kiedy będzie można kupić Komputer Ethereum?
 
-### When will the Ethereum Computer become available to purchase?
+Gdzieś w 2017 r., chociaż znacznie wcześniej wydamy narzędzia programistyczne jako część powtarzalnego procesu programistycznego. Można zarejestrować się po&nbsp;narzędzia programistyczne, <a href="mailto:info@slock.it?subject=Ethereum%20Computer%20Devkit&amp;body=Full%20name:%0ACountry:%0ACity:%0AProject%20Description:">kontaktując się z nami</a>. 
 
-Sometime in 2017, although we anticipate devkits much earlier as part of an iterative development process. You can register your interest for a devkit by <a href="mailto:info@slock.it?subject=Ethereum%20Computer%20Devkit&body=Full%20name:%0ACountry:%0ACity:%0AProject%20Description:">contacting us</a>. 
 
+### Czy będzie można tym kopać?
 
-### Will it be useful for mining?
+Komputer Ethereum jest pełnym klientem sieci Ethereum, nadaje się więc idealnie do uruchomienia funkcji kopania. Jednym słowem, nie&nbsp;będzie to dobra platforma do kopania, póki Ethereum używa Proof of Work, ponieważ jego współczynnik kształtu zapobiega przemieszczaniu mocy, którą ma GPU. Komputer Ethereum będzie jednak doskonałą, odpowiednią platformą do zabezpieczenia sieci, kiedy przejdzie do procesu Proof of Stake, utrzymując twoje klucze bezpiecznie jako część utwardzonego stosu.
 
-The Ethereum Computer is a full Ethereum client and therefore perfectly capable to have its mining function enabled. That said, it would not be a good platform to mine on while Ethereum is still using Proof of Work, as its form factor prevents it from having the hashing power GPUs have. The Ethereum Computer will however be a perfectly appropriate platform to help secure the network once Ethereum switches to Proof of Stake, keeping your keys secure as part of a hardened stack.
 
+### Ile to będzie kosztowało
 
-### How much will it cost
+W dalszym ciągu obliczamy koszt, ponieważ będzie on zależał od wielu czynników, włączając projekt produktu (chcemy, aby Komputer Ethereum stał się wartościowym tematem rozmów dla twojego biura). Naszym zamiarem jest utrzymywać jego bardzo dużą dostępność. 
 
-We're still defining the cost, as it will be dependent on many factors, including product design (we want the Ethereum Computer to become a worthy conversation piece for your desk). It is our intention to keep it very accessible. 
 
 
 
 
+## Przedsprzedaż
 
-## The Presale
 
+### Kiedy odbędzie się przedsprzedaż żetonów DAO?
 
-### When is the DAO token presale?
+Rozpocznie się na początku 2016 r. i będzie trwała przez cały miesiąc. Więcej informacji zostanie udostępnione, kiedy tylko będziemy je mieli. Jeśli chcesz być&nbsp;o&nbsp;tym poinformowany, proszę zapisać się do naszej [listy wysyłkowej](/presale.html). 
 
-It will take place early 2016 and will last roughly a month. Further details will be released as soon as we have them. If you'd like to be notified once things are ready, please sign up to our [mailing list](/presale.html). 
 
+### Dlaczego odbywa się przedsprzedaż żetonów DAO?
 
-### Why do a DAO token presale?
+Używamy inteligentnych kontraktów do budowania w blockchain Ethereum, więc&nbsp;ludzie na całym świecie mogą być zachęceni do&nbsp;tworzenia nowej przyszłości ekonomii współdzielenia i w zamian za ich pomoc na wczesnym etapie, zostaną wynagrodzeni tokenami DAO, które przynoszą wiele korzyści.
 
-We're using smart contracts to build on the Ethereum blockchain so people all over the world can be empowered to build a new future for the sharing economy, and in exchange for their early help, they will receive a reward in the form of DAO tokens which hold many benefits.
+Żeby utrzymać zarządzanie uczciwym i zdecentralizowanym, zostanie stworzone DAO, aby zasoby posiadane przez społeczność współdzielenia nigdy nie były centralnie zarządzane. Za każdą transakcję zamka Slock nieopłaconą tokenami DAO będzie pobierana mała opłata. Zostanie ona zwrócona do DAO, umożliwiając jej&nbsp;ponowne zainwestowanie w celu wsparcia rozwoju organizacji.
 
-In order to keep governance fair and decentralized, this DAO will be created so that the funds held by the sharing community will never be centrally managed. A small fee will be taken from the profits of each Slock transaction not paid in DAO tokens. This will be returned to the DAO, giving it the option to reinvest the profits to support its growth.
+Posiadacze żetonów DAO będą mieli głos w ważnych decyzjach dotyczących zarządzania organizacją DAO, w tym możliwość rozdzielenia zysków między siebie.
 
-DAO tokens holders will be able to vote on important decisions relating to the management of the DAO, including the power to redistribute the profits amongst themselves.
 
+### Co to są żetony DAO?
 
-### What are DAO tokens?
+Żetony DAO umożliwiają:
 
-DAO tokens:
+- Oddanie głosu na ważne dla organizacji DAO sprawy 
+– Otworzenie lub zamknięcie zamka Slock bez płacenia DAO
+– Mogą być wymieniane między użytkownikami lub na giełdzie 
+– Jeżeli głos był oddany z wykorzystaniem DAO, zapewniają dostęp do części zysków (osiągniętych przez zamki Slock), proporcjonalnie do&nbsp;ilości posiadanych żetonów.
 
-- Give voting rights on important issues in the DAO 
-- Can be used to open or close Slocks without having to pay a fee to the DAO
-- Can be traded peer to peer or on a exchange
-- If voted in by the DAO, provide access to a portion of the profits (generated by the Slocks), proportionally to how many tokens are held
 
+### Czy użytkownicy mogą w pełni posiadać zamki Slock?
 
-### What if users want to own a Slock outright?
+Możliwe jest uniknięcie płacenia za każde użycie, wybierając opcję jednorazowej opłaty DAO za umieszczenie zamka. Proszę zauważyć, że&nbsp;wysokość tej opłaty zostanie określona samodzielnie przez organizację DAO, kiedy włączy w ten proces wykonawcę usługi.
 
-It's possible to avoid paying the per-use fees by opting by opting to pay a one-time deployment fee to the DAO. Note that the amount in question will be determined by the DAO itself as it engages with the service provider.
 
+### Czy można wykopać żetony DAO?
 
-### Can I mine DAO tokens?
+Nie. Żetony DAO są używane wyłącznie do odwzorowania ilości głosów posiadanych przez właściciela tokena DAO jako części organizacji DAO. Jeśli chciałbyś coś wykopać, spróbuj [ether](https://github.com/ethereum/go-ethereum/wiki/Mining).
 
-No. DAO tokens are used purely to represent the proportion of votes a DAO token holder is entitled to as part of the DAO. If you would like to mine something, try [ether](https://github.com/ethereum/go-ethereum/wiki/Mining).
 
+### Czy będzie można wysyłać, otrzymywać i wymieniać żetony DAO?
 
-### Will I be able to send, receive and exchange DAO tokens?
+Tak. W inteligentny kontrakt wbudowane zostaną funkcje wysyłania/otrzymywania żetonów DAO i od pierwszego dnia możliwe będą transakcje pomiędzy użytkownikami. 
 
-Yes, there will be functions built into the smart contract to send/receive DAO tokens and trading peer to peer will be possible from day one. 
 
+### Czy muszę być programistą, aby kupić żetony?
 
-### Will I need to be a programmer to purchase tokens?
-
-No, we want to be inclusive every step of the way so that as many people as possible can participate in this new sharing community. The purchase process will be done entirely online via a simple website. If you already have an ether wallet, you'll be able to use that, or the site will just generate a wallet for you.
+Nie. Chcemy wszystko tu połączyć, żeby w tej nowej społeczności dzielenia mogło uczestniczyć możliwie najwięcej ludzi. Proces zakupu będzie obywał się całkowicie w sieci za pomocą prostej strony internetowej. Jeżeli masz już portfel ether, będziesz mógł go użyć lub&nbsp;strona po prostu stworzy go dla ciebie.
  
 
-### Will anyone hold 'premined' tokens?
+### Czy ktokolwiek będzie posiadał „przedkopane (ang. premined)” żetony?
 
-No. No one will get an unfair advantage: the only tokens in circulation will be the ones purchased during the DAO token presale.
+Nie. Nikt nie będzie miał forów: podczas przedsprzedaży żetonów DAO, sprzedawane będą wyłącznie żetony w&nbsp;obiegu.
 
 
-### Will there be another opportunity to purchase tokens?
+### Czy będzie jeszcze inna możliwość kupienia żetonów?
 
-There will be only one DAO token presale. Once launched during the course of 2016, the DAO will be fully autonomous and decentralized. How it then manages itself, including decisions on its finances, is entirely up to 'it'. DAO token holders will hold voting rights, be able to submit proposals, and pass motions.
+Przedsprzedaż żetonów DAO odbędzie się tylko jeden raz. Po uruchomieniu w 2016 r., organizacja DAO będzie w pełni autonomiczna i&nbsp;zdecentralizowana. To jak będzie się wtedy zarządzała samą sobą, włączając podejmowanie decyzji o finansach, będzie całkowicie zależne od tego „sama”. Posiadacze żetonów DAO będą mieli prawo głosu, przedstawiania propozycji i składania wniosków.
 
 
-### How will the DAO control the funds it receives during the presale?
+### W jaki sposób organizacja DAO będzie kontrolować fundusze zdobyte podczas przedsprzedaży?
 
-The DAO token holders will elect the service provider of their choosing, and the conditions under which funds are distributed. These decisions are entirely governed by smart contracts, and accessible through a simple online interface.
+Posiadacze żetonów DAO wybiorą dostawcę usług i sposób rozdzielenia funduszy. Te decyzje są całkowicie zarządzane przez inteligentne kontrakty i dostępne za pomocą łatwego w obsłudze interfejsu online.
 
 
-### Is there a minimum goal for the presale?
+### Czy jest ustawiony minimalny cel przedsprzedaży?
 
-Yes. A minimum of 500,000 USD (equivalent) is required to build a meaningful DAO and first product. If the minimum is not reached, participants in the presale will be able to request their funds back (denominated in ether).
+Tak. Do stworzenia znaczącej organizacji DAO i pierwszego produktu wymagane jest minimum 500 000 USD (równowartość). Jeżeli minimum nie zostanie osiągnięte, uczestnicy przedsprzedaży będą mogli żądać zwrotu (denominowane w ether).
 
 
-### Will the presale accept Bitcoin, Doge, etc.?
+### Czy w przedsprzedaży akceptowane będą Bitcoin, Doge, itp.?
 
-Yes, we have partnered with Shapeshift so that the DAO token presale will accept most cryptocurrencies in existence, including Ether, Bitcoin, Litecoin, Dogecoin, MaidsafeCoin, StorjcoinX, Bitshares, Ripple, BitUSD, NXT, DASH, CLAMS and many, many others.
+Tak. Naszym partnerem jest Shapeshift, więc przedsprzedaż żetonów DAO będzie możliwa w niemal wszystkich istniejących kryptowalutach w&nbsp;tym Ether, Bitcoin, Litecoin, Dogecoin, MaidsafeCoin, StorjcoinX, Bitshares, Ripple, BitUSD, NXT, DASH, CLAMS i wielu, wielu innych.
 
-For larger purchases denominated in cryptocurrencies, we are currently looking at partnering directly with exchanges. 
+Obecnie poszukujemy bezpośredniego partnerstwa z giełdami dla większych zakupów denominowanych w kryptowalutach. 
 
 
-### Will the DAO token presale accept FIAT currencies?
+### Czy w przedsprzedaży żetonów DAO akceptowane będą waluty FIAT?
 
-Not directly. In order to take part, you must use a cryptocurrency. To exchange FIAT for cryptocurrencies you could use an exchange such as [Kraken](https://kraken.com). We are currently working with exchange to see if we could streamline this process. 
+Nie bezpośrednio. Wzięcie udziału, wymaga używania kryptowaluty. Do wymiany FIAT na kryptowaluty można użyć giełdy takiej jak&nbsp;[Kraken](https://kraken.com). Obecnie współpracujemy z giełdą, żeby sprawdzić czy możemy usprawnić ten proces. 
 
 
 
 
-## The DAO
+## DAO
 
-### DA.. what?
+### DA.. co dalej?
 
-A Decentralized Autonomous Organization (DAO) is a form of company which operates entirely on the blockchain. In this case, the DAO is composed of DAO token holders that can review proposals and cast their votes to elect and direct a service provider which will represent them in the physical world. This process is very similar to selecting a vendor or supplier. A DAO is however superior in many respects to a traditional company in the sense that all the decisions it makes are transparent, its finances can be audited by anyone and corruption is impossible.
+Zdecentralizowana autonomiczna organizacja (ang. Decentralized Autonomous Organization) (DAO) jest przedsiębiorstwem, które działa całkowicie w blockchain. W takim razie organizacja DAO składa się z posiadaczy żetonów DAO, którzy mogą przeglądać oferty, głosować podczas wyboru i zarządzać dostawcą usług, który reprezentuje ich w fizycznym świecie. Ten proces jest bardzo podobny do wyboru dostawcy usług lub produktów. DAO jest jednak lepsza w wielu aspektach od tradycyjnej firmy w tym sensie, że wszystkie podejmowane w&nbsp;niej decyzje są przejrzyste, finanse mogą być sprawdzone przez każdego, a korupcja jest niemożliwa.
 
 
-### Is this just for geeks?
+### Czy to jest tylko dla „maniaków komputerowych”?
 
-Definitely not. In order to make decisions, DAO token holders will be able to vote using a straightforward interface using Mist, the Ethereum browser. You'll have to be able to install software on your machine, and use what essentially looks and feel like a website. That's it.
+Zdecydowanie nie. Aby podejmować decyzje, posiadacze żetonów DAO będą mogli głosować za pomocą bezpośredniego interfejsu, używając aplikacji Mist, przeglądarki Ethereum. Należy zainstalować oprogramowanie na swoim komputerze i używać, co w zasadzie wygląda i&nbsp;zachowuje się jak strona internetowa. To tyle.
 
 
-### What can the DAO do exactly?
+### Co dokładnie może zrobić organizacja DAO?
 
-The DAO can choose a service provider to implement a technology or develop a product, either by sending funds directly or signing a smart contract. The smart contract specifies the terms of the relationship between the DAO and its service provider.
+Organizacja DAO może wybrać usługodawcę wprowadzenia technologii lub opracowania produktu, wysyłając fundusze bezpośrednio lub&nbsp;podpisując inteligentny kontrakt. Inteligentny kontrakt określa relacje pomiędzy DAO i usługodawcą.
 
-Once a service provider has been selected, the DAO can call functions on the service provider smart contract, setting the values of operating parameters which could include, for example, what percentage of each Slock transaction is used to further fund the DAO, or what milestones have to be reached before the service provider receives certain payments.
+Kiedy usługodawca zostaje wybrany, organizacja DAO może wywołać funkcje inteligentnego kontraktu usługodawcy, ustawiając wartość parametrów działania, które mogą zawierać, przykładowo, jaki procent każdej transakcji zamka Slock jest wykorzystywany do finansowania DAO lub ile kamieni milowych musi zostać osiągniętych, zanim usługodawca otrzyma zapłatę.
 
-What parameters are available depend on the service provider's smart contract and can range from a 'hands off' approach to having the DAO hold complete operational control.
+Dostępność parametrów zależy od inteligentnego kontraktu usługodawcy i może sięgać od „automatycznego” podejścia do całkowitego sterowania działaniem przez DAO.
 
 
-### In practice, what will happen after the crowdsale? 
+### W praktyce, co się stanie po sprzedaży społecznościowej? 
 
-The default service provider Slock.it GmbH will submit an offer to develop products and services (including of course the Ethereum Computer) in the form of a smart contract. The DAO can then vote on this offer and, if accepted, interact with the smart contract using Mist, the Ethereum browser. 
+Domyślny usługodawca firmy Slock.it GmbH przedstawi ofertę opracowania produktów i usług (w tym oczywiście Komputer Ethereum) w&nbsp;formie inteligentnego kontraktu. Organizacja Dao może wtedy oddać głos na tę ofertę i, jeżeli zostanie zaakceptowana, współoddziaływać z&nbsp;inteligentnym kontraktem, używając Mist, przeglądarki Ethereum. 
 
 
-### I'm not a programmer - what will the first offer to the DAO include?
+### Nie jestem programistą – co będzie zawierała pierwsza oferta złożona DAO?
 
-Ahead of the presale, we'll make public on our blog the terms of the smart contract or smart contracts we could sign off with the DAO. This offer will include tutorials, a whitepaper, a FAQ, and 'how to' videos.
+Przed przedsprzedażą opublikujemy na naszym blogu warunki inteligentnego kontraktu lub kontraktów, które moglibyśmy wyrejestrować z&nbsp;DAO. Ta oferta będzie zawierała tutoriale, białą księgę, FAQ oraz filmy video „jak to zrobić”.
 
 
-### Will there be further offers?
+### Czy będą kolejne oferty?
 
-Of course. No business can predict the future, not even the DAO - so it's expected for the DAO to review its engagement with the service provider at regular intervals. New offers can be submitted by the service provider at anytime - each of these can be as simple or as complex as needed as the terms are written in a turing complete smart contract language. 
+Oczywiście. W żadnym biznesie nie można przewidzieć przyszłości, nawet DAO – więc oczekuje się, że organizacja DAO analizuje swoje zobowiązania wobec usługodawcy w regularnych odstępach czasu. Nowe oferty mogą być składane przez usługodawcę w każdej chwili – każda z nich może być prosta lub skomplikowana zgodnie z potrzebami, ponieważ warunki są zapisywane w języku inteligentnych kontraktów (ang.&nbsp;turing complete smart contract language). 
 
 
-### Will the terms of the offer be explained in plain English? 
+### Czy te warunki oferty będą wyjaśnione w języku angielskim? 
 
-Not only they will be explained in plain English, the smart contract itself can store plain English - holding the Service provider responsible for its offer. 
+Nie tylko będą wyjaśnione w prostym języku angielskim, inteligentny kontrakt sam w sobie może przechowywać prosty język angielski –&nbsp;utrzymując odpowiedzialność usługodawcy za jego ofertę. 
 
 
-### Can the DAO fire the service provider?
+### Czy DAO może zwolnić usługodawcę?
 
-Of course. Offers will usually include a total amount (say, USD 1m to complete project A), an initial deposit (USD 300k to bootstrap project A) and a monthly payment (for example, USD 50K / month for 24 months). At anytime, the DAO can stop the regular payments if it is dissatisfied by the service provider, effectively firing it. 
+Oczywiście. Oferty zazwyczaj zawierają całkowitą sumę (powiedzmy, 1 mln USD do ukończenia projektu A), początkowy depozyt (300 tys. USD do ładowania początkowego projektu A) i miesięczną opłatę (np. 50 tys. USD / miesiąc przez 24 miesiące). W każdej chwili DAO może zatrzymać regularne płatności, jeśli usługodawca nie spełnia oczekiwań, skutecznie go zwalniając. 
 
 
-### Does this mean you created a model where you can be fired yourself?
+### Czy to oznacza, że stworzyliście model, w którym sami siebie możecie zwolnić?
 
-Yes, absolutely. We believe a relationship whereby the DAO stays in control of its fund is actually more beneficial to both parties than a traditional token sale where the service provider retains 100% of the presale funds. 
+Tak, oczywiście. Wierzymy, że relacje, zgodnie z którymi DAO ma kontrolę nad swoimi finansami, są w rzeczywistości bardziej dochodowe dla obu stron niż tradycyjna sprzedaż żetonów, w której usługodawca zatrzymuje 100% finansów pochodzących z przedsprzedaży. 
 
 
-### How will voting take place?
+### Jak odbędzie się głosowanie?
 
-Version 1 of the DAO will be activated at the end of the presale to hold the funds and allow basic voting. The voting will take place via the [official Ethereum GUI wallet](https://github.com/ethereum/mist/releases), through an automatically generated HTML interface. Version 2 of the DAO (to be released at the launch of the project) will make use of a completely customized Dapp accessible via [Mist](https://www.youtube.com/watch?v=IgNjs_WaFSc), the official Ethereum Dapp browser.
+Wersja 1 organizacji DAO zostanie aktywowana na końcu przedsprzedaży, żeby zatrzymać fundusze i umożliwić podstawowe głosowanie. Głosowanie odbędzie się przez [portfel oficjalnego interfejsu GUI Ethereum](https://github.com/ethereum/mist/releases), za&nbsp;pomocą automatycznie stworzonego interfejsu HTML. Wersja 2 DAO (wydana przy uruchomieniu projektu) wykorzysta całkowicie dostosowany Dapp dostępny przez [Mist](https://www.youtube.com/watch?v=IgNjs_WaFSc), oficjalną przeglądarkę Ethereum Dapp.
 
 
-### How can the DAO protect its funds from ether's volatility?
+### W jaki sposób organizacja DAO chroni swoje fundusze przed zmiennością kursu ether?
 
-The DAO could enter into a hedging contract to protect its funds from ether's volatility. This contract would be provided by the service provider as part of a new offer.
+Organizacja DAO może zawrzeć umowę zabezpieczającą, żeby chronić swoje finanse przed zmiennością kursu ether. Ten kontrakt zostanie wykonany przez usługodawcę jako część nowego projektu.
 
 
-### Why doesn't Slock.it GmbH raise money through a direct crowdsale instead?
+### Dlaczego zamiast tego Slock.it GmbH nie zbiera pieniędzy przez bezpośrednią sprzedaż społecznościową?
 
-Because we believe DAOs are the future of how businesses will be structured. A DAO will provide much greater security and transparency than a traditional presale as investors will stay in control of the funds even after the presale has ended. DAOs also bring about open governance by allowing any DAO token holder to vote on all major business decisions.
+Ponieważ wierzymy, że organizacja DAO jest przyszłością struktury biznesu. Organizacja DAO zapewni znacznie więcej bezpieczeństwa i&nbsp;przejrzystości niż tradycyjna przedsprzedaż, ponieważ inwestorzy zachowują kontrolę nad finansami nawet po jej zakończeniu. Organizacja DAO to również otwarte zarządzanie dzięki umożliwieniu każdemu posiadaczowi żetonów DAO zabierać głos we wszystkich głównych decyzjach biznesowych.
 
 
-### How often can the DAO change service provider?
+### Jak często organizacja DAO może zmienić usługodawcę?
 
-At anytime and as often as it sees fit. 
+W każdej chwili i tak często, jak wydaje się to zasadne. 
 
 
-### Where will offers and smart contract interactions be discussed?
-Both will be discussed in our [Slack chat room](http://Slock.it:3000/), while voting will be done entirely on the blockchain.
+### Gdzie będą omawiane oferty i oddziaływanie inteligentnych kontraktów?
+Obie kwestie będą omawiane w naszym [Slack](http://Slock.it:3000/), a głosowanie odbędzie się całkowicie w blockchain.
 
 
 
 
-## Advanced topics
+## Tematy zaawansowane
 
-*Note: the following section of the document is technical and covers advanced topics that originate from Vitalik Buterin's blog post on [The Subjectivity / Exploitability Tradeoff](https://blog.ethereum.org/2015/02/14/subjectivity).*
+*Uwaga: następna część dokumentu dotyczy technologii i jest poświęcona zaawansowanym tematom pochodzącym z wpisu na blogu Vitalika Buterina dotyczącym [Wymiany podmiotowości / wykorzystywalności](https://blog.ethereum.org/2015/02/14/subjectivity).*
 
-### What's a 51% attack, and how do you prevent it?
+### Co to jest atak 51% i w jaki sposób mu zapobiegacie?
 
-If someone was to acquire 51% of the DAO tokens, they could vote themselves as the service provider, and then send 100% of the funds to their own account. In order to prevent this, the DAO is able to split itself proportionally to the vote results, leaving the attacker with their funds and the rest of the participants in control of their own. Because of this mechanism, there is no incentive to execute such an attack, since it is not only unprofitable, but the attacker would also be stuck with worthless tokens from their own fork of the DAO.
+Jeżeli ktoś zdobyłby 51% żetonów, mógłby oddawać głos w swoim imieniu jako usługodawca i wtedy wysłać 100% funduszy na własne konto. Żeby temu zapobiec, DAO może się podzielić proporcjonalnie do wyników głosowania, pozostawiając atakującego z jego własnymi funduszami, a resztę uczestników z możliwością zarządzania w ich własnym imieniu. Z powodu tego mechanizmu, nie ma pokusy do&nbsp;przeprowadzenia takiego ataku, ponieważ nie tylko nie jest dochodowy, ale atakujący mógłby również utknąć z bezwartościowymi żetonami ze swojego własnego rozgałęzienia DAO.
 
 
-### Why is there only a single service provider at any given time?
+### Dlaczego w danym czasie jest tylko jeden usługodawca?
 
-For safety reasons. In order to prevent a 51% attack, we needed to introduce the rule that the DAO may split up in case there is no mutual agreement on a selecting a service provider, which in turn removes any incentive to even attempt to bring about such an attack. Having room for more than a single service provider would negate this fail-safe.
+Ze względów bezpieczeństwa. Żeby zapobiec atakowi 51%, musimy wprowadzić zasadę, że DAO może się podzielić w przypadku, gdy&nbsp;nie&nbsp;ma&nbsp;wspólnej zgody na wybór usługodawcy, co z kolei usuwa wszelkie zachęty, aby choć próbować przeprowadzić taki atak. Możliwość więcej niż jednego usługodawcy mogłaby przeczyć niezawodności.
 
 
-### What is the process for selecting a new service provider?
+### Jak wygląda proces wyboru nowego usługodawcy?
 
-This takes place in two steps. The first step is a simple vote on keeping the existing service provider or choosing a new one. The second step is a confirmation vote, where the minority, having lost the previous vote but comfortable the winner is indeed not an attacker, can vote alongside the majority in order to avoid splitting the DAO. On the other hand, if the minority does suspects a 51% attack, it's important for it to keep its ability to stick with its decision to split the DAO, effectively rendering any attack unprofitable.
+Odbywa się to dwustopniowo. Pierwszym etapem jest proste oddanie głosu na zatrzymanie aktualnego usługodawcy lub wybór nowego. Drugim etapem jest głosowanie potwierdzające, w którym mniejszość, straciwszy poprzedni głos, ale zgadzająca się, że zwycięzca nie&nbsp;jest&nbsp;atakującym, może głosować razem z większością, żeby uniknąć podziału DAO. Z drugiej strony, jeżeli mniejszość podejrzewa atak 51%, ważne jest zachowanie przez nią możliwości pozostania przy swojej decyzji podziału DAO, skutecznie czyniąc każdy&nbsp;atak nieopłacalnym.
 
 
-### I thought DAOs were fully automated, why do you call this a DAO?
+### Myślałem, że organizacje DAO są całkowicie zautomatyzowane. Dlaczego nazywacie to DAO?
 
-Slock.it GmbH is set on building a DAO, that is, the first proposal to the DAO will include an offer relating to the continuous improvement of the DAO's own codebase. 
+Firma Slock.it GmbH powstała w celu stworzenia organizacji DAO, co oznacza, że pierwsza propozycja złożona DAO będzie zawierała ofertę odnoszącą się do stałego rozwoju jej własnej bazy kodu. 
 
-Version 1 of the DAO, while not fully autonomous in the sense that the DAO token holders will be 100% in control of it, still represents an considerably better process than a traditional 'crypto kickstarter'. Longer term, a Version 2 could see the percentage of transactions going back to the DAO to become dynamic and orchestrated by a narrow AI, lowering the fee as more Slocks are deployed, or raising it when in need of further funds - this effectively would automate the decentralized organization. Such a switch would however first require a vote by the DAO token holders. 
+Wersja 1 DAO nie będzie w pełni autonomiczna w tym sensie, że posiadacze żetonów DAO będą w 100% zarządzali tą organizacją, ciągle będąc lepszymi w tym procesie niż tradycyjny „kickstarter crypto”. W dłuższym terminie, w Wersji 2 zauważalny będzie procent transakcji wracających do DAO, która stanie się organizacją dynamiczną i rozplanowaną przez mały API, obniżając opłaty wraz&nbsp;z&nbsp;rozmieszczanymi zamkami Slock lub zbierając w razie konieczności dodatkowe fundusze – to zautomatyzowałoby zdecentralizowaną organizację. Taka zmiana wymagałaby jednak najpierw głosowania posiadaczy żetonów DAO. 
 
 
-### Why did you choose to abstract the operational parameters of the DAO?
+### Dlaczego wybraliście wydzielenie parametrów działania DAO?
 
-You might wonder why the operational parameters of the DAO have been abstracted as part of a series of smart contract between the DAO and its service provider. This is because the DAO will hold 100% of its funds from day one and had to be made immutable code-wise, while at the same time needed to retain enough flexibility to hire and fire service providers. 
+Możesz się zastanawiać dlaczego parametry działania DAO zostały wydzielone jako część inteligentnego kontraktu między Organizacją DAO a&nbsp;jej&nbsp;usługodawcą. Jest tak, ponieważ organizacja DAO zatrzyma 100% swoich finansów od pierwszego dnia i musiała stać się niezmiennym operatorem kodu, w tym samym czasie musząc zachować wystarczającą elastyczność wyboru i zwalniania dostawców usług. 
 
-Using this model we are able to guarantee that the core DAO code itself (the part that holds the funds) will rarely, if ever need to be updated. To keep adapting rapidly to market changes, the DAO will vote on offers and could even change service providers. This means the DAO will still be able to not only affect the operational parameters of its relationships with suppliers, but also completely change business models if needed.
+Wykorzystując taki model, możemy zagwarantować, że rdzeń kodu, który organizacja DAO tworzy samodzielnie (jej część, która zatrzymuje fundusze) będzie musiał być rzadko, jeśli w ogóle, aktualizowany. Żeby być na bieżąco ze zmianami rynku, organizacja DAO będzie głosowała za ofertami i być może nawet zmieniała usługodawców. Oznacza to, że organizacja DAO ciągle będzie mogła nie tylko wpływać na&nbsp;parametry działania jej relacji z dostawcami, ale również w razie konieczności całkowicie zmienić model biznesowy.
 
 
